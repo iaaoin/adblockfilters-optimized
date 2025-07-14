@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard App Banners Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Anti Adblock Filters、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、Xinggsf MV、NoAppDownload。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/psychosispy/adblockfilters-optimized
 # Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockhostslite.txt
-# Version: 20250713103044
-# Last modified: 2025/07/13 10:30:44
-# Blocked domains: 1419
+# Version: 20250714094903
+# Last modified: 2025/07/14 09:49:03
+# Blocked domains: 1421
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -52,6 +52,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	analytics.163.com
 0.0.0.0	g.163.com
 0.0.0.0	log.study.163.com
+0.0.0.0	nex.163.com
 0.0.0.0	sentry.music.163.com
 0.0.0.0	log1.17173.com
 0.0.0.0	stat.v.17173.com
@@ -1407,6 +1408,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	a1.zhanzhang.net
 0.0.0.0	cdnlog.zhenai.com
 0.0.0.0	pv.zhiding.cn
+0.0.0.0	crash2.zhihu.com
 0.0.0.0	sugar.zhihu.com
 0.0.0.0	zhihu-web-analytics.zhihu.com
 0.0.0.0	hilog.zhihuishu.com
