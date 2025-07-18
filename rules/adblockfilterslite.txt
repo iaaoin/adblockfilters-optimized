@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard App Banners Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Anti Adblock Filters、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、Xinggsf MV、NoAppDownload。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/psychosispy/adblockfilters-optimized
 ! Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockfilterslite.txt
-! Version: 20250717094632
-! Last modified: 2025/07/17 09:46:32
-! Blocked Filters: 26211
+! Version: 20250718094745
+! Last modified: 2025/07/18 09:47:45
+! Blocked Filters: 26212
 !
 ###AC_ad
 ###AD_160
@@ -4607,6 +4607,7 @@
 ###xm_app_stickyHeader
 ###xqad
 ###xqad1
+###xqad3
 ###yahoo-sponsors
 ###yahooAdsBottom
 ###yahooSponsored
@@ -12209,7 +12210,6 @@
 ##.newspack-broadstreet-ad
 ##.newspack_global_ad
 ##.newspack_global_ad_new
-##.newstyle > a > img[src*="img.com/i/"]
 ##.nfy-ad
 ##.nfy-ad-teaser
 ##.nfy-ad-tile
@@ -16996,6 +16996,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.content_top
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.game-head-game-info-wrapper
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.game_banner_common_wapper
+1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.game_list_and_rank
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.head_middle > div[class]:first-child
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_couplet
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_listLiveTvCnt
@@ -17180,6 +17181,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 1kkk.com,dm5.com##.guide
 1kkk.com,dm5.com##.yddiv
 1kkk.com,dm5.com,dm5.hk###beitou
+1lou.me,1lou.one,1lou.pro###advert > :not(.card)
 1news.co.nz,actionnewsjax.com,boston25news.com,fox23.com,hits973.com,kiro7.com,wftv.com,whio.com,wpxi.com,wsbradio.com,wsbtv.com,wsoctv.com##.arcad_feature
 1sale.com,1v1.lol,7billionworld.com,9jaflaver.com,achieveronline.co.za,bestcrazygames.com,canstar.com.au,canstarblue.co.nz,cheapies.nz,climatechangenews.com,cointribune.com,cosmeticsbusiness.com,cryptonomist.ch,currencyrate.today,daily-sun.com,energyforecastonline.co.za,eventcinemas.co.nz,ezgif.com,gamesadshopper.com,geo.tv,govtrack.us,gramfeed.com,hentaikun.com,hockeyfeed.com,i24news.tv,icons8.com,idiva.com,indiatimes.com,inspirock.com,islamchannel.tv,m.economictimes.com,mangasect.com,marinetraffic.com,mb.com.ph,medicalxpress.com,mehrnews.com,meta-calculator.com,mini-ielts.com,miningprospectus.co.za,motogp.com,mugshots.com,nbc.na,news.nom.co,nsfwyoutube.com,onlinerekenmachine.com,ozbargain.com.au,piliapp.com,readcomicsonline.ru,recipes.net,robuxtousd.com,russia-insider.com,savevideo.me,search.illicit.pw,sgcarmart.com,sherdog.com,straitstimes.com,teamblind.com,tehrantimes.com,tellerreport.com,thenews.com.pk,thestar.com.my,unb.com.bd,viamichelin.com,viamichelin.ie,vijesti.me,y8.com,yummy.ph##.ads
 1snau.ru,bychico.net,dyrik.ru,ecosounds.net,in-drive.ru,inforpost.com,musecube.org,obozrevatel.com,oknotivi.ru,pogodnik.com,sandero.ru,turbominer.ru##body > div[style*="z-index"][style*="9999"]
@@ -17379,7 +17381,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 55188.com##a[href*="/gg-link."]
 55188.com##a[href^="http"]:not([href*=".55188."]) > img[src*="/portal/"]
 5588.tv##.ProDaTu
-5588.tv##.ringhttu
 55haitao.com##.bbs-bottom-popup
 55haitao.com##.global-dialog
 58.com,pcpop.com,phpernote.com,zh141.com##div[id^="ad_"]
@@ -18622,6 +18623,7 @@ baidu.com##.square-banner-bgicon.index-banner
 baidu.com##.swan-ad-fc-feed
 baidu.com##.tb-threadlist__item.tb-banner
 baidu.com##.tc-card[tpl="fc_before_fixads"]
+baidu.com##.top-ad-cont
 baidu.com##.ts-qrcode
 baidu.com##.under-tips
 baidu.com##.w-question-list[data-sign]
@@ -19054,7 +19056,6 @@ c.m.163.com##.fixedOpenNewsapp
 c.m.163.com##.js-open-newsapp.s-top > .s-btn
 c.m.163.com##.openNewsapp
 c.m.163.com##.qr
-c.mi.com##.qr-box
 c114.com.cn###ad_r1
 c114.com.cn,chemicalbook.com,china.com.cn,foodmate.net,hibiquan.com,qingdaonews.com##.ad2
 c4dsky.com##a[href*="ibaotu.com"]
@@ -19329,6 +19330,7 @@ cnfol.com##.allAd
 cnfol.com##.wid325AdBox
 cnfol.com##.wid600Ad
 cnforex.com###topfocus
+cnforex.com##.mleft > a
 cngold.org##.ag_fwindow_ywp
 cngold.org##.fiexdAdvsClosed
 cngold.org##.in_content_left_advs
@@ -19637,7 +19639,6 @@ dl.3dmgame.com##.Content_L > a[href="https://www.3dmgame.com/app.html"]
 dl.3dmgame.com##.downllis > li:has(a.a_click:has-text(微端下载))
 dl.3dmgame.com##.downlwrap > .downl_L > .downl_list > .list_r
 dl.3dmgame.com##.quickdown2
-dm5.com###youce
 dm5.com##.index-side-code
 dm5.com,dm5.hk##.cl760
 dm5.com,dm5.hk##a[href*=".wannaplay.cn"]
@@ -19777,7 +19778,6 @@ duba.com###searchRight
 duba.com##.J_side_activity
 duba.com##.bgOpen
 duba.com##.m_hot_rec_box_base
-duba.com##.taobao_search
 duba.com##.tempAd
 duba.com##a[w="topad"]
 duba.com,iduba.com,newduba.cn##.left_slidebar_con
@@ -20312,6 +20312,7 @@ gd.qq.com###r_ad
 gd163.cn##.bbs_ad
 gd163.cn,itavcn.com,jmnews.com.cn###msg_win
 gdmm.com###diy3
+gdmm.com##.adtop > .module
 gdmm.com##a[href="http://www.gdmm.com/appdown/"]
 gdmm.com##img[width="1200"]
 gdmm.com,gkstk.com#@#.adtop
@@ -20431,7 +20432,6 @@ guancha.cn##.full_nav1
 guancha.cn##.g_swiper_container
 guancha.cn##.member_recruit_index
 guba.eastmoney.com##.redian
-gucheng.com##.title_down_ad
 guilinlife.com##a[href*="adclicks&"]
 guilinlife.com#?#li:-abp-has(> div > .content-other > .content-type:-abp-contains(广告))
 gumtree.com.au,s.tabelog.com#@#[data-ad-name]
@@ -20463,7 +20463,6 @@ hao.360.cn###festival_fly
 hao.360.cn###festival_fly + .couten
 hao.360.cn##.hot-word
 hao.360.cn,hao.360.com###activity
-hao.360.cn,hao.360.com###header-patch
 hao.360.cn,hao.360.com###left_float
 hao.360.cn,hao.360.com###plane > .plane-hd
 hao.360.cn,hao.360.com###plane-ria
@@ -20568,7 +20567,6 @@ hellomagazine.com,hola.com##.-variation-bannerinferior
 hellomagazine.com,hola.com##.-variation-megabanner
 hellosehat.com,helloyishi.com.tw,greatergood.berkeley.edu##.article-mobile-ad
 help.xunlei.com#@#.a_fr
-hentai-cosplays.com,hentai-gif-anime.com,hentai-img.com,porn-images-xxx.com###adsense_center
 hentai-cosplays.com,hentai-img.com###display_image_detail > span
 hentai2w.com,iporntoo.com,tsmodelstube.com,xhentai.tv###playerOverlay
 hentaiblue.com,pornifyme.com##.widget_text
@@ -20610,6 +20608,7 @@ holiday-weather.com,omniglot.com,w3schools.com,zerochan.net###skyscraper
 home-barista.com,rarpc.co,washingtontimes.com##a[onclick]
 home-designing.com,inc.com,trustpilot.com##.ad-block
 homebrewtalk.com,kitchenknifeforums.com,quadraphonicquad.com##.gb-sponsored-wrapper
+homedepot.com,nordstrom.com###revjet_container
 homerun.re,strikeout.co,vipbox.sx,vipleague.ch,vipleague.co,vipleague.is,vipleague.me##span[id][style] > div[id]:first-child:last-child
 homify.com.tr,homify.jp##.layout--app-banner
 homo.xxx,hello.porn##.top_spot
@@ -20671,6 +20670,7 @@ hujiang.com##.qrcode
 huke88.com##.hand-once
 hunker.com,livestrong.com##.component-article-section-jwplayer-wrapper
 hupu.com###game-center-entrance-container
+hupu.com###shihuo1111
 hupu.com##.ad361-240-240
 hupu.com##.hupu-shihuo-hot
 hupu.com##.m-app-info
@@ -20998,10 +20998,8 @@ iqiyi.com##.black-screen[data-cupid=adblock-blackscreen], .qy-plist-ad
 iqiyi.com##.cupid-panel + div
 iqiyi.com##.cupid-panel + div, div[data-adzone],#block-V
 iqiyi.com##.gg-r
-iqiyi.com##.ggwBox
 iqiyi.com##.header_app.iqiyi-h5-empty
 iqiyi.com##.hotWords-wrap
-iqiyi.com##.kwltp-leftgg
 iqiyi.com##.kwltp-rightgg
 iqiyi.com##.m-downApp
 iqiyi.com##.m-hotWords-bottom
@@ -21592,6 +21590,7 @@ m.jd.com###imk2FixedSideText
 m.jd.com###m_common_tip
 m.jd.com###m_common_tip_div
 m.jd.com###pannelSeat
+m.jd.com##.j_curtain_yinliu
 m.jd.com##div[id^="imk2Fixed"]
 m.jiemian.com##.app-open
 m.jiemian.com##.box-home
@@ -22031,6 +22030,7 @@ namethatpornad.com,vxxx.com##a[href^="https://www.g2fame.com/"]
 nan-net.jp,nan-net.com###adblock_guide_mask
 nan-net.jp,nan-net.com##+js(remove-node-text, script, adblock)
 nan-net.jp,nan-net.com##.adblock_guide_box
+nasyun.com##img[width="275"]
 nasyun.com##img[width="970"]
 nationalmemo.com,spectrum.ieee.org,theodysseyonline.com##div[class^="rblad-"]
 nationalpost.com,vancouversun.com##.ad__inner
@@ -22349,13 +22349,13 @@ piraproxy.info,unblockedstreaming.net###lbxUR99472
 pisshamster.com,xanimu.com,darknessporn.com,familyporner.com##div[class*="-boxes-mobile"]
 pixwox##.ah-box
 pizzahut.jp,noin.shop##.promote-app
+pjtime.com###pjtime_full
 planetakino.ua,temp-mail.org##+js(remove-class, smartbanner-show, html)
 play44.net,videobug.net,videofun.me,vidzur.com,yucache.net##[style^="position: absolute; width: 100%;"]
 playco-opgame.com,sadeempc.com,thewashingtonstandard.com,westseattleblog.com###text-8
 player.bilibili.com##.bilibili-player-video-recommend
 playporn.xxx,videosdemadurasx.com##.wrap-spot
 playstationtrophies.org,xboxachievements.com###vnt-lb-a
-plus.nhk.jp,shufoo.net,gran-turismo.com,m.tv.naver.com,m.comic.naver.com,m.bombaytimes.com##.app_banner
 po.baidu.com###shareBoxBlank
 poczta.gazeta.pl,kontakty.onet.pl,poczta.onet.pl##div[class^="styles__SlotTopMobileStyled-"]
 poczta.gazeta.pl,kontakty.onet.pl,poczta.onet.pl##div[class^="styles__VirtualListStyled-"] > div[style] > div[class^="styles__RowWrapper-"] > div:not([class], [id]) > div[class^="styles__Slot"][class*="Ad-"]
@@ -22710,6 +22710,7 @@ segmentfault.com##.card:has(> .card-body > .side-promote-link)
 segmentfault.com##.card:has(> div[id^="OA_holder_"])
 segmentfault.com##.mb25
 seqing.world,singlove.com,whichav.com,whichav.net,wokao.co##.qq
+service.smt.docomo.ne.jp,plus.nhk.jp,shufoo.net,gran-turismo.com,m.tv.naver.com,m.comic.naver.com,m.bombaytimes.com##.app_banner
 services.clp.com.hk,pikabu.ru,uol.com.br,m.netpincer.hu,m.yelp.com,opodo.de###smart-banner
 setapp.com,thesaturdaypaper.com.au##.promo-banner
 seura.fi,www.msn.com#@#.nativead
@@ -23389,7 +23390,6 @@ user.qzone.qq.com##li[id^="fct_20050606_"]
 uta-net.com,sp.uta-net.com##.ad-area-d
 uteka.ru,investing.com##.mobile-apps
 utro.ru,dni.ru,pdalife.ru##.js-banner
-v.163.com###v_shapeLeft_divId
 v.163.com###v_shapeRight_divId
 v.ifeng.com##.vAdbox,div.vAdImg,div.newAdImg,div.ad300,div.ad1000,div.vPlayerAdbox,div.main+.scrollcol
 v.ifeng.com##div[class^="index_container"]
@@ -23435,6 +23435,7 @@ view.inews.qq.com##div[class^="slider-top-bar_sliderWrapper__"]
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikiporn.com,sleazyneasy.com,m.pornicom.com,m.fetishshrine.com,m.katestube.com##.bottom-spot
 vikiporn.com,wankoz.com,sleazyneasy.com,pornicom.com,rat.xxx,vikiporn.com,zbporn.com,sleazyneasy.com,fetishshrine.com,katestube.com##.top-spot
+vinted.*##.slot-container--leaderboard
 vip-front.video.g.fc2.com,video.fc2.com###ad_middle2
 vip-front.video.g.fc2.com,video.fc2.com##.ad_area_top
 vip-front.video.g.fc2.com,video.fc2.com##.c-app-sp2
@@ -25166,6 +25167,7 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||icast.
 ||iciba.com/static/images/download_banner.png
 ||iciba.com/web/static/scripts/kds2_record.js
+||iciba.com/www/img/activity/common/active-11-11.js
 ||icnkr.com/cnkradv/
 ||icnkr.com/data/attachment/portal/
 ||icon.zol-img.com.cn/mainpage/js/click.js
@@ -25342,7 +25344,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||keydot.net^$third-party
 ||kgimg.com/public/root//images/hardware.jpg
 ||kiees.cn/img/
-||kiees.com^$image,subdocument,third-party
 ||kmf.com/da/do
 ||kmw.com/js/adshow
 ||kokojia.com^$third-party
