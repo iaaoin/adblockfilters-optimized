@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard App Banners Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Anti Adblock Filters、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、Xinggsf MV、NoAppDownload。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/psychosispy/adblockfilters-optimized
 ! Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockfilterslite.txt
-! Version: 20250720095427
-! Last modified: 2025/07/20 09:54:27
-! Blocked Filters: 26438
+! Version: 20250721095159
+! Last modified: 2025/07/21 09:51:59
+! Blocked Filters: 26432
 !
 ###AC_ad
 ###AD_160
@@ -14375,7 +14375,6 @@
 ##a[href*="//daichoho.com/"]
 ##a[href*="//jjgirls.com/sex/Chaturbate"]
 ##a[href*="/137.220.194.105:"]
-##a[href*="/2e9c9aa9.com/"]
 ##a[href*="/33hth.cn"]
 ##a[href*="/445.ee/"]
 ##a[href*="/?Intr="]
@@ -14412,7 +14411,6 @@
 ##a[href^="/archives/"] > .post-card > .blog-background[style*="gif;base64"]
 ##a[href^="/dasp.php?a="]
 ##a[href^="/template/1/html/ad/"]
-##a[href^="http"] > img[height="60px"][src*="imgsrc.baidu.com"]
 ##a[href^="http"] > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
 ##a[href^="http"][onclick^="setCookie"][style^="width:100%;height:100"]
 ##a[id][href*="/?aff="]
@@ -15421,6 +15419,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .com*/ps/psCreat.js
 .com./$popup,domain=pornhub.com
 .com/*=bT1zdXY1JnI9
+.com/*markerclusterer_compiled.js$script,third-party
 .com/4/js/$third-party
 .com/?aff=$popup,third-party
 .com/a_d/
@@ -17042,7 +17041,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 131400.best,vikacg.com,vikacg.xyz##.post-card-list > a
 131400.best,vikacg.com,vikacg.xyz##a[href^="http"] > img[src*="/assets/next/"]
 1337x.to,x1337x.eu,x1337x.ws##[href^="https://limeiptv.to"]
-13tv.top,sina.com##.aditem
 13wham.com,wwmt.com,wutv29.com,wtwc40.com,wset.com,wpgh53.com,wgme.com,wfgxtv.com,weartv.com,wcti12.com,watchdaytime.com,wabm68.com,utv44.com,thenationaldesk.com,thecwtv.tv,thecwtc.com,thecw46.com,thecw38.com,telemundoaustin.com,star64.tv,southernoregoncw.com,seattlerefined.com,raleighcw.com,newschannel9.com,newschannel20.com,nevadasportsnet.com,nebraska.tv,mytvz.com,mytvwichita.com,mytvrichmond.com,mytvdayton.com,mytvcharleston.com,mytvbuffalo.com,mytvbaltimore.com,mytv30web.com,myrdctv.com,midmichigannow.com,local21news.com,kval.com,kunwtv.com,kunptv.com,ktxs.com,ktvo.com,ktvl.com,krcrtv.com,krcgtv.com,kpic.com,kocb.com,kmyu.tv,kimatv.com,khqa.com,kfdm.com,keprtv.com,kdsm17.com,kcby.com,katv.com,idahonews.com,foxrichmond.com,foxkansas.com,fox49.tv,fox47.com,fox38corpuschristi.com,cwtreasurevalley.com,cwlasvegas.com,cwcolumbus.com,cwcincinnati.com,cwcentralpa.com,cwbaltimore.com,cwalbany.com,cw9tv.com,cw35.com,cw34.com,cw23tv.com,cw18milwaukee.com,cwomaha.tv,cw14online.com,chattanoogacw.com,cbsaustin.com,cbs4local.com,cbs12.com,abcnews4.com,abc7amarillo.com,abc45.com,abc3340.com,22thepoint.com,ktul.com,bakersfieldnow.com,local12.com,katu.com,komonews.com,wjactv.com,upnorthlive.com,cnycentral.com,wpde.com,cbs6albany.com,kutv.com,wjla.com,news3lv.com,kmph.com,kfoxtv.com,fox17.com,foxbaltimore.com,foxchattanooga.com,foxillinois.com,foxnebraska.com,foxreno.com,foxrochester.com,foxsanantonio.com,nbcmontana.com,okcfox.com,siouxlandnews.com,wach.com,wchstv.com,wcyb.com,wfxl.com,wgxa.tv,wlos.com,wsbt.com,cbs2iowa.com,fox4beaumont.com,mycbs4.com,mynews4.com,news4sanantonio.com,abc6onyourside.com,wtov9.com,turnto10.com,fox11online.com,mynbc15.com,nbc16.com,fox23maine.com,nbc24.com,fox28savannah.com,myfox28columbus.com,fox42kptm.com,dayton247now.com,fox56.com##div[data-testid="story-body"] > div[style*="text-align: center;"][style*="margin: 26px 0;"]
 13wham.com,wwmt.com,wutv29.com,wtwc40.com,wset.com,wpgh53.com,wgme.com,wfgxtv.com,weartv.com,wcti12.com,watchdaytime.com,wabm68.com,utv44.com,thenationaldesk.com,thecwtv.tv,thecwtc.com,thecw46.com,thecw38.com,telemundoaustin.com,star64.tv,southernoregoncw.com,seattlerefined.com,raleighcw.com,newschannel9.com,newschannel20.com,nevadasportsnet.com,nebraska.tv,mytvz.com,mytvwichita.com,mytvrichmond.com,mytvdayton.com,mytvcharleston.com,mytvbuffalo.com,mytvbaltimore.com,mytv30web.com,myrdctv.com,midmichigannow.com,local21news.com,kval.com,kunwtv.com,kunptv.com,ktxs.com,ktvo.com,ktvl.com,krcrtv.com,krcgtv.com,kpic.com,kocb.com,kmyu.tv,kimatv.com,khqa.com,kfdm.com,keprtv.com,kdsm17.com,kcby.com,katv.com,idahonews.com,foxrichmond.com,foxkansas.com,fox49.tv,fox47.com,fox38corpuschristi.com,cwtreasurevalley.com,cwlasvegas.com,cwcolumbus.com,cwcincinnati.com,cwcentralpa.com,cwbaltimore.com,cwalbany.com,cw9tv.com,cw35.com,cw34.com,cw23tv.com,cw18milwaukee.com,cwomaha.tv,cw14online.com,chattanoogacw.com,cbsaustin.com,cbs4local.com,cbs12.com,abcnews4.com,abc7amarillo.com,abc45.com,abc3340.com,22thepoint.com,ktul.com,bakersfieldnow.com,local12.com,katu.com,komonews.com,wjactv.com,upnorthlive.com,cnycentral.com,wpde.com,cbs6albany.com,kutv.com,wjla.com,news3lv.com,kmph.com,kfoxtv.com,fox17.com,foxbaltimore.com,foxchattanooga.com,foxillinois.com,foxnebraska.com,foxreno.com,foxrochester.com,foxsanantonio.com,nbcmontana.com,okcfox.com,siouxlandnews.com,wach.com,wchstv.com,wcyb.com,wfxl.com,wgxa.tv,wlos.com,wsbt.com,cbs2iowa.com,fox4beaumont.com,mycbs4.com,mynews4.com,news4sanantonio.com,abc6onyourside.com,wtov9.com,turnto10.com,fox11online.com,mynbc15.com,nbc16.com,fox23maine.com,nbc24.com,fox28savannah.com,myfox28columbus.com,fox42kptm.com,dayton247now.com,fox56.com##li[class*="teaserListMobileAd"]
 141jj.com,jumi.su,preface.ai,r3sub.com##a[href*="bit.ly"]
@@ -17297,13 +17295,16 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 3dmgame.com###min_ad_con
 3dmgame.com###yxj_fmt_gg
 3dmgame.com##.Content_L > a[href="https://www.3dmgame.com/app.html"]
+3dmgame.com##.Content_L > p
 3dmgame.com##.Gmaeinfobtn + span
 3dmgame.com##.Gmaeinfobtn_tab > [class]:not(.tab)
+3dmgame.com##.Gmaeinfobtn_tab > span
 3dmgame.com##.Indexadd-100
 3dmgame.com##.R_qingtianzhu
 3dmgame.com##.Tonglan
 3dmgame.com##.add_
 3dmgame.com##.addapp
+3dmgame.com##.addvide300
 3dmgame.com##.dj_warp_e
 3dmgame.com##.fell_left_advertisement
 3dmgame.com##.listlab > .img[href*="/yx."]
@@ -17891,7 +17892,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||szhr.com.cn^$generichide
 @@||szhr.com.cn^*ad
 @@||szhr.com^$generichide
-@@||szhr.com^*ad
 @@||t7z.cupid.iqiyi.com/show2?$xmlhttprequest,domain=m.iqiyi.com
 @@||tangdou.com/sample/share/advert?$domain=tangdoucdn.com
 @@||tanx.com/ex?i=$script,domain=dlkoo.cc
@@ -18249,7 +18249,6 @@ alphaporno.com,tubewolf.com##.block-banner
 alu.cn###sanjia
 alu.cn##.Tg_125x70
 alu.cn##.Tg_230x80
-alu.cn##.Tg_260x70
 alu.cn##.Tg_390x60
 alu.cn##.Tg_590x60
 alypw.com##.adbkk
@@ -18372,7 +18371,7 @@ androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com
 androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,moms.com,movieweb.com,pocket-lint.com,pocketnow.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##[class*="ad-zone-container-content-character-count-repeatable"]
 androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,moms.com,movieweb.com,pocket-lint.com,pocketnow.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##[id^="adsninja-ad-zone-adsninja-ad-unit-footer"]
 androidpolice.com,constructionreviewonline.com,cryptobriefing.com,dereeze.com,tyretradenews.co.uk##.ai-track
-androidtrends.com,aviationa2z.com,bingehulu.com,buffalorising.com,cryptoreporter.info,streamsgeek.com,tecadmin.net,techcentral.co.za,techrushi.com,trendstorys.com,vedantbhoomi.com##.a-wrap
+androidtrends.com,aviationa2z.com,bingehulu.com,buffalorising.com,cryptoreporter.info,sportsorca.com,streamsgeek.com,tecadmin.net,techcentral.co.za,techrushi.com,trendstorys.com,vedantbhoomi.com##.a-wrap
 andronicos.com,haggen.com,randalls.com##.pc-grid-prdItem:has(span[data-qa="prd-itm-spnsrd"])
 andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.tw,jasonblog.tw#@#.vertical-ads
 anhuinews.com###ewm
@@ -18651,7 +18650,6 @@ baidu.com##.spread-wrap
 baidu.com##.square-banner-bgicon.index-banner
 baidu.com##.swan-ad-fc-feed
 baidu.com##.tb-threadlist__item.tb-banner
-baidu.com##.tc-card[tpl="fc_before_fixads"]
 baidu.com##.top-ad-cont
 baidu.com##.ts-qrcode
 baidu.com##.under-tips
@@ -19219,6 +19217,7 @@ chexun.com##.attr-outside-ad
 chikiporn.com,pornq.com##.thumb--adv
 china.cn##.ltp_box
 china.com.cn###baidu
+china.com.cn###gggg
 china.com.cn##a[href*="dwz.cn"]
 china.com.cn,csdn.net,cyol.net,lenovo.com.cn,liues.cn,wxrb.com##.AD
 china.com.cn,foodmate.net##.ad6
@@ -19834,6 +19833,7 @@ duowan.com##a[adid]
 dushu.baidu.com##.openBox-shareEntry
 dustinabbott.net,turbobits.cc##center > a > img
 dy2018.com,xiaopian.com##a[href*="/htmlcode/"]
+dy2018.com,xiaopian.com##a[href^="http://www.xiacai.com/"]
 dz-android.com,freeiphone.fr,hommedumatch.fr,jetetroll.com,testious.com#@##adsense
 dzwww.com##.popular
 dzwww.com##div[style="margin:0;padding:0;width:620px;height:345px;overflow:hidden;background-color:#fff;"]
@@ -20537,7 +20537,6 @@ hao123.com###shortcut-tuiguang
 hao123.com###slidetoolbarContainer
 hao123.com###top-anim
 hao123.com###topbeWrapper
-hao123.com###yixing-siye
 hao123.com##.bar-text
 hao123.com##.cjcard2017Container
 hao123.com##.cmsad_wrapper
@@ -20817,10 +20816,12 @@ ifeng.com##.ad_09
 ifeng.com##.adbox03
 ifeng.com##.advmark
 ifeng.com##.blockR.ipad_none:nth-last-child(2)
+ifeng.com##.box_list_pic > a[href^="http://dol.deliver."]
 ifeng.com##.conRgg
 ifeng.com##.fhsd
 ifeng.com##.foot_top_box
 ifeng.com##.h_top_box
+ifeng.com##.js_url[href^="http://dol.deliver."]
 ifeng.com##.ljPop
 ifeng.com##.luckybag
 ifeng.com##.mr_top_box
@@ -20873,9 +20874,9 @@ ifeng.com##div[id^="couplet3_"]
 ifeng.com##div[id^="padhide_"]
 ifeng.com##header[class*="headerIn"]
 ifeng.com##section[class^="fixSlide-"]
+ifeng.com#?#.box_list:-abp-has(.tuig)
 ifeng.com#?#div[class^="index_link"]:contains(app)
 ifeng.com#?#header:contains(立即打开)
-ifeng.com,qq.com###advert
 ifeng.com,sohu.com##.ad950
 ifeng.com,vsping.com##.ad_01
 ifeng.com,~mall.ifeng.com##A[href*="mall.ifeng.com"]
@@ -20996,6 +20997,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ec_bdtg
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ecl-weigou-nav-buy
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ecom-result
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.op_tvplay_main
+ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.opr-xmas-game-container
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.res_top_banner
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[data-click*="\"rsv_srcid\":\"10090\""]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="game-page-platform"]
@@ -21020,7 +21022,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_right > 
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_right > div:-abp-has(.ec-tuiguang)
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?#div[id$="_canvas"]
 ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#?#.c-container:-abp-has(.t > a[data-landurl])
-ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#?#div:not([id]) > style[id^="s-"] + style + div + div[id]
 ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#?#div:not([id]) > style[id^="s-"] + style + div[id]
 iq.com##.multiport-show
 iq.com##.right-header > div.qrcode-wrap
@@ -21286,7 +21287,6 @@ juejin.im##.extension
 juejin.im##.recommend-box
 juejin.im##.request-health-alert
 just-eat.*##section[data-qa="download-app-section"]
-just-eat.ie,just-eat.es,justeat.it,menulog.com.au##div[data-test-id="appsBannerContainer"]
 just-food.com,railway-technology.com,retail-insight-network.com,verdict.co.uk##.gdm-company-profile-unit
 just-food.com,railway-technology.com,retail-insight-network.com,verdict.co.uk##.gdm-orange-banner
 justfullporn.net,onlyxxxporn.com##.order-1:has(> .video-block-happy)
@@ -21355,7 +21355,6 @@ kids-doctor.jp,ecosia.org,pierrotshop.jp##.cta
 kijyomatome-ch.com,openworldnews.net,majikichi.com,majikichi.com,girlsvip-matome.com,sutekinakijo.com,onecall2ch.com,jin115.com,chaos2ch.com,bipblog.com,akb48matomemory.com,himasoku.com,blog.esuteru.com,kyousoku.net,vipsister23.com,blog.jp,2chblog.jp,doorblog.jp,livedoor.biz,blog.livedoor.jp###article-1_5
 kimbino.*##.affix
 kimi.moonshot.cn##.app-download
-kinarino.jp,kinarino-mall.jp###js-appeal-top-banner
 kincho.co.jp,niji-gazo.com#@#.ad-block
 kingmodapk.net,online-calculator.org##[style*="height:300px"]
 kinobar.vip#$?#.has-brand { margin-top: 0 !important; }
@@ -22669,7 +22668,6 @@ qiushibaike.com##div.shopwindow
 qixin.com##.web-diversion-container
 qixingquan.com##div[style="float:right;margin-bottom:6px;"]
 qq.com###J_inner_tips
-qq.com###adImgHref
 qq.com###bottom-sponsor
 qq.com###focus_jordon
 qq.com###fr_ad
@@ -23096,6 +23094,7 @@ sogou.com##.recommend-pop
 sogou.com##.side_adv_wrap
 sogou.com##.sponsored
 sogou.com##.tg-box-1
+sogou.com##.tgad-title
 sogou.com##.top_adv_wrap
 sogou.com##.trans-side-banner
 sogou.com##A[data-log*="PicAd"]
@@ -23728,6 +23727,7 @@ weloma.art,welovemanga.one###poly
 wendu.com##.foot_adv
 wendu.com##.head-banner
 wenku.baidu.com###ggbtm-ads
+wenku.baidu.com###ppt-bottom-ads
 wenku.baidu.com##.bg-theme-wrap
 wenku.baidu.com##.commerce-flow
 wenku.baidu.com##.dialog-ad-hd
@@ -24093,7 +24093,6 @@ xiazai.zol.com.cn##.box-top-xiazai
 xiazai.zol.com.cn##.down-dxlt
 xiazaiba.com##div.test-90,div.test-300,div.dl-item:first-child
 ximalaya.com##.dl-pc
-xineurope.com##.adft
 xinghuo.xfyun.cn##div[class*="download_btn"]
 xinghuo.xfyun.cn#?#div[class*="jump_btn"]:contains(下载APP)
 xinhuanet.com##.columBox.book
@@ -24251,7 +24250,6 @@ youdao.com##+js(set-cookie, _yd_banner_day, 1)
 youdao.com##.banner
 youdao.com##.dialog-guide-download
 youdao.com##.dict-dl
-youdao.com##.top-download
 youdao.com#@#.open-share
 youdao.com#@#.share-text
 youku.com###app .callEnd_box
@@ -24493,7 +24491,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||100bt.com/dc?Url
 ||100xuexi.com/CssModel/*Layout.js
 ||100xuexi.com/CssModel/botad.js
-||107.167.16.*.gif
 ||115img.com/static/115tj.js
 ||115img.com/static/pc/d_
 ||121.204.246.*.gif
@@ -25284,7 +25281,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||geekpark.net/api/v1/ads
 ||gelbooru.com^$csp=script-src 'self' '*' 'unsafe-inline' *.gstatic.com *.google.com *.googleapis.com *.bootstrapcdn.com
 ||get-me-wow.
-||getitfree.cn/wp-content/plugins/anti-
 ||gg.
 ||ggg.
 ||ggwan.com^$third-party,domain=~linghit.com
@@ -25493,7 +25489,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||ithome.com/images/v2.1/downsoftmaster.gif
 ||ithome.com/js/recommend.js
 ||itmsc.cn^*ad0
-||itongcheng.cc/amm/
 ||itopdog.cn/itopdog/ad.js
 ||itopdog.cn/itopdog/d*.js
 ||itv.hexun.com
@@ -25564,7 +25559,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||kb-render.alicdn.com/html/*.html
 ||ke.youdao.com/api/course/*
 ||kekenet.com/images/*/app
-||kekenet.com/images/*/tom468X60.gif
 ||kekenet.com/images/*980
 ||keydot.net^$third-party
 ||kgimg.com/public/root//images/hardware.jpg
