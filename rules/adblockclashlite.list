@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard App Banners Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Anti Adblock Filters、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、Xinggsf MV、NoAppDownload。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/psychosispy/adblockfilters-optimized
 # Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockclashlite.list
-# Version: 20250722094655
-# Last modified: 2025/07/22 09:46:55
-# Blocked domains: 1547
+# Version: 20250723094752
+# Last modified: 2025/07/23 09:47:52
+# Blocked domains: 1545
 #
 [Rule]
 DOMAIN-SUFFIX,img.0279.net,REJECT-DROP
@@ -28,7 +28,6 @@ DOMAIN-SUFFIX,js1.122cha.com,REJECT-DROP
 DOMAIN-SUFFIX,ad.12306.cn,REJECT-DROP
 DOMAIN-SUFFIX,bdad.123pan.cn,REJECT-DROP
 DOMAIN-SUFFIX,ent1.12584.cn,REJECT-DROP
-DOMAIN-SUFFIX,ads.music.126.net,REJECT-DROP
 DOMAIN-SUFFIX,img1.126.net,REJECT-DROP
 DOMAIN-SUFFIX,img3.126.net,REJECT-DROP
 DOMAIN-SUFFIX,yt-adp.ws.126.net,REJECT-DROP
@@ -304,7 +303,6 @@ DOMAIN-SUFFIX,hmma.baidu.com,REJECT-DROP
 DOMAIN-SUFFIX,kstj.baidu.com,REJECT-DROP
 DOMAIN-SUFFIX,log.music.baidu.com,REJECT-DROP
 DOMAIN-SUFFIX,luimg.baidu.com,REJECT-DROP
-DOMAIN-SUFFIX,mime.baidu.com,REJECT-DROP
 DOMAIN-SUFFIX,mobads.baidu.com,REJECT-DROP
 DOMAIN-SUFFIX,mobads-logs.baidu.com,REJECT-DROP
 DOMAIN-SUFFIX,mountain.zhidao.baidu.com,REJECT-DROP
@@ -714,7 +712,6 @@ DOMAIN-SUFFIX,v.adx.hubcloud.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,huishenghuiying.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,u8.hujiang.com,REJECT-DROP
 DOMAIN-SUFFIX,hulichuang.mobi,REJECT-DROP
-DOMAIN-SUFFIX,ad-sdk.huxiu.com,REJECT-DROP
 DOMAIN-SUFFIX,api-ad-product.huxiu.com,REJECT-DROP
 DOMAIN-SUFFIX,log-api.huxiu.com,REJECT-DROP
 DOMAIN-SUFFIX,log-api-mn.huxiu.com,REJECT-DROP
@@ -1167,7 +1164,6 @@ DOMAIN-SUFFIX,huichuan-mc.sm.cn,REJECT-DROP
 DOMAIN-SUFFIX,image-ad.sm.cn,REJECT-DROP
 DOMAIN-SUFFIX,video-ad.sm.cn,REJECT-DROP
 DOMAIN-SUFFIX,abtest-ch.snssdk.com,REJECT-DROP
-DOMAIN-SUFFIX,log.snssdk.com,REJECT-DROP
 DOMAIN-SUFFIX,open.snssdk.com,REJECT-DROP
 DOMAIN-SUFFIX,sobot.com,REJECT-DROP
 DOMAIN-SUFFIX,adx.sogaha.cn,REJECT-DROP
@@ -1376,6 +1372,8 @@ DOMAIN-SUFFIX,x0or8.icu,REJECT-DROP
 DOMAIN-SUFFIX,xa7j.icu,REJECT-DROP
 DOMAIN-SUFFIX,xbtw.com,REJECT-DROP
 DOMAIN-SUFFIX,d0.xcar.com.cn,REJECT-DROP
+DOMAIN-SUFFIX,api.fu.xcultur.com,REJECT-DROP
+DOMAIN-SUFFIX,api.ssp.xcultur.com,REJECT-DROP
 DOMAIN-SUFFIX,xdrig.com,REJECT-DROP
 DOMAIN-SUFFIX,pics.xgo-img.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,stat.xgo.com.cn,REJECT-DROP

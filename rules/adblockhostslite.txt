@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard App Banners Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Anti Adblock Filters、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、Xinggsf MV、NoAppDownload。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/psychosispy/adblockfilters-optimized
 # Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockhostslite.txt
-# Version: 20250722094655
-# Last modified: 2025/07/22 09:46:55
-# Blocked domains: 1547
+# Version: 20250723094752
+# Last modified: 2025/07/23 09:47:52
+# Blocked domains: 1545
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -42,7 +42,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.12306.cn
 0.0.0.0	bdad.123pan.cn
 0.0.0.0	ent1.12584.cn
-0.0.0.0	ads.music.126.net
 0.0.0.0	img1.126.net
 0.0.0.0	img3.126.net
 0.0.0.0	yt-adp.ws.126.net
@@ -318,7 +317,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	kstj.baidu.com
 0.0.0.0	log.music.baidu.com
 0.0.0.0	luimg.baidu.com
-0.0.0.0	mime.baidu.com
 0.0.0.0	mobads.baidu.com
 0.0.0.0	mobads-logs.baidu.com
 0.0.0.0	mountain.zhidao.baidu.com
@@ -728,7 +726,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	huishenghuiying.com.cn
 0.0.0.0	u8.hujiang.com
 0.0.0.0	hulichuang.mobi
-0.0.0.0	ad-sdk.huxiu.com
 0.0.0.0	api-ad-product.huxiu.com
 0.0.0.0	log-api.huxiu.com
 0.0.0.0	log-api-mn.huxiu.com
@@ -1181,7 +1178,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	image-ad.sm.cn
 0.0.0.0	video-ad.sm.cn
 0.0.0.0	abtest-ch.snssdk.com
-0.0.0.0	log.snssdk.com
 0.0.0.0	open.snssdk.com
 0.0.0.0	sobot.com
 0.0.0.0	adx.sogaha.cn
@@ -1390,6 +1386,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	xa7j.icu
 0.0.0.0	xbtw.com
 0.0.0.0	d0.xcar.com.cn
+0.0.0.0	api.fu.xcultur.com
+0.0.0.0	api.ssp.xcultur.com
 0.0.0.0	xdrig.com
 0.0.0.0	pics.xgo-img.com.cn
 0.0.0.0	stat.xgo.com.cn
