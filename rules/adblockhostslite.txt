@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard App Banners Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Anti Adblock Filters、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、Xinggsf MV、NoAppDownload。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/psychosispy/adblockfilters-optimized
 # Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockhostslite.txt
-# Version: 20250802094359
-# Last modified: 2025/08/02 09:43:59
-# Blocked domains: 1541
+# Version: 20250803095646
+# Last modified: 2025/08/03 09:56:46
+# Blocked domains: 1540
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -29,6 +29,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	gg.0598yu.com
 0.0.0.0	0941.org
 0.0.0.0	0dwm.icu
+0.0.0.0	0k7wod.cn
+0.0.0.0	0op8kh.cn
+0.0.0.0	0oqt9i.cn
+0.0.0.0	0r3tyg.cn
 0.0.0.0	m1.ad.10010.com
 0.0.0.0	smartad.10010.com
 0.0.0.0	1.1010pic.com
@@ -123,6 +127,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	5y9nfpes.52pk.com
 0.0.0.0	adm.52swine.com
 0.0.0.0	a.52zxw.com
+0.0.0.0	54gtlb.cn
 0.0.0.0	55726zubo56686.com
 0.0.0.0	sp.qf.56.com
 0.0.0.0	3.5646.cn
@@ -160,6 +165,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	m1.81312.com
 0.0.0.0	cc.8181zx.com
 0.0.0.0	d.8181zx.com
+0.0.0.0	88362zubo95838.com
 0.0.0.0	888bb555ww.com
 0.0.0.0	888bb666cc.com
 0.0.0.0	888xx222kk.com
@@ -178,7 +184,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	96382zubo66756.com
 0.0.0.0	96rj.icu
 0.0.0.0	whfpbc.99.com.cn
-0.0.0.0	w18.9939.com
 0.0.0.0	a1.99933.cn
 0.0.0.0	a1.99966.cn
 0.0.0.0	999aa666bb.com
@@ -192,14 +197,12 @@ ff02::3	ip6-allhosts
 0.0.0.0	jscode.acg68.com
 0.0.0.0	tr.acobt.tech
 0.0.0.0	ad-scope.com.cn
-0.0.0.0	v.adintl.cn
 0.0.0.0	adjust.cn
 0.0.0.0	admob-cn.com
 0.0.0.0	pixel.admobclick.com
 0.0.0.0	adsame.com
 0.0.0.0	p1-lm.adukwai.com
 0.0.0.0	adview.cn
-0.0.0.0	sdk.adx.adwangmai.com
 0.0.0.0	sdk.mobads.adwangmai.com
 0.0.0.0	adzp.cn
 0.0.0.0	af6s.icu
@@ -336,7 +339,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	j.baminw.cn
 0.0.0.0	n.baminw.com.cn
 0.0.0.0	xs.houyi.baofeng.net
-0.0.0.0	a.baomihua.com
 0.0.0.0	mhtj.baomihua.com
 0.0.0.0	bartender.cc
 0.0.0.0	du1.bbdj.com
@@ -367,6 +369,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	bjsvp35.space
 0.0.0.0	gg.blueidea.com
 0.0.0.0	s.btime.com
+0.0.0.0	bubmhm.top
 0.0.0.0	ad.bwton.com
 0.0.0.0	dlogs.bwton.com
 0.0.0.0	bwz4e.icu
@@ -580,6 +583,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	public.gdtimg.com
 0.0.0.0	qzs.gdtimg.com
 0.0.0.0	review.gdtimg.com
+0.0.0.0	gdyjs.com
 0.0.0.0	g.gegeyingshi.com
 0.0.0.0	getui.cn
 0.0.0.0	getui.com
@@ -659,8 +663,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	logbak.hicloud.com
 0.0.0.0	logservice.hicloud.com
 0.0.0.0	logservice1.hicloud.com
-0.0.0.0	metrics.data.hicloud.com
-0.0.0.0	metrics2.data.hicloud.com
 0.0.0.0	cdn-plugin-sync-upgrade-juui.hismarttv.com
 0.0.0.0	upgrade-update.hismarttv.com
 0.0.0.0	v2-api-channel-launcher.hismarttv.com
@@ -722,6 +724,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	g.huya.com
 0.0.0.0	statwup.huya.com
 0.0.0.0	va.huya.com
+0.0.0.0	xuexi.hydcd.com
+0.0.0.0	zuowen.hydcd.com
 0.0.0.0	api.hzsanjiaomao.com
 0.0.0.0	sdk.hzsanjiaomao.com
 0.0.0.0	gdl.i9dhjx.ru
@@ -971,7 +975,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	anews7.nvwu.com
 0.0.0.0	nxcm.cc
 0.0.0.0	o8zoz.icu
-0.0.0.0	ocuwyfarlvbq.com
 0.0.0.0	okkkk.com
 0.0.0.0	on5ga.icu
 0.0.0.0	click.oneplus.cn
@@ -1308,7 +1311,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ads.v3mh.com
 0.0.0.0	log.vcgame.cn
 0.0.0.0	vegaschina.cn
-0.0.0.0	vfvdsati.com
 0.0.0.0	hw-p2p-pull.video-voip.com
 0.0.0.0	ads-marketing-vivofs.vivo.com.cn
 0.0.0.0	adsdk.vivo.com.cn
@@ -1450,9 +1452,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	abc.yebaike.com
 0.0.0.0	a.yellowurl.cn
 0.0.0.0	bi.yeshen.com
-0.0.0.0	adx-data.yfanads.com
-0.0.0.0	api.yfanads.com
-0.0.0.0	tracker.yfanads.com
 0.0.0.0	dd.yiche.com
 0.0.0.0	static-ssp.yidianzixun.com
 0.0.0.0	bd1.yidu.cc
@@ -1480,7 +1479,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	api.youngle.tech
 0.0.0.0	wenxue.youzhicn.com
 0.0.0.0	analysis.yozocloud.cn
-0.0.0.0	daima.ysdui.com
+0.0.0.0	yqlxkzs.cn
 0.0.0.0	yunshipei.com
 0.0.0.0	adsclick.yx.js.cn
 0.0.0.0	ali-ad.a.yximgs.com
