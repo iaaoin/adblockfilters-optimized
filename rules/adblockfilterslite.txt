@@ -3,8 +3,8 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard App Banners Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Anti Adblock Filters、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、Xinggsf MV、NoAppDownload。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/psychosispy/adblockfilters-optimized
 ! Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockfilterslite.txt
-! Version: 20250817094732
-! Last modified: 2025/08/17 09:47:32
+! Version: 20250818094748
+! Last modified: 2025/08/18 09:47:48
 ! Blocked Filters: 26306
 !
 ###AC_ad
@@ -17040,7 +17040,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 163.com###layout-bobo
 163.com###layout-love
 163.com###layout-shop
-163.com###suning-bottom-banner
 163.com###yjj_pop_wrapper
 163.com##.at_item
 163.com##.bobo-area
@@ -17626,6 +17625,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||cnzz.com/c.php?id=30070167$domain=m.tieyou.com
 @@||cnzz.com/q_stat.php$domain=qd.alibaba.com
 @@||count.taobao.com/counter$script
+@@||cpro.baidustatic.com/cpro/ui/c.js$domain=htqyy.com
 @@||cpro.baidustatic.com/cpro/ui/cm.js$domain=ali213.net|bigpixel.cn|tangdoucdn.com
 @@||crsky.com/ggao/images/$image
 @@||cstnet.cn/r/cms/cstnet/zh_CN/ad/index/
@@ -19258,7 +19258,6 @@ cnfol.com##.wid325AdBox
 cnfol.com##.wid390AdBox
 cnfol.com##.wid595AdBox
 cnfol.com##.wid600Ad
-cnforex.com##.mleft > a
 cngold.org##.ag_fwindow_ywp
 cngold.org##.fiexdAdvsClosed
 cngold.org##.in_content_left_advs
@@ -21193,7 +21192,6 @@ js0573.com##.gg_bnr
 json.cn###shuangshi1Modal1
 json.cn,pianyuan.org,qixingquan.com##.modal-backdrop
 jsphp.net##.widget_tuijian
-jstv.com##.TuiGuang
 juejin.cn##.activity-recommend
 juejin.cn##.aside.index-aside > .shadow.app-download-sidebar-block.sidebar-block
 juejin.cn##.bottom-login-guide
@@ -21325,6 +21323,7 @@ laohu8.com##.top-recommend
 laohu8.com#@#.tweet-article
 laoliublog.cn,ruyo.net,winandmac.com,zhujiceping.com,zouaw.com##.widget_custom_html
 laosiji.com#@#.sns-wrapper
+laozuo.org###focusslide
 laozuo.org##.container[style="margin-bottom: 3px;"]
 laozuo.org##.widget_ui_orbui
 laredoute.*###hp-sponsored-banner
@@ -21350,10 +21349,13 @@ ldmnq.com##.dialog-game
 ldqk.xyz,masuit.com##.bs-slider
 ldqk.xyz,masuit.com##.ibox-content > .wow[id]
 ldqk.xyz,masuit.com#?#.panel:-abp-has(>.panel-body>a>img)
+le.com###a_body_11628
+le.com###a_title_11628
 le.com##+js(set, isAdLoaded, true)
 le.com##.Ad
 le.com##.Banner
 le.com##.H-tg
+le.com##.lay_body[style^="width:980px;height:100px;"]
 le.com##.min_pause_img
 le.com##div[data-type="bottomLayerView"]
 leaf.tv,sciencing.com,sportsnet.ca##.sticky-leaderboard-container
@@ -22298,7 +22300,6 @@ otakuma.net,swiki.jp##.adsense
 otomi-games.com,ryuugames.com##[href^="https://aichattings.com/"]
 otona-hokenshitsu.jp,resemara.xbiz.jp,revolve-ysy.jp##.bfb_imgBanner
 outlook.live.com._6tqjFb_HmyQup_NPe6dhC
-ouyaoxiazai.com##div[id^="cs_"]
 oxygen.com,syfy.com##.blog-post-section__zergnet
 ozon.by,ozon.ru##[data-widget="webToAppBanner"]
 ozon.ru#$?#.mobile > div.modal-mask:has(> div.modal-wrapper > div.modal-container > div.modal-content h2:contains(OZON ещё лучше в приложении)) { display: none!important; }
@@ -22418,6 +22419,7 @@ pixwox##.ah-box
 pizzahut.jp,noin.shop##.promote-app
 planetakino.ua,temp-mail.org##+js(remove-class, smartbanner-show, html)
 play44.net,videobug.net,videofun.me,vidzur.com,yucache.net##[style^="position: absolute; width: 100%;"]
+playallvideos.com,pron.co##.rmedia
 playco-opgame.com,sadeempc.com,thewashingtonstandard.com,westseattleblog.com###text-8
 player.bilibili.com##.bilibili-player-video-recommend
 playporn.xxx,videosdemadurasx.com##.wrap-spot
@@ -22597,7 +22599,6 @@ qq.com##.in-top-ad
 qq.com##.main_ad_bottom
 qq.com##.main_ad_top
 qq.com##.mian-ad
-qq.com##.mod-ad-full
 qq.com##.mod-download-tips
 qq.com##.mod_ad_main
 qq.com##.mod_ad_side
@@ -25077,7 +25078,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||filemoon.*/js/skrrt.js
 ||files.jb51.net/image/
 ||files.jb51.net^$image
-||firefoxchina.cn/2014/*_foxphone.png
 ||firefoxchina.cn/html/$subdocument
 ||fj.sina.com.cn/iframe/63/
 ||fjsen.com:81/mysql/count/

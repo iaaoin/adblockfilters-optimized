@@ -3,8 +3,8 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard App Banners Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Anti Adblock Filters、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、Xinggsf MV、NoAppDownload。
 ! Homepage: https://github.com/psychosispy/adblockfilters-optimized
 ! Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockfilters.txt
-! Version: 20250817094732
-! Last modified: 2025/08/17 09:47:32
+! Version: 20250818094748
+! Last modified: 2025/08/18 09:47:48
 ! Blocked Filters: 50886
 !
 ###AC_ad
@@ -17321,7 +17321,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 163.com###layout-bobo
 163.com###layout-love
 163.com###layout-shop
-163.com###suning-bottom-banner
 163.com###yjj_pop_wrapper
 163.com##.at_item
 163.com##.bobo-area
@@ -17583,8 +17582,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 2chan.net#?#.ui-li > iframe[src*="//dec.2chan.net/bin/"]:upward(1)
 2chav.com##div[style="width:100%;height:285px;margin:10px 0 0 0;overflow:hidden;"]
 2chblog.jp,blog.jp,blog.livedoor.jp,bloggeek.jp,blogism.jp,blogo.jp,blogstation.jp,blogto.jp,cafeblog.jp,corpblog.jp,diary.to,doorblog.jp,dreamlog.jp,gger.jp,golog.jp,ldblog.jp,liblo.jp,livedoor.biz,livedoor.blog,myjournal.jp,mynikki.jp,officeblog.jp,officialblog.jp,publog.jp,storeblog.jp,teamblog.jp,techblog.jp,weblog.to,xxxblog.jp,youblog.jp##.ad2
-2chcn.com##img[width="300"]
-2chmatome2.jp##.appli-box-description
 2conv.com##.fixed_banner
 2conv.com##.push-offer
 2conv.com,flv2mp3.by,flvto.biz,flvto.com.mx##.horizontal-area
@@ -18044,14 +18041,9 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 7mmtv.sx,7tv045.com,7tv047.com##.a-d-block
 7mmtv.sx,7tv045.com,7tv047.com##.set_height_250
 7sim.net##html > body ~ div
-80.lv###Big_Image_Banner
-80.lv###Image_Banner_Mid1
-80.lv###Image_Banner_Mid3
-80.lv##.BrandingPromo_skeleton
-80.lv##.ImagePromo_default
-80.lv##[class*="BrndigPrmo_"]
-80.lv##[id*="Image_bnnr"]
-80.lv##div[class*="BrndngPrmo"]
+80.lv##[class*="BrndngBigPrm_"]
+80.lv##[class*="ImgPrmo"]
+80.lv##[id^="Image_bner_"]
 8264.com##.advSection__wrapper
 8264.com##.ewmbox
 8264.com##.zhidemaibox
@@ -18702,6 +18694,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||copilog2.jp/*/webroot/ad_img/$domain=ikkaku.net
 @@||costco.com.tw/_ui/shared/js/analyticsmediator.js
 @@||count.taobao.com/counter$script
+@@||cpro.baidustatic.com/cpro/ui/c.js$domain=htqyy.com
 @@||cpro.baidustatic.com/cpro/ui/cm.js$domain=ali213.net|bigpixel.cn|tangdoucdn.com
 @@||crackedresource.com^$generichide
 @@||crackle.com/vendor/AdManager.js$script,~third-party
@@ -20539,6 +20532,7 @@ anifresh.com###minpack-sticker-frame
 anikore.jp##.boardDetail__list > li:has(> div[id])
 animalcrossingworld.com##.at-sidebar-1
 animalfactguide.com,msn.com,portlandmonthlymag.com,romsgames.net,sportsmediawatch.com##.adlabel
+animalfunfacts.net##center:has-text(ADVERT)
 animanch.com###recents > div.inner
 anime-bit.online##.layer_box > #header
 anime-japan.jp#@#.display_ad
@@ -21005,6 +20999,7 @@ autoevolution.com##.modeladmid
 autoexperience.de##body > div.ui-page > br:first-child
 autoexperience.de##body > div.ui-page > br:first-child + div#AdMobileAdxTop + br
 autoexpress.co.uk##.polaris__below-header-ad-wrapper
+autoexpress.co.uk##.polaris__more-reviews
 autoexpress.co.uk,carbuyer.co.uk,evo.co.uk##.polaris__partnership-block
 autoforum.cz##.mobile-sticky-bottom-wrapper
 autoguide.com,motorcycle.com##.sidebar-ad-unit
@@ -21430,6 +21425,8 @@ baozimh.one,yazhouse8.com##.banners
 baptistnews.com,chimpreports.com,collive.com,defence-industry.eu,douglasnow.com,eltecolote.org,ilanganews.co.za,islandecho.co.uk,kbla1580.com,locklab.com,mallorcasunshineradio.com,newsindiatimes.com,runwaygirlnetwork.com,southsideweekly.com,spaceref.com,talkradioeurope.com,theshoesnobblog.com##.a-single
 barandbench.com##.ad-slot-row-m__ad-Wrapper__cusCS
 barandbench.com##.ad-wrapper-module__adContainer__iD4aI
+barchart.com###bc-cnx-player
+barchart.com##.bc-webinar-card
 barelist.com,spankingtube.com##a[onclick]
 barkinganddagenhampost.co.uk,becclesandbungayjournal.co.uk,blogto.com,burymercury.co.uk,cambstimes.co.uk,cardealermagazine.co.uk,crimemagazine.com,dailyedge.ie,datalounge.com,derehamtimes.co.uk,dermnetnz.org,developingtelecoms.com,dissmercury.co.uk,dunmowbroadcast.co.uk,eadt.co.uk,eastlondonadvertiser.co.uk,economist.com,edp24.co.uk,elystandard.co.uk,etf.com,eveningnews24.co.uk,exmouthjournal.co.uk,fakenhamtimes.co.uk,football.co.uk,gearspace.com,gematsu.com,gobankingrates.com,greatyarmouthmercury.co.uk,hackneygazette.co.uk,hamhigh.co.uk,hertsad.co.uk,huntspost.co.uk,icaew.com,ilfordrecorder.co.uk,iol.co.za,ipswichstar.co.uk,islingtongazette.co.uk,lgr.co.uk,lowestoftjournal.co.uk,maltapark.com,midweekherald.co.uk,newhamrecorder.co.uk,newstalkzb.co.nz,northnorfolknews.co.uk,northsomersettimes.co.uk,pinkun.com,podtail.com,proxcskiing.com,romfordrecorder.co.uk,royston-crow.co.uk,saffronwaldenreporter.co.uk,sidmouthherald.co.uk,stowmarketmercury.co.uk,stylecraze.com,sudburymercury.co.uk,the42.ie,thecomet.net,thedrum.com,thejournal.ie,thinkspain.com,tineye.com,trucksplanet.com,varsity.co.uk,videogameschronicle.com,wattonandswaffhamtimes.co.uk,wccftech.com,whtimes.co.uk,wisbechstandard.co.uk,wtatennis.com,wymondhamandattleboroughmercury.co.uk##.advert
 barnstormers.com##.banner_holder
@@ -23259,7 +23256,6 @@ cnfol.com##.wid325AdBox
 cnfol.com##.wid390AdBox
 cnfol.com##.wid595AdBox
 cnfol.com##.wid600Ad
-cnforex.com##.mleft > a
 cngold.org##.ag_fwindow_ywp
 cngold.org##.fiexdAdvsClosed
 cngold.org##.in_content_left_advs
@@ -24625,7 +24621,6 @@ dominicantoday.com###header-banners
 dominus.kiev.ua##body > #myModal
 domonet.jp##main > section.banner_block + section.bnr_block
 donanimhaber.com##.mobil-forum-tanitim
-donanimhaber.com##.open-with-app-popup
 donanimhaber.com##.yorum-ustu-alan
 donanimhaber.com##span[class^="open-with-app-"]
 donanimhaber.com#$#.uygulamayi-indir { visibility: hidden !important; height: 0 !important; }
@@ -29467,6 +29462,7 @@ jinti.com##a[href*="tempurchina.com"]
 jinti.com##div[id*="gg"]
 jionews.com##.swiper-wrapper > .swiper-slide:has(> div[class*=" adCard-"])
 jionews.com##div[class*=" adsMobileView-"]
+jirou.com###guanggao
 jishin-yogen.com##.ads_entry
 jishulink.com##.invite-code-dialog
 jisin.jp##.zoom_2
@@ -29563,7 +29559,6 @@ json.cn,pianyuan.org,qixingquan.com##.modal-backdrop
 jsphp.net##.widget_tuijian
 jspoo.com##.apd
 jspoo.com##.g-wznywzjs
-jstv.com##.TuiGuang
 jta.org##.right-rail-container
 juejin.cn##.activity-recommend
 juejin.cn##.aside.index-aside > .shadow.app-download-sidebar-block.sidebar-block
@@ -30099,6 +30094,7 @@ laoliublog.cn,ruyo.net,winandmac.com,zhujiceping.com,zouaw.com##.widget_custom_h
 laopinion.com.co##.header_suscripciones
 laopiniondemurcia.es##._mo_recs
 laosiji.com#@#.sns-wrapper
+laozuo.org###focusslide
 laozuo.org##.container[style="margin-bottom: 3px;"]
 laozuo.org##.widget_ui_orbui
 lapa.ninja##.col-sm-1
@@ -30160,10 +30156,13 @@ ldoceonline.com##[id^="ad_contentslot"]
 ldqk.xyz,masuit.com##.bs-slider
 ldqk.xyz,masuit.com##.ibox-content > .wow[id]
 ldqk.xyz,masuit.com#?#.panel:-abp-has(>.panel-body>a>img)
+le.com###a_body_11628
+le.com###a_title_11628
 le.com##+js(set, isAdLoaded, true)
 le.com##.Ad
 le.com##.Banner
 le.com##.H-tg
+le.com##.lay_body[style^="width:980px;height:100px;"]
 le.com##.min_pause_img
 le.com##div[data-type="bottomLayerView"]
 leadership.ng#?#.jeg_postblock:-abp-contains(SPONSORED)
@@ -31072,7 +31071,6 @@ m.mobile.de#?#article[data-testid="srp-regular-ad"] + div[class]:has(> div[id^="
 m.mobile01.com##.u-ad-image
 m.mobile01.com##div[class*="ad-prestitial-"]
 m.mobile01.com,radiobells.com##+js(set-cookie-reload, smartbanner_exited, 1)
-m.modlily.com###down-app-box
 m.motonet.fi#@#.ProductAd
 m.motorsport-total.com##.anzeige-block
 m.mouthshut.com##.SecondAds
@@ -34133,7 +34131,6 @@ outsports.com##.adb-os-lb-top
 outsports.com##.bg-gray-100:has(.adb-os-lb-incontent)
 outsports.com##.min-h-\[100px\]:has(.adb-os-inarticle-block)
 outsports.com##.min-h-\[100px\]:has(.adb-os-lb-incontent)
-ouyaoxiazai.com##div[id^="cs_"]
 ovacovid.com##div[class^="Banner-"]
 overclock.net##.buy-now
 overclock.net##.notice-plus
@@ -34634,6 +34631,7 @@ play.google.com#@#div[aria-label="Ads"]
 play.typeracer.com##.newNorthWidget
 play44.net,videobug.net,videofun.me,vidzur.com,yucache.net##[style^="position: absolute; width: 100%;"]
 playai.nu##div[style="width:100%;height:300px"]
+playallvideos.com,pron.co##.rmedia
 playbuzz.com##.ad-top-1-wrapper
 playbuzz.com##.pb-site-player
 playbuzz.com##.stickyplayer-container
@@ -35349,7 +35347,6 @@ qq.com##.in-top-ad
 qq.com##.main_ad_bottom
 qq.com##.main_ad_top
 qq.com##.mian-ad
-qq.com##.mod-ad-full
 qq.com##.mod-download-tips
 qq.com##.mod_ad_main
 qq.com##.mod_ad_side
@@ -36998,6 +36995,8 @@ softicons.com##.bottom_125_block
 softicons.com##.bottom_600_250_block
 softicons.com##.right_ga
 softonic.com##.black-friday-ads
+softonic.com##.rv-di-modal__label
+softonic.com##.rv-di-step__container
 softonic.com##.sam-slot
 softonic.com##[data-meta="placeholder-slot"]:has([data-label="Advertisement"])
 softonic.com##div[data-meta="placeholder-slot"]
@@ -42496,7 +42495,6 @@ zznews.cn#@#.ad-wrapper
 ||aafuck.xyz^$third-party
 ||aan.amazon.*^
 ||aanetwork.vn^$third-party
-||aaread.space/images/*0.gif
 ||aatv.app/sport/sport.js
 ||abab.com/pv.js
 ||abbeysabollae.top^$document
@@ -45433,7 +45431,6 @@ zznews.cn#@#.ad-wrapper
 ||firebaseio.com/promo_view.json
 ||firecatfilms.com^$third-party
 ||fireflyengagement.com^$third-party
-||firefoxchina.cn/2014/*_foxphone.png
 ||firefoxchina.cn/html/$subdocument
 ||fireworkadservices.com^$third-party
 ||fireworkapi1.com^$domain=boldsky.com
@@ -45507,6 +45504,7 @@ zznews.cn#@#.ad-wrapper
 ||foambench.com^$third-party
 ||fobshanghai.com/bbsad/
 ||followborder.com^$third-party
+||fontke.com/custom/
 ||fonts.googleapis.com/css?family=Noto+Sans+HK$stylesheet
 ||fonts.googleapis.com/css?family=Noto+Sans+JP$stylesheet
 ||fonts.googleapis.com/css?family=Noto+Sans+KR$stylesheet
@@ -46580,6 +46578,7 @@ zznews.cn#@#.ad-wrapper
 ||ip138.com/banana/
 ||ip138.com/banner/
 ||ipinfo.io/rt$xhr
+||iporn.world/attachment/ad/
 ||ipornia.com/scj/cgi/out.php?scheme_id=$popup,third-party
 ||ipprof.ru/wp-content/plugins/ad-blocking-advisor/
 ||iprefer.com.tw^$third-party
@@ -49369,6 +49368,7 @@ zznews.cn#@#.ad-wrapper
 ||stereoproxy.com^$third-party
 ||stereotypedsugar.com^$third-party
 ||stern.de/vergleich/wp-content/themes/stern/*/iframe-startseite
+||sterra.web.id/stera2/
 ||stethepsartopo.com^$popup
 ||stiffgame.com^$third-party
 ||stiffstem.com^$third-party
