@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: biVEP53TFBI4mZTfSa2cSA
-! Diff-Path: ../patches/20_optimized/20_optimized-s-1756300698-3600.patch
+! Checksum: tuHk4rUIGS0tC6yw7SuTfg
+! Diff-Path: ../patches/20_optimized/20_optimized-s-1756393886-3600.patch
 ! Title: AdGuard Mobile App Banners filter (Optimized)
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.23.19
-! TimeUpdated: 2025-08-27T13:14:16+00:00
+! Version: 2.0.23.21
+! TimeUpdated: 2025-08-28T15:07:35+00:00
 ! Expires: 5 days (update frequency)
 /js/jquery.smartbanner.js
 ##.ldapp-article
@@ -21,6 +21,7 @@
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 ###SmBnLink
 alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com.br,dicionarioinformal.com.br,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,naked-science.ru,vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru,kocailem.com,dartworld.shopgate.com,m.alles10euro.de,dodopizza.ru,allo.ua,tempo.co,beymen.com,tvnmeteo.tvn24.pl,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,pkobp.pl,tesco.hu,prima.hu,immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.io##body .smartbanner
+wink.ru##div[data-type="promo"]
 bing.com##div[id^="bnp.nid."][data-viewname="VerticalHeaderFlyout"] > div[id^="b_vfly_"] > div[id^="b_vfly_"]:has(> a[href^="https://bingapp.microsoft.com/bing"])
 bookwalker.jp##.t-c-detail-app-induction
 trip.com##div[class^="tcp-h5-install-pop__"]
@@ -123,6 +124,7 @@ temporary-mail.net###mobile-app-banner
 terabox.com##.video-btn-download
 scheels.com#?#.font-bold:contains(Download Our App)
 scheels.com##a[href*="/app"]
+scheels.com###pdp-items-list > li:has(> div[class]:only-child > a[href*="/app"]:only-child)
 cars.com##.global-footer-mobile-apps
 cars.com#?#.global-footer-heading:contains(Mobile App)
 cars.com##cars-app-banner
@@ -135,7 +137,6 @@ autotrader.com##.app-store-bar
 vivo.com##.vep-head-download
 instagram.com##main + div:not([class]) > div[data-visualcompletion="ignore"] > div._abpk
 ||duhuliyecom.teimg.com/duhuliye-com/uploads/2024/12/hbr1903.jpg
-elipshaber.com##.mb-3.p-3.bg-white:has(> #msk-mobil-app)
 donanimhaber.com#$#.uygulamayi-indir { visibility: hidden !important; height: 0 !important; }
 bristol.ru##.first-order-modal
 imdb.com##.imdb-header__app-button
@@ -922,7 +923,6 @@ realestate.yahoo.co.jp##.compFooterGlobalNavigation__app
 comic-days.com##div[class^="Original_app_area_wrapper"]
 family.co.jp###sptabnemu
 slickdeals.net#$#.sdModalOverlay { display: none !important; }
-slickdeals.net#$##bottomFullBar { display: none !important; }
 anizm.net##.gensh-class
 finance.sina.com.cn,kashikoi.with.is,smsnator.online,emailnator.com##.top-banner
 pazarama.com##+js(set-cookie, prevent-in-app, true)
@@ -1113,7 +1113,6 @@ suzuri.jp##.footer-app-banner
 netkeiba.com,hair.cm##.AppLink
 lp.p.pia.jp##.piawebFooter__download
 rakuten-card.co.jp##.footerNav__item--app
-handyticket.de###app-alert
 ||s.yimg.jp/images/weather/promo/banner
 r.gnavi.co.jp###sub-ap
 1track.ru##.offer_app
@@ -1168,6 +1167,7 @@ kinarino.jp##+js(set-cookie-reload, hide_app_banner, 1)
 r.gnavi.co.jp##div[class^="style_appAdvertise__"]
 rapidgator.net##a[href="https://play.google.com/store/apps/details?id=net.rapidgator"]
 trovo.live##+js(set-session-storage-item, download-dialog-closed, 1)
+||popdaily.com.tw/statics/images/appDownloadBanner.png
 nipponrentacar.co.jp##.appArea
 mc.163.com##.down-box
 abema.tv##.c-application-MobileAppContainer__floating-app-button
@@ -1844,6 +1844,7 @@ honeysanime.com#$##header-line-2 { margin-top: -60px !important; }
 honeysanime.com#$##wrap-app-notice { display: none !important; }
 !+ NOT_OPTIMIZED
 m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
+kurashiru.com##.ListsShow-buttonsWrapper
 qatarairways.com#$##openApp { display: none !important; }
 qatarairways.com#$#.main-holder-sm { margin-top: 0 !important; }
 lamoda.ru##div[class*="_smartBannerMobile"]
