@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: tuHk4rUIGS0tC6yw7SuTfg
-! Diff-Path: ../patches/20_optimized/20_optimized-s-1756393886-3600.patch
+! Checksum: kvx3wB6WVgdin4VNFuj1yw
+! Diff-Path: ../patches/20_optimized/20_optimized-s-1756448021-3600.patch
 ! Title: AdGuard Mobile App Banners filter (Optimized)
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.23.21
-! TimeUpdated: 2025-08-28T15:07:35+00:00
+! Version: 2.0.23.22
+! TimeUpdated: 2025-08-29T06:09:56+00:00
 ! Expires: 5 days (update frequency)
 /js/jquery.smartbanner.js
 ##.ldapp-article
@@ -21,6 +21,7 @@
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 ###SmBnLink
 alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com.br,dicionarioinformal.com.br,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,naked-science.ru,vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru,kocailem.com,dartworld.shopgate.com,m.alles10euro.de,dodopizza.ru,allo.ua,tempo.co,beymen.com,tvnmeteo.tvn24.pl,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,pkobp.pl,tesco.hu,prima.hu,immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.io##body .smartbanner
+allmovieland.*##.fs__btn-block:has(> .fs__btn_watch[href="https://allmovielandapp.com/allmovieland.apk"])
 wink.ru##div[data-type="promo"]
 bing.com##div[id^="bnp.nid."][data-viewname="VerticalHeaderFlyout"] > div[id^="b_vfly_"] > div[id^="b_vfly_"]:has(> a[href^="https://bingapp.microsoft.com/bing"])
 bookwalker.jp##.t-c-detail-app-induction
@@ -1297,6 +1298,7 @@ hk.on.cc##.appinstall
 jp-news.mercari.com##.mercari-app
 stolichki.ru#$##main-app__block { display: none !important; }
 stolichki.ru#$#div[class^="secondMenu__wrapper"] { top: 0 !important; }
+mondo.me##.footer-promo-banner
 hmetro.com.my,bharian.com.my,nst.com.my##+js(set-cookie, appDownloadBanner, 1)
 flipboard.com##.cta-banner-redesigned
 flipboard.com##a[data-vars-button-name="main-nav-get-app-cta"]
@@ -1324,7 +1326,6 @@ boredpanda.com,hackread.com##.get-app
 electrical4u.com###custom_html-24
 warnung.bund.de##.apphint
 nknews.org,essenjet.com###mobileApp
-nknews.org##a[href^="https://www.nknews.org/pro/mobile-apps/"] > img
 camscanner.com##.orcode_box
 avg.com##.hub-cta-desktop
 glasswire.com##.glasswire-android
@@ -1544,6 +1545,7 @@ pampers.*##.get-app-cta
 chrono24.cn,chrono24.co.uk,chrono24.com,chrono24.de,chrono24.es,chrono24.fr,chrono24.it,chrono24.jp,chrono24.nl,pampers.*,trendyol.com,tripadvisor.ru,prog-8.com,spice.eplus.jp,catalog.onliner.by,hket.com,fashion-headline.com,momoshop.com.tw,ticketjam.jp,kompas.com,sevenbank.co.jp,booth.pm,reverso.net,bangumi.org,msn.com,m.investing.com,m.spiegel.de,mavcsoport.hu,m.trendyol.com,autobild.de,infranken.de,m.douglas.de,focus.de###smartbanner
 supreme2.ru###s2newsad
 soundcloud.com##article.mobileApps
+apkpure.*##.safe-link > .dl-ref
 wattpad.com###bottom-banner-container
 wattpad.com###announcements-container
 marca.com#$#.js-mobile-banner { display: none !important; }
@@ -1621,6 +1623,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##shred
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##+js(addEventListener-defuser, block-body-scrolling)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#shreddit-experience-tree { display: none !important; }
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#.theme-beta .sidebar-grid.fixed { position: unset !important;}
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#.XPromoBlockingModal { display: none !important; }
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##+js(remove-class, m-blurred, .m-blurred)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##+js(remove-class, scroll-disabled, body)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#div[class^="_"] > button[class*=" "]:has(> i.icon-qr_code)
