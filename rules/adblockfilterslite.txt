@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard App Banners Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Anti Adblock Filters、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、Xinggsf MV、NoAppDownload。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/psychosispy/adblockfilters-optimized
 ! Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockfilterslite.txt
-! Version: 20250909092411
-! Last modified: 2025/09/09 09:24:11
-! Blocked Filters: 26503
+! Version: 20250910092125
+! Last modified: 2025/09/10 09:21:25
+! Blocked Filters: 26498
 !
 ###AC_ad
 ###AD_160
@@ -3136,6 +3136,7 @@
 ###js-Taboola-Container-0
 ###js-ad-billboard
 ###js-ad-leaderboard
+###js-ad-map
 ###js-image-ad-mpu
 ###js-outbrain-ads-module
 ###js-outbrain-module
@@ -4198,7 +4199,6 @@
 ###takeover-ad
 ###takeover_ad
 ###takeoverad
-###tanx-fold-main
 ###taotaole
 ###td-ad-placeholder
 ###tdAds
@@ -14087,6 +14087,7 @@
 ##a[href*=".foxqck.com/"]
 ##a[href*=".g2afse.com/"]
 ##a[href*=".kaiyunty.live"]
+##a[href*=".labsda.com"] > img[src^="/game/20"]
 ##a[href*=".skw036.cc"]
 ##a[href*=".ssmh"][href*="?u="]
 ##a[href*=".sudun.com/"]
@@ -14283,7 +14284,7 @@
 ##zeus-ad
 $csp=script-src 'self' '*' 'unsafe-inline',domain=pirateproxy.live|thehiddenbay.com|downloadpirate.com|thepiratebay10.org|ukpass.co|linksmore.site
 $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.cloudflare.com *.google.com *.addthis.com *.addthisedge.com *.facebook.net *.twitter.com *.jquery.com *.x.com,domain=kinox.lat|kinos.to|kinox.am|kinox.click|kinox.cloud|kinox.club|kinox.digital|kinox.direct|kinox.express|kinox.fyi|kinox.gratis|kinox.io|kinox.lol|kinox.me|kinox.mobi|kinox.pub|kinox.sh|kinox.to|kinox.tube|kinox.tv|kinox.wtf|kinoz.to,~third-party
-$csp=script-src 'self' * 'unsafe-inline',domain=biqugequ.org|69shumi.com|fxxs3.com|efuxs.com|i3book.com|genbiquge.com|quanbiqu.com|pinshu.org|13xsw.com|bbiquge.cc|taobiquge.com|haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|yebiquge.com|jvbiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.chenkuan.com|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com
+$csp=script-src 'self' * 'unsafe-inline',domain=8181zw.vip|biqugequ.org|69shumi.com|fxxs3.com|efuxs.com|i3book.com|genbiquge.com|quanbiqu.com|pinshu.org|13xsw.com|bbiquge.cc|taobiquge.com|haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|yebiquge.com|jvbiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.chenkuan.com|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com
 $csp=script-src 'self' * 'unsafe-inline',domain=bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|oushuku.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com|wuwusk.com
 $csp=script-src 'self' * 'unsafe-inline',domain=nodejs.cn|smsonline.cloud
 $csp=script-src 'self' *,domain=52niuyanks.cc|90shuyuan.com|hunhunxs.com|sswwxs.com|akexs.com|qqmmxs.com|qimiaoxs.cc|qimiaoxiaoshuo.com|wuwxs.com|biquge678.com|biqugezw.us|zk01.net
@@ -15253,6 +15254,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .vip/ads/
 .vip/gg/
 .vip/html/hfv.js
+.vip/js/ads/
 .work/ads/
 .xhtmm?$domain=wap.dulaidw.com
 .xyz/*=$object,third-party
@@ -16172,7 +16174,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /mhw0/duniao/*
 /microad.js$script
 /mlog/*
-/mmday/hgame_
 /mnpw3.js$script
 /mobilegame/getroomapp?
 /mobiquo/smartbanner/appbanner.js
@@ -16815,7 +16816,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 163.com##.topnav_ad
 163.com##.topnews_ad
 163.com##.txt-bobo
-163.com##.with-bot-ad > .arrow_down
 163.com##a[href*=".kaola.com"]:first-child:last-child
 163.com##a[href^="http://popme.163.com/"]
 163.com##span[class^="gg"]
@@ -16898,7 +16898,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 192-168-1-1-ip.co,receivesms.co###adresp
 1980-games.com,coleka.com,gameslol.net,theportugalnews.com,tolonews.com##.pub
 199it.com,softwarebrother.com##.adsbygoogle
-19lou.com##.ad-980x40
 19lou.com##.editor-ad
 19lou.com,cqmmgo.com##.ad-place-logo
 19lou.com,cqmmgo.com,ihome99.com##.ad650-60
@@ -17133,6 +17132,8 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 423down.com##span > a > b
 423down.com#?#.post-related > ul > li:-abp-has(> a[href^="http"]:not([href*="423down."]))
 423down.com#?#li:-abp-has(> .pic[href^="http"]:not([href*="423down."]))
+423down.com#?#li:-abp-has(>.info>.cat>a[rel="category tag"]:-abp-contains(推广))
+423down.com#?#li:-abp-has(>.item-thumb>.item-category:-abp-contains(推广))
 42xz.com,aiweibk.com,kuhou.com,pcsoft.com.cn##.gsxz
 4399.com###ads1_1
 4399.com###defaultbglink
@@ -17325,7 +17326,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 ://ad1.
 ://adn.*/zone/$popup
 ://adn.*/zone/$subdocument
-://ads.$~image,~xmlhttprequest,domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.axon.ai|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.business.bell.ca|~ads.cafebazaar.ir|~ads.chewy.com|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.doordash.com|~ads.dosocial.ge|~ads.dosocial.me|~ads.elevateplatform.co.uk|~ads.ferrarichat.com|~ads.finance|~ads.flytant.com|~ads.fund|~ads.google.cn|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kifli.hu|~ads.knuspr.de|~ads.listonic.com|~ads.luarmor.net|~ads.magalu.com|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.misskey.io|~ads.mobilebet.com|~ads.mojagazetka.com|~ads.msstate.edu|~ads.mst.dk|~ads.mt|~ads.nc|~ads.nipr.ac.jp|~ads.olx.pl|~ads.pinterest.com|~ads.realizeperformance.com|~ads.remix.es|~ads.rohlik.cz|~ads.rohlik.group|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.siriusxmmedia.com|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.tuver.ru|~ads.twitter.com|~ads.typepad.jp|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.vk.ru|~ads.watson.ch|~ads.wildberries.ru|~ads.x.com|~ads.yandex|~reempresa.org
+://ads.$~image,~xmlhttprequest,domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.axon.ai|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.business.bell.ca|~ads.cafebazaar.ir|~ads.chewy.com|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.doordash.com|~ads.dosocial.ge|~ads.dosocial.me|~ads.elevateplatform.co.uk|~ads.ferrarichat.com|~ads.finance|~ads.flytant.com|~ads.fund|~ads.google.cn|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kifli.hu|~ads.knuspr.de|~ads.listonic.com|~ads.luarmor.net|~ads.magalu.com|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.misskey.io|~ads.mobilebet.com|~ads.mojagazetka.com|~ads.msstate.edu|~ads.mst.dk|~ads.mt|~ads.nc|~ads.nipr.ac.jp|~ads.olx.pl|~ads.palmettostatearmory.com|~ads.pinterest.com|~ads.realizeperformance.com|~ads.remix.es|~ads.rohlik.cz|~ads.rohlik.group|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.siriusxmmedia.com|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.tuver.ru|~ads.twitter.com|~ads.typepad.jp|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.vk.ru|~ads.watson.ch|~ads.wildberries.ru|~ads.x.com|~ads.yandex|~reempresa.org
 ://ads2.
 ://adsbb.
 ://adserving.
@@ -17672,7 +17673,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||mediav.com/js/feed_ts.js$domain=china.com|mini.yyrtv.com
 @@||mediav.com/js/reward_video_pc.min.js$domain=baiten.cn
 @@||mhxk.com^*/main/entry.common.$script
-@@||miaozhen.com^*/m.suning.
 @@||microapp.bytedance.com/docs/page-data/$~third-party
 @@||mobilelearn.chaoxing.com/xinfanya/js/common/pop.js^$script
 @@||moegirl.org.cn^$generichide
@@ -18550,7 +18550,6 @@ baidu.com##.spread-wrap
 baidu.com##.square-banner-bgicon.index-banner
 baidu.com##.swan-ad-fc-feed
 baidu.com##.tb-threadlist__item.tb-banner
-baidu.com##.top-ad-cont
 baidu.com##.ts-qrcode
 baidu.com##.under-tips
 baidu.com##.w-question-list[data-sign]
@@ -18823,6 +18822,7 @@ bitauto.com##.ad-tag-box,ins,body>div.container[style^=margin-top]
 bitcoinist.com,captainaltcoin.com,coinpaprika.com,cryptonews.com,cryptonewsz.com,cryptopotato.com,insidebitcoins.com,news.bitcoin.com,newsbtc.com,philnews.ph,watcher.guru##[class*="clickout-"]
 bitcoinist.com,newsbtc.com##.widget_premium_partners
 bitcoinmagazine.com,thestreet.com##.m-in-content-ad-row
+bitcoinsistemi.com,theprint.in,soluzionecomputer.it##.ai-viewport-3[data-code]
 biznews.com,burnabynow.com,businessdailyafrica.com,coastreporter.net,financialexpress.com,irishtimes.com,komonews.com,newwestrecord.ca,nsnews.com,prpeak.com,richmond-news.com,spokesman.com##a[href*="/sponsored/"]
 bjx.com.cn##.layer_right2
 bkjia.com,zol.com.cn##.hot_tj
@@ -19010,7 +19010,7 @@ cambridge.org,ldoceonline.com##.topslot-container
 camporn.to,camseek.tv,camstreams.tv,eurogirlsescort.com,hdtube.porn,sexu.com##.banners
 camscanner.com##.orcode_box
 camvideos.tv,exoav.com,jizzoncam.com##.place
-camwhores.tv,txxx.com##.fh-line
+camwhores.*,txxx.com##.fh-line
 canadianbusiness.com,macleans.ca,vidio.com,yardbarker.com###leaderboard_container
 canadianbusiness.com,torontolife.com##.sjm-dfp-wrapper
 canberratimes.com.au,examiner.com.au,theland.com.au,whoscored.com###billboard-container
@@ -19863,6 +19863,7 @@ emergencyemail.org,out.com##.footer
 emg.yahoo.co.jp,crisis.yahoo.co.jp##.promotionLink
 empflix.com,tnaflix.com##.mewBlock
 empireonline.com,graziadaily.co.uk##.advertWrapper_billboard__npTvz
+en.namu.wiki,ja.namu.wiki##div[id][class]:empty
 enerjisa.com.tr,easy.co.il##.qr-container
 enet.com.cn,fjsen.com,hupu.com,kdslife.com,~my.hupu.com,mysteel.com,news.cnyes.com,pchome.net,rznews.cn##div[class^="ad"]
 eneuro.org,jneurosci.org#@#.region-ad-top
@@ -20777,7 +20778,6 @@ ifeng.com##.yc_con_r
 ifeng.com##DIV[class^="enquiry_bottom"]
 ifeng.com##a[class^="bookrack-"]
 ifeng.com##a[href*=".app"]
-ifeng.com##a[href^="http://yemei.tv/"]
 ifeng.com##body > div[class^="select_share-"]
 ifeng.com##div[class*="callupBtn"]
 ifeng.com##div[class="adbox02"]
@@ -20835,9 +20835,9 @@ ilive.lenovo.com.cn#@#.adTop
 ilxdh.com##.bottom-show
 ilxdh.com,subaibai.com##.v-modal
 im286.net###diy110
-im286.net###diyflash
 im286.net##.im286-t
 image.baidu.com###cmsimage
+image.baidu.com###plz-albums
 image.baidu.com###relEcom
 image.baidu.com###relecom54
 image.baidu.com##.boxBanner
@@ -21404,7 +21404,6 @@ lenovo.com.cn##.bottom_ad_ban_bg
 lenovo.com.cn##.downloadBar
 lenovo.com.cn##.game-bd
 lenovo.com.cn##.video
-lenovo.com.cn#?#a:-abp-has(>div>p:-abp-contains(广告))
 leroymerlin.*##li[data-product-list-id*="sponsored"]
 lesbianbliss.com,mywebcamsluts.com,transhero.com##.media_spot
 letsgodigital.org,letsgomobile.org##.partners-bar
@@ -22113,8 +22112,6 @@ mydrivers.com##div[style="text-align: center;margin-top: 10px;"]
 mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
 mydrivers.com,wmzhe.com##a[href*=".jd.com/"]
 myfigurecollection.net,prolificnotion.co.uk##.partner
-myhomebook.de,petbook.de###banner_btf
-myhomebook.de,petbook.de##.my-3:has(> #banner_btf:only-child)
 myhouseabroad.com,njuskalo.hr,starbuy.sk.data10.websupport.sk#@#.ad_item
 myk3.com##a[href*="?aid="]
 mykhel.com,oneindia.com###verticleLinks
@@ -23210,12 +23207,15 @@ tech.sina.com.cn##.side-btns-answer2022
 tech.sina.com.cn##.zc-app
 tech.sina.com.cn##.zc-app-btn.right-bar-btn
 tech.sina.com.cn##a[class^="tab_related_app"]
+techbook.de,myhomebook.de,petbook.de###banner_btf
+techbook.de,myhomebook.de,petbook.de##.my-3:has(> #banner_btf:only-child)
 techbook.de,petbook.de,travelbook.de##.ads__container--floating
 techlusive.in,bgr.in##.add-placeholder
 techmaniak.pl,activemaniak.pl,gizmaniak.pl,agdmaniak.pl,rtvmaniak.pl,fotomaniak.pl,tabletmaniak.pl###content > div[style="margin:0px auto 10px auto; text-align:center; font-size:6px;"]
 techmaniak.pl,activemaniak.pl,gizmaniak.pl,agdmaniak.pl,rtvmaniak.pl,fotomaniak.pl,tabletmaniak.pl###content div[style^="margin:0 auto 10px auto; text-align:center; font-size:6px;"]
 techmaniak.pl,activemaniak.pl,gizmaniak.pl,agdmaniak.pl,rtvmaniak.pl,fotomaniak.pl,tabletmaniak.pl##.content-wrap > div[style="margin:0 auto 10px auto; text-align:center; font-size:6px;"]
 techmaniak.pl,activemaniak.pl,gizmaniak.pl,agdmaniak.pl,rtvmaniak.pl,fotomaniak.pl,tabletmaniak.pl##.content-wrap > div[style^="margin:10px auto; text-align:center;"]
+techradar.com,toimitilat.kauppalehti.fi#@#.sponsored-article
 techraptor.net,tftactics.gg###nn_player
 techraptor.net,unite-db.com###nn_lb1
 techraptor.net,unite-db.com###nn_lb2
@@ -23258,7 +23258,6 @@ thepaper.cn###head_ask_app_down
 thepaper.cn##.download
 thepaper.cn##div[class^="index_commonsider_"] > div > div[class^="scale_connent__"]
 theporndude.vip,theporndude.com##.pdc-casting
-theprint.in,soluzionecomputer.it##.ai-viewport-3[data-code]
 theproxy.lol,unblock-it.com,uproxy2.biz###cookieConsentUR99472
 thespec.com,wellandtribune.ca##.polarAds
 theverge.com,mediafire.com##.m-ad
@@ -23525,7 +23524,6 @@ v.ifeng.com##section[class^="index_hot"]
 v.qq.com###pc_client > .quick_link
 v.qq.com##.nav_link[href^="http"]:not([href*=".qq."])
 v.qq.com##.quick_games.quick_item, div.game-switch-ad
-v.qq.com##.site_bg_variety
 v.qq.com##.slider_item[href^="http"]:not([href*=".qq."])
 v.qq.com##.svg_icon_client.svg_quick_icon
 v.qq.com##.svg_icon_client.svg_quick_icon > path:nth-of-type(1)
@@ -24798,7 +24796,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||baidu.com/po/api/configure/show.jsonp
 ||baidu.com/rec?*=ad&
 ||baidu.com/resource/tuisong/
-||baidu.com/showbrand/banner_
 ||baidu.com/smalllog/
 ||baidu.com/tb/zt/$subdocument,domain=tieba.baidu.com
 ||baidu.com/tbliveact/data/xiu8/
@@ -24853,7 +24850,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||bdstatic.com^*/js/m.js
 ||bdstatic.com^*/mip-*ad
 ||bdstatic.com^*/plugins/every_cookie_
-||bdstatic.com^*/resource/tuijian/widget/guesslikesite/guesslikesite.
 ||bdstatic.com^*/static/itemrep/afdTuJiTuiJian/
 ||bdstatic.com^*/tam-ogel/
 ||beareyes.com.cn/2/cat/js/*_right
@@ -25802,6 +25798,7 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||offcn.com/index.php?m=dbsource&c=call&a=get&id=77
 ||offcn.com/offcnewm/
 ||offerstrack.net^$popup
+||ofweek.com/pop/ad/
 ||okbmf.com/imgad/
 ||oklink.com/api/explorer/v2/index/text-advertisement?
 ||okooo.com/I/?method=system.data.ad&
@@ -25903,7 +25900,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||qixingquan.com/qxq-images/js/qxq_t.js
 ||qiyipic.com/common/*%E9%80%9A%E6%A0%8F
 ||qiyipic.com/common/*/banner.jpg
-||qiyipic.com/common/*980x
 ||qiyukf.com^$third-party
 ||qpb*.sohu.com^
 ||qq.com/*/report?$image
@@ -26112,6 +26108,7 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||streamoupload.*/api/spots/$script
 ||stulip.org/static/js/header.js
 ||su.bdimg.com/static/dspui/js/
+||subhd.*/kaiyad.
 ||sums.suning.com^$third-party
 ||suning.cn/javascript/sn_da/sa.js
 ||suning.com/cpc/getCpcSearchDatasRev?
@@ -26270,8 +26267,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||wkstatic.bdimg.com/static/wkview/widget/top_ads_banner/$script
 ||wlrjy.com/assets/images/tuidc.png
 ||wlxww.com/html/analytics/
-||wnacg.*/sd
-||wnacg.*/themes/mo/images/*.gif
 ||wodeshucheng.com^*/0
 ||woozooo.com/img/*.js
 ||work.3dmgame.com/js/statistics.js
