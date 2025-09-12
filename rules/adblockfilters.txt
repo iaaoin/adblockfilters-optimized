@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard App Banners Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Anti Adblock Filters、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、Xinggsf MV、NoAppDownload。
 ! Homepage: https://github.com/psychosispy/adblockfilters-optimized
 ! Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockfilters.txt
-! Version: 20250911092345
-! Last modified: 2025/09/11 09:23:45
-! Blocked Filters: 50805
+! Version: 20250912092027
+! Last modified: 2025/09/12 09:20:27
+! Blocked Filters: 50813
 !
 ###AC_ad
 ###AD_160
@@ -17477,6 +17477,8 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 3sat.de#$#.smartbanner-show .o--epg .epg-content .options-bar { top: 2.9375rem !important; }
 3sat.de#$#.smartbanner-show .o--header { top: 0px !important; }
 3sat.de#$#.smartbanner-show .playlist-wrap { height: calc(100%) !important; }
+3sumxl.com,w1mp.com,pornfant.com,porno-cum.com,babexl.com,pumpjap.com,asianpornxl.com,bigassz.com##.link-offer
+3sumxl.com,w1mp.com,pornfant.com,porno-cum.com,babexl.com,pumpjap.com,asianpornxl.com,bigassz.com##.related-spot-wrap-mobile
 40407.com##.bg_l
 40407.com##.bg_r
 40407.com##.con_tj
@@ -20589,8 +20591,11 @@ asda.com##.co-product-list[data-module-type="HookLogic"]
 aseannow.com##div[id^="AA_article_"]
 asheville.com##.injected-ads
 asiaflix.net##app-mobile-banner
+asianetnews.com##.HometopAd
 asianetnews.com##.mob-ad
+asianetnews.com##.mobiletopad
 asianetnews.com##.socialbtm > div.followright
+asianetnews.com##.wrapper > div:has(> div[id^="div-gpt-"])
 asiangay.tv,asiangaysex.net,gaysex.tv,gayxx.net,japangaysex.com##.float-ck
 asianjournal.com###fancybox-overlay
 asianjournal.com###fancybox-wrap
@@ -22474,6 +22479,7 @@ cbndata.com##.Toastify
 cbr.com##div[id^="adsninja-"]
 cbs6albany.com#?#div[style*="display"] > div[style*="text-align:"]:has(> div[style*="position"] > div[style*="display"]:contains(/^ADVERTISEMENT$/))
 cbsnews.com###taboola-around-the-web-video-door
+cbsnews.com##.container > carousel[slug="taboola-around-the-web-video-door"]
 cbssports.com##.skybox-top-wrapper
 cbssports.com,popsugar.com,scout.com,thedodo.com,thrillist.com##.leaderboard-wrap
 ccav1.com##a[href*="/go"]
@@ -25318,6 +25324,7 @@ evrimagaci.org##.eaads-mobile
 evroopt.by##.top-bar-app
 evroopt.by##div[id^="block-allWidthBanner-"]
 evroopt.by#$#a[href="/app-eplus/"] { visibility: hidden !important; }
+evvelcevap.com##.stream-item
 ew.com###article__primary-video-jw_1-0
 eweek.com,itbusinessedge.com,linuxtoday.com,serverwatch.com,techrepublic.com###bottom-footer-fixed-slot
 eweiqi.com##.guoqing
@@ -27996,6 +28003,7 @@ hottomotto.com,yayoiken.com##.c-app
 hotukdeals.com##.ad
 houdao.com###header-ban
 house.goo.ne.jp##.cmnAppli
+house.goo.ne.jp##.cmnAppliBanner
 house.goo.ne.jp##.cmnBunners
 house.goo.ne.jp##.r_ocn_banner > a[href^="https://goohouse.onelink.me/"]
 house.goo.ne.jp,kusurinomadoguchi.com,bleacherreport.com,tvbs.com.tw##.smart_banner
@@ -29848,6 +29856,7 @@ kurashiru.com###footer_banner_app
 kurashiru.com##+js(remove-class, dly-modal-active, html)
 kurashiru.com##.AdsWrapper
 kurashiru.com##.AppLp-root
+kurashiru.com##.ArticlesShowSp-verificationAdsWrapper
 kurashiru.com##.BlankSpace
 kurashiru.com##.HeaderBanner
 kurashiru.com##.HeroVideoPc
@@ -30394,6 +30403,7 @@ lzep.cn##.aside
 m-apps.qoo-app.com###bottom-fixed-ad
 m-apps.qoo-app.com###bottom-fixed-ad + ins
 m-gsmarena-com.cdn.ampproject.org##amp-iframe[src^="https://www.91mobiles.com"]
+m-haber7-com.cdn.ampproject.org,m.haber7.com##.default-ad
 m-jatimnow-com.cdn.ampproject.org##amp-iframe[src^="https://click.advertnative.com/"]
 m-news-de.cdn.ampproject.org#?#.article > amp-fx-flying-carpet:has(> div > div > #aduptech-container)
 m-timesofindia-com.cdn.ampproject.org,timesofindia-indiatimes-com.cdn.ampproject.org##.ampv3-ad
@@ -30723,7 +30733,6 @@ m.guancha.cn##.content_appstore
 m.guancha.cn##.downloadBtn-box
 m.guancha.cn##.g_swiper_container
 m.haber7.com###makroo-sticky-adunit
-m.haber7.com##.default-ad
 m.haber7.com##.halkbank-mobil
 m.haberler.com###reklam_1
 m.haberler.com##.hbMain > input[type][value="manset"] + div[style]
@@ -39058,6 +39067,7 @@ tvcook.ru##.cat
 tvdigital.de###myMrec
 tvdigital.de,news12.com##.ad-mobile-wrapper
 tver.jp##a[class^="app-banner_container"]
+tver.jp##div[class^="Episode_companionAd__"]
 tvfan.kyodo.co.jp##div[style^="height: 80px; position: fixed;"]
 tvfanatic.com##.feed_holder
 tvguia.es###ad-swipe
@@ -39813,8 +39823,6 @@ vyatka-grad.ru##.f-w-f1
 vyatka-grad.ru##.widget-wrapper
 vz.ru##div[style="margin: 0px auto;width: 300px; padding: 20px 0px;"]
 w.atwiki.jp##div[style^="position: relative; padding-bottom: "]:has(> iframe[style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; border: medium;"])
-w1mp.com,pornfant.com,porno-cum.com,babexl.com,pumpjap.com,asianpornxl.com,bigassz.com##.link-offer
-w1mp.com,pornfant.com,porno-cum.com,babexl.com,pumpjap.com,asianpornxl.com,bigassz.com##.related-spot-wrap-mobile
 w2g.tv###w2g-square-ad
 w3big.com,w3schools.com###mainLeaderboard
 w3cschool.cn##.abox-content

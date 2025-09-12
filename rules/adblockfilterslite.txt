@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard App Banners Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Anti Adblock Filters、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、Xinggsf MV、NoAppDownload。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/psychosispy/adblockfilters-optimized
 ! Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockfilterslite.txt
-! Version: 20250911092345
-! Last modified: 2025/09/11 09:23:45
-! Blocked Filters: 26496
+! Version: 20250912092027
+! Last modified: 2025/09/12 09:20:27
+! Blocked Filters: 26497
 !
 ###AC_ad
 ###AD_160
@@ -17114,6 +17114,8 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 3movs.com,ggjav.com,tnaflix.com##iframe[width="300"]
 3movs.com,japan-whores.com##.spot_large
 3pornstarmovies.com,m.3movs.com###fltd.p-ig
+3sumxl.com,w1mp.com,pornfant.com,porno-cum.com,babexl.com,pumpjap.com,asianpornxl.com,bigassz.com##.link-offer
+3sumxl.com,w1mp.com,pornfant.com,porno-cum.com,babexl.com,pumpjap.com,asianpornxl.com,bigassz.com##.related-spot-wrap-mobile
 40407.com##.bg_l
 40407.com##.bg_r
 40407.com##.con_tj
@@ -21474,6 +21476,7 @@ lyngsat-logo.com,lyngsat-maps.com,lyngsat-stream.com,lyngsat.com,webhostingtalk.
 lz13.cn##.left_box3
 lzcfz2.com,lzcfz7.xyz##body > .cl.wp
 lzep.cn##.aside
+m-haber7-com.cdn.ampproject.org,m.haber7.com##.default-ad
 m-timesofindia-com.cdn.ampproject.org,timesofindia-indiatimes-com.cdn.ampproject.org##.ampv3-ad
 m.163.com##.floatMenu-backflow
 m.163.com##.floatMenu-logo
@@ -23586,8 +23589,6 @@ vsnp.net,mindhack2ch.com,oniyomediary.com,news4wide.net##.advertisement-position
 vsping.com##.cell > span > a[href]:not([href*=".vsping.com"])
 vsping.com##div[style^="border-radius: 10px; box-shadow"]
 vxxx.com#$?#.video-page div[class]:not([style]):not([class*=" "]):not([class*="-"]):is(:has(> div[id][class]), :has(> div[class] > div[id][class])):contains(Advertisement) { remove: true; }
-w1mp.com,pornfant.com,porno-cum.com,babexl.com,pumpjap.com,asianpornxl.com,bigassz.com##.link-offer
-w1mp.com,pornfant.com,porno-cum.com,babexl.com,pumpjap.com,asianpornxl.com,bigassz.com##.related-spot-wrap-mobile
 w3big.com,w3schools.com###mainLeaderboard
 w3cschool.cn##.abox-content
 w3cschool.cn##.abox-item
