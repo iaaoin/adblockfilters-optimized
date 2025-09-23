@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard App Banners Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Anti Adblock Filters、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、Xinggsf MV、NoAppDownload。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/psychosispy/adblockfilters-optimized
 ! Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockfilterslite.txt
-! Version: 20250922093735
-! Last modified: 2025/09/22 09:37:35
-! Blocked Filters: 26429
+! Version: 20250923092159
+! Last modified: 2025/09/23 09:21:59
+! Blocked Filters: 26423
 !
 ###AC_ad
 ###AD_160
@@ -5777,7 +5777,6 @@
 ##.ad-rev-content
 ##.ad-rh
 ##.ad-right
-##.ad-right-down
 ##.ad-right-header
 ##.ad-right-top
 ##.ad-right1
@@ -11121,7 +11120,6 @@
 ##.hyperAd
 ##.hzxld
 ##.iAdserver
-##.iHead960x90
 ##.ibtad
 ##.iframe-ad
 ##.iframe-ads
@@ -11302,7 +11300,6 @@
 ##.j-ad
 ##.jLinkSponsored
 ##.jannah_ad
-##.jav-nav + .bcpic
 ##.jav-nav + .bcpic2
 ##.jg-ad-5
 ##.jg-ad-970
@@ -11595,7 +11592,6 @@
 ##.main-ad
 ##.main-ad-container
 ##.main-ad-gallery
-##.main-ad-r + .topad
 ##.main-add-sec
 ##.main-ads
 ##.main-advert
@@ -11651,6 +11647,7 @@
 ##.medRect
 ##.mediaAd
 ##.mediaAdContainer
+##.mediavAd_report
 ##.medium-rectangle-ad
 ##.medium-top-ad
 ##.mediumRectAdWrapper
@@ -13999,6 +13996,7 @@
 ##a[href*=".cfm?domain="][href*="&fp="]
 ##a[href*=".com/?Extend="]
 ##a[href*=".com/Register/?a="]
+##a[href*=".downok.com"]
 ##a[href*=".engine.adglare.net/"]
 ##a[href*=".fdgsnnvfsdv2df1bf3fdb1.cc"]
 ##a[href*=".foxqck.com/"]
@@ -16339,7 +16337,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /show_ad.js$script
 /showban.asp?$image
 /showbanner.js$script
-/showpage2.asp?u=$script,third-party
 /side-ads-$~xmlhttprequest
 /side-ads/*$~xmlhttprequest
 /side_ads/*$~xmlhttprequest
@@ -17231,6 +17228,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 ://*.tv/ad/$domain=~moviedj.tv
 ://*.z*.xyz/$object,third-party
 ://*:*/oklist/vars.js
+://0.www.*/players/*/-1/$script,third-party,xmlhttprequest
 ://a.*/ad-provider.js$third-party
 ://a.ads.
 ://ad-api-
@@ -17269,8 +17267,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 ://www.*.com/*/-1/70/$script,subdocument,third-party,xmlhttprequest
 ://www.*.com/players/*/-1/$script,subdocument,third-party,xmlhttprequest
 ://www.*.com/players/*/a/$subdocument,third-party,domain=~edu|~gov
-://www.*.com/script/*.com.js|$script,third-party
-://www.*.com/script/*.org.js|$script,third-party
 ://www.*.js|$script,third-party,domain=159i.com|r3sub.com|thisav.com
 ://www.*.xyz/players/*/-1/$script,subdocument,third-party,xmlhttprequest
 ://www.*.xyz/players/*/a/$subdocument,third-party
@@ -18405,6 +18401,7 @@ baidu.com##.bottom-guide
 baidu.com##.bottom-right-dsp-ad-wrap
 baidu.com##.businessvip-wrapper
 baidu.com##.c-container.ec-container
+baidu.com##.chunwan-wrapper
 baidu.com##.commentEmbed-backHomeCard
 baidu.com##.container:has( > .bottom-section > .item_voice_room[data-yysid])
 baidu.com##.container_frs:has( > .voice_room_card_frs[data-url*="yylive"])
@@ -18818,7 +18815,6 @@ bobvila.com,outdoorlife.com,popsci.com,taskandpurpose.com,thedrive.com,twz.com##
 bobvila.com,outdoorlife.com,popsci.com,thedrive.com,twz.com###pw-iab-leaderboard
 boce.com##div[class^="money"]
 boke112.com###sidebar img
-boke112.com##.qa-pc
 boke112.com##a[href*=".tencent.com"]
 boke112.com,mzh.ren,whsir.com##a[href*=".aliyun.com"]
 bol.com,ekantipur.com,fivepost.ru,31ice.co.jp,mapple.net,deutschlandfunkkultur.de,clearnotebooks.com##.smartbanner
@@ -20320,7 +20316,6 @@ guancha.cn##.full_nav1
 guancha.cn##.g_swiper_container
 guancha.cn##.member_recruit_index
 guba.eastmoney.com##.redian
-gucheng.com##.gcw_r_ad_pc
 guilinlife.com##a[href*="adclicks&"]
 guilinlife.com#?#li:-abp-has(> div > .content-other > .content-type:-abp-contains(广告))
 guitarchina.com,iqiyi.com##.banner4
@@ -20732,7 +20727,6 @@ ifeng.com##div[class^="silde_box"]
 ifeng.com##div[class^="silde_box-"]
 ifeng.com##div[class^="slideBannerBox"]
 ifeng.com##div[class^="topAd-"]
-ifeng.com##div[class^="topBox-"]
 ifeng.com##div[class^=adList],div[class^=adbox],[class|=topAd],[class^=ad_],#couplet3_right,#couplet3_left,[href^="//mall.ifeng.com"],#js_videopause_container
 ifeng.com##div[id^="couplet3_"]
 ifeng.com##div[id^="padhide_"]
@@ -20757,7 +20751,6 @@ igo99.cn##.adBG
 ihuaben.com##.chapterTopBanner
 ihuaben.com##.container[style*="position:relative;"][style*="width:100%;"]
 ihuaben.com##div[id^="BDBanner"]
-ikjzd.com##a[href*="/redirect-ad-url?"]
 ilive.lenovo.com.cn#@#.adTop
 ilxdh.com##.bottom-show
 ilxdh.com,subaibai.com##.v-modal
@@ -20868,6 +20861,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_right > d
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_right > table > tbody > tr > td > div:not(#con-ar):not([class])
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###lm
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ec_bdtg
+ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ecl-health-pagelist-wrapper
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ecl-weigou-nav-buy
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.op_tvplay_main
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.res_top_banner
@@ -20992,11 +20986,13 @@ ithome.com##.open-app-banner
 ithome.com##.rds
 ithome.com##.related_buy
 ithome.com##.rm-modal-bg
+ithome.com##.rm-modal-body
 ithome.com##a[href*="/lapin."]
 ithome.com##a[href*="/lapin."] + .ad
 ithome.com##div[style^="width:960px;height:60px;"]
 ithome.com#?#.placeholder:-abp-has(> a > .plc-con > .plc-footer > .tip-gray)
 ithome.com,zhihu.com##.AdblockBanner
+itpro.com,tomsguide.com##.hawk-base
 itsfoss.com,linuxhandbook.com##.kg-bookmark-card
 itsfoss.com,linuxhandbook.com##a[href^="https://www.warp.dev"]
 itwire.com,nativenewsonline.net##.eb-init
@@ -21910,7 +21906,6 @@ modivo.*#?#.product:-abp-contains(/Sponsorizzato|Sponsorowane|Sponsorizat|Sponzo
 modivo.at,modivo.bg,modivo.cz,modivo.de,modivo.ee,modivo.fr,modivo.gr,modivo.hr,modivo.hu,modivo.it,modivo.lt,modivo.lv,modivo.pl,modivo.ro,modivo.si,modivo.sk,modivo.ua##.display-container
 modivo.at,modivo.bg,modivo.cz,modivo.de,modivo.ee,modivo.fr,modivo.gr,modivo.hr,modivo.hu,modivo.it,modivo.lt,modivo.lv,modivo.pl,modivo.ro,modivo.si,modivo.sk,modivo.ua##.promoted-slider-wrapper
 moe.gov.cn,qspfw.com#@#.ad_title
-moegirl.org.cn##.moe-card[region="oversea"]
 moegirl.org.cn#?#.capsule-card:-abp-has(.n-tag)
 momjunction.com,stylecraze.com##.advertinside
 momjunction.com,stylecraze.com##.flying-carpet-wrapper
@@ -23027,6 +23022,7 @@ speedtest.cn##.pub-ad
 speedtest.cn##.shade
 speedtest.cn##.speed-app
 speedtest.cn##.speed-bottom-ads
+speedtest.cn##.speed-top-ads
 speedtest.cn##.summer_logo
 speedtest.cn##div[class^="speed-twoads"]
 spiegel.de,www-spiegel-de.cdn.ampproject.org##.ampads
@@ -23404,6 +23400,7 @@ txtbook.com.cn##.ledu-advWrap
 txxx.com,txxx.tube##.index-page > .wrapper > .row + div[class]
 txxx.com,txxx.tube##.pwa-ad
 tyla.com,ladbible.com##div[class^="css-"][class$="-ArticleContent"] > div[class^="css-"]:empty
+typhoon.yahoo.co.jp,livefans.jp##.appBnr
 typhoon.yahoo.co.jp,weather.yahoo.co.jp##.footerPromo
 typhoon.yahoo.co.jp,weather.yahoo.co.jp##.mdStickyFooter
 tz.de,extratipp.com##.id-StoryElement-adWrapper
@@ -23575,6 +23572,7 @@ wayfair.*##[data-hb-id="Card"]:has([data-node-id^="ListingCardSponsored"])
 wayfair.*##a[data-enzyme-id="WssBannerContainer"]
 wayfair.*##div[data-enzyme-id="WssBannerContainer"]
 wayfair.*##div[data-hb-id="Grid.Item"]:has(a[href*="&sponsoredid="])
+wayfair.*##div[data-name="DisplayAd"]
 wayfair.*##div[data-node-id^="SponsoredListingCollectionItem"]
 wbiao.cn###popupImgCorner
 wbiao.cn##.wb-panel
@@ -23993,6 +23991,7 @@ xinhuanet.com##.columBox.book
 xinhuanet.com##.xwApp
 xinyunj.cn##[class^="vod-"]
 xinyunj.cn##p[onclick="clgd(this);"]
+xitek.com##a[href*="/adclick"]
 xitonghe.com##.sidebar-wx
 xitongzhijia.net###top_gg
 xiushuang.com##.fix_app
@@ -24543,7 +24542,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||66wz.com/adv2/
 ||66wz.com/eap/
 ||66zhuang.com/public_2017/js/count-gou.js
-||6789.net^$third-party
 ||70822.com/agfile/
 ||7k7k.com/api/position/
 ||7k7k.com/js/bg-img.js
@@ -24554,7 +24552,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||91160.com/nykj/f=static/v4/common/tj.js
 ||962.net/show/all.js
 ||962.net/show/all_$script
-||962.net/show/cms_$script
 ||962.net/show/down_
 ||999d.com^$third-party
 ||999xs.com/*/1xhtml?
@@ -25564,7 +25561,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||lady177.com^$popup
 ||lancdn.com/public/images/view/Tencent-
 ||lancdn.com/tmp3/GG_Notice.png
-||langya.cn/2014html/ad/
 ||laosiji.com/static/js/lib/od_statistics.js
 ||laowangblog.com^*-ad
 ||launcher-us.yeshen.com/external/advertisement/*
@@ -25751,7 +25747,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||p.kugou.com/?id=
 ||p.zol.com.cn/$script
 ||p.zol.com.cn/download/detail.js
-||p2peye.com/ajax.php?mod=advertisement&
 ||pacd.3conline.com/$script
 ||pagechoice.net^$third-party
 ||pan.baidu.com/act/api/activityentry?
@@ -26365,7 +26360,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||zhan.com^*/middle_ad_modal.js
 ||zhanqi.tv/api/static/v2.1/actives.lists/
 ||zhenbuka*/statics/js/toastr/jquery.toast.js
-||zhengjie.com/a_d?
 ||zhev.com.cn/file/weixin/
 ||zhidao.baidu.com/question/api/hao123word
 ||zhidao.baidu.com/question/api/recommend
