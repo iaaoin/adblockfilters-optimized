@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: I/LfFyXQg4yM0PX0B7haaw
-! Diff-Path: ../patches/20_optimized/20_optimized-s-1759065248-3600.patch
+! Checksum: s3pypa3YuslypO6to7ZLlQ
+! Diff-Path: ../patches/20_optimized/20_optimized-s-1759165862-3600.patch
 ! Title: AdGuard Mobile App Banners filter (Optimized)
 ! Description: Blocks irritating banners that promote mobile apps of websites.
-! Version: 2.0.23.77
-! TimeUpdated: 2025-09-28T13:10:31+00:00
+! Version: 2.0.23.81
+! TimeUpdated: 2025-09-29T17:07:22+00:00
 ! Expires: 5 days (update frequency)
 /js/jquery.smartbanner.js
 ##.ldapp-article
@@ -23,7 +23,8 @@
 ###appss
 ##[onclick="goAppHtml();"]
 alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com.br,dicionarioinformal.com.br,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,naked-science.ru,vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru,kocailem.com,dartworld.shopgate.com,m.alles10euro.de,dodopizza.ru,allo.ua,tempo.co,beymen.com,tvnmeteo.tvn24.pl,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,pkobp.pl,tesco.hu,prima.hu,immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.io##body .smartbanner
-picrew.me##.appdl_wrapper
+animelatinohd.com##div[class^="messageApp_modal_"]
+picrew.me##.sitetop-appDL
 litv.tv##a[title="下載APP"]
 auto.ru##div[data-testid="ListingItemPromoGoToApp"]
 linkedin.com##.upsell-bottom > .upsell-content:has(> a[href^="https://www.linkedinmobileapp.com/?appType="])
@@ -68,6 +69,7 @@ gl.ali213.net##.share-container
 biquuge.com##.layui-row > div:has(> a[href*=".apk"])
 sedas.com##+js(remove-node-text, script, duyuruModal)
 typhoon.yahoo.co.jp##.appLinkTyphoon
+kitaaa.net##table > tbody > tr:has(> td > a[href="https://x.gd/GNUPh"])
 tv.minkei.net##.bnr_02
 clickpetroleoegas.com.br##a[href="https://clickpetroleoegas.com.br/aplicativo"]
 redecanaistv.*,redecanais.*##.pm-video-heading > div[style]:has(> a[href="./android/"])
@@ -139,7 +141,6 @@ wibes.ru##div[class^="DownloadAppBanner"]
 wibes.ru##div[class^="FooterBanner_container"]
 treccani.it###__next > div.MuiBox-root:has(> div.MuiBox-root > a > span[class*="DownloadAppHeader"])
 speedtest.cn##.speed-app
-10minutesemail.net##main.tm-drax-content > div[style^="display:"]
 temporary-mail.net###mobile-app-banner
 terabox.com##.video-btn-download
 scheels.com##a[href*="/app"]
@@ -498,6 +499,7 @@ zetflix-online.*,zeflix.online##noindex > div[id]:has(> div > a[href="https://ze
 manga-up.com##footer > section.select-none
 pracazarogiem.pl,pracezarohem.cz,pracazarohom.sk##div[class*="MobileBannerDownloadApp_mobileBanner_"]
 familydollar.com##.headerPromoBar
+exchange.pointpay.io##.top-section__app-links
 mail.yahoo.co.jp###root > div[class^="sc-"] > div[class^="sc-"] > div[class^="sc-"]:has( > div[class^="sc-"] > img[alt="Yahoo!メールアプリをインストール"])
 indiatimes.com##a[href^="https://timesofindia.onelink.me"]
 mydealz.de##.browserExtension-promotionBanner
@@ -801,7 +803,6 @@ rainews.it#$#.banner-app { display: none !important; }
 rainews.it#$#html > body[data-layout=homepage] main { border-bottom: 0px solid #009 !important; }
 researchgate.net##.lite-page__footer-native-app
 wenshushu.cn##.cont-right a[href="https://www.wenshushu.cn/download"] > img
-game.mirai-media.net#?#.side-widget > div.textwidget > div > a[href^="https://play.google.com/"]:upward(3)
 character.ai##+js(set-local-storage-item, MOBILE_APP_ANNOUNCEMENT_SEEN, true)
 freeonlinegames.com###cwarn-box
 happymod.ru##.new-fixd-box
@@ -1147,6 +1148,7 @@ booking.com##.appacq-banner-rating
 pepper.ru##div[data-track*="app_installs_banner"]
 haveagood.holiday##+js(remove-class, top-app-banner-exists, #contentWrapper)
 asajikan.jp##.apri_b_pc
+asajikan.jp##.apri_b_sp
 asajikan.jp##+js(set-cookie, header-guidance-close, true)
 m.guancha.cn##.g_swiper_container
 whowatch.tv,ebay.*,locari.jp##.app-download-banner
@@ -1649,7 +1651,6 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##shred
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##+js(addEventListener-defuser, block-body-scrolling)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#shreddit-experience-tree { display: none !important; }
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#.theme-beta .sidebar-grid.fixed { position: unset !important;}
-reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#.XPromoBlockingModal { display: none !important; }
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##+js(remove-class, m-blurred, .m-blurred)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##+js(remove-class, scroll-disabled, body)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#div[class^="_"] > button[class*=" "]:has(> i.icon-qr_code)
@@ -1877,6 +1878,7 @@ honeysanime.com#$##header-line-2 { margin-top: -60px !important; }
 honeysanime.com#$##wrap-app-notice { display: none !important; }
 !+ NOT_OPTIMIZED
 m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
+openweathermap.org###banner_android
 mixch.tv##.modal.show:has(.move-app-title)
 mixch.tv##.modal-backdrop.show
 pikabu.ru###smart-banner

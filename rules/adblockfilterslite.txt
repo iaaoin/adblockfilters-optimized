@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard App Banners Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Anti Adblock Filters、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、Xinggsf MV、NoAppDownload。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/psychosispy/adblockfilters-optimized
 ! Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockfilterslite.txt
-! Version: 20250929092455
-! Last modified: 2025/09/29 09:24:55
-! Blocked Filters: 26389
+! Version: 20250930092317
+! Last modified: 2025/09/30 09:23:17
+! Blocked Filters: 26372
 !
 ###AC_ad
 ###AD_160
@@ -14055,7 +14055,6 @@
 ##a[href^="/archives/"] > .post-card > .blog-background[style*="gif;base64"]
 ##a[href^="/dasp.php?a="]
 ##a[href^="http"] > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
-##a[href^="javascript:gl012"] + img
 ##a[id][href*="/?aff="]
 ##a[id][href*="/?register="]
 ##a[onclick$="'clicked', 'ad');"]
@@ -15117,7 +15116,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .html|$domain=www.gamer.com.tw
 .htmm?$domain=m.69shu.io
 .icu/ads/
-.info/ad.js
 .info/ad/
 .info/js/alls_foot.js
 .info/topjs/
@@ -15317,7 +15315,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /80sad/*
 /80x468_
 /83zg/tss.js
-/9115gg/*
 /91ad.
 /91ad_
 /960_60_
@@ -16844,7 +16841,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 2345.com###ivy-taobao
 2345.com###kz
 2345.com###leftSideBar
-2345.com###mzBrowserWrap
 2345.com###right > div:first-child
 2345.com###sidel_lvy
 2345.com###sidenav > .activity-trig
@@ -16869,7 +16865,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 2345.com##div[class*="act-navspec"]
 2345.com##div[class*="act-open"] > :not(.close):not([class*="mask"])
 2345.com##div[id^="J_Topic"]
-2345.com##div[id^="J_micro_zhuanti-"]
 247mirror.com,365economist.com,bridewired.com,dailybee.com,drgraduate.com,historictalk.com,mvpmode.com,parentmood.com,theecofeed.com,thefunpost.com,visualchase.com,wackojaco.com##.ya-slot
 247solitaire.com,247spades.com##div[class^="aspace-"]
 247wallst.com,cubdomain.com##.hello-bar
@@ -17073,7 +17068,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 50gameslike.com,highdemandskills.com,yumyumnews.com##[href^="https://click.linksynergy.com/"]
 51.com,55188.com##.couplet
 512ms.com##div[id^="fy_"]
-515fa.com##.gg_ad01
 5173.com###gg330
 5173.com###ggFloat
 5173.com###popupRight
@@ -17270,7 +17264,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 ://yandex.ru/appcry|
 :12289/slot?
 :12443/*/*-*-*.$script,third-party
-:538/attachment/xjdb.jpg
 :63666/960x150.
 :7701/load.cw.js
 :800*/d/*n=$script,third-party
@@ -18053,7 +18046,6 @@ alphaporno.com,tubewolf.com##.block-banner
 alu.cn###sanjia
 alu.cn##.Tg_125x70
 alu.cn##.Tg_230x80
-alu.cn##.Tg_260x70
 alu.cn##.Tg_290x60
 alu.cn##.Tg_390x60
 alu.cn##.Tg_590x60
@@ -18226,6 +18218,7 @@ apkmirror.com,tuxpi.com#@#.adslot
 apkmody.fun,apkmody.io###body-fixed-footer
 apkpure.*##.aegon-down-item
 apkpure.*##.fast-download-box+ .slide-wrap > .bd > .tempWrap > ul[style^="width:"] > li[style*="display: table-cell;"] > a[href^="https://yaksgames.com/?utm_source"]
+apkpure.com,apkpure.net##.aipure-button
 apnews.com,arabiaweather.com,atlasobscura.com,forum.audiogon.com,gamesindustry.biz,golfdigest.com,zerohedge.com##.leaderboard-container
 apowersoft.cn##.activity-poster
 app.diandian.com###__layout > div > div[class="box dd-base-color"]
@@ -19047,7 +19040,6 @@ chinaacc.com##.leftBox
 chinabidding.cn,chinabidding.com.cn###erweima_l
 chinabidding.cn,chinabidding.com.cn###erweima_r
 chinabidding.com.cn##.train
-chinacar.com.cn##.advertising
 chinafix.com##div[id^="diy_vk_ad_"]
 chinagwy.org##.ewm0610
 chinakaoyan.com##.side-wx
@@ -19982,7 +19974,6 @@ finvtech.com,herstage.com,sportynew.com,travel13.com#@##ads-wrapper
 firefox.com.cn,firefoxchina.cn##.side-mod[track-key="side_tpth"]
 firefox.com.cn,firefoxchina.cn##.side-notice
 firefoxchina.cn###promo
-firefoxchina.cn###theme-side-banner
 firefoxchina.cn##.bottom-0
 firefoxchina.cn##.side-shping
 firefoxchina.cn##.theme-adv
@@ -20196,7 +20187,6 @@ gesundheitsfrage.net,gutefrage.net,finanzfrage.net###anchor-ad
 getcomics.org,weloma.art##[href^="https://aichattings.com"]
 getdroidtips.com,journeybytes.com,thebeaverton.com,thisisanfield.com,unfinishedman.com,vice.com,windowsreport.com##.ai-viewport-1
 getwallpapers.com,wallpaperaccess.com,wallpapercosmos.com,wallpaperset.com#@#.ads1
-gezila.com##.tishi + dl
 gfan.com##.downs
 gfan.com,gfan.net.cn#@##shareBox
 ggdoc.com.cn#@#.addiv
@@ -20233,7 +20223,6 @@ gitee.com##.wallet-banner
 giveawayoftheday.com,informer.com##.top_ab
 gizbot.com,goodreturns.in,inc.com##div[style^="min-height: 250px"]
 gizchina.com,01net.com,ghacks.net,sagligabiradim.com##.mrf-adv
-gizchina.com,cleantechnica.com,proandroid.com,dkoding.in,iheartintelligence.com,revistaforum.com.br##.mrf-sticky-wrapper
 gizmodo.com,kotaku.com##.lg\:min-h-\[300px\]
 gizmodo.com,kotaku.com##.od-wrapper
 gizmodo.com,kotaku.com##.widget_keleops-ad
@@ -20457,7 +20446,6 @@ hentaihaven.icu,hentaihaven.xxx,hentaistream.tv,nhentai.io##.script_manager_vide
 hentaimama.io,underhentai.net,watchhentai.net###overlay
 hentaiprn.com,whipp3d.com##.widget_block
 hepsiemlak.com,giftmall.co.jp,alphapolis.co.jp,decathlon.de##.smart-app-banner
-hepuwang.com##.n5_dbhfad > .wapper
 herebro.com,hpjav.com,javplayer.com,shyav.com,sushi.tv,kissjav.*,tokyomotion.com###player-advertising-mobile
 herfamily.ie,sportsjoe.ie###div-gpt-top_page
 hexun.com###newsPopWin
@@ -20667,12 +20655,10 @@ ifeng.com##.adbest
 ifeng.com##.adbox03
 ifeng.com##.advmark
 ifeng.com##.blockR.ipad_none:nth-last-child(2)
-ifeng.com##.box_list_pic > a[href^="http://dol.deliver."]
 ifeng.com##.conRgg
 ifeng.com##.fhsd
 ifeng.com##.foot_top_box
 ifeng.com##.h_top_box
-ifeng.com##.js_url[href^="http://dol.deliver."]
 ifeng.com##.ljPop
 ifeng.com##.luckybag
 ifeng.com##.mr_top_box
@@ -20726,7 +20712,6 @@ ifeng.com##div[id^="couplet3_"]
 ifeng.com##div[id^="padhide_"]
 ifeng.com##header[class*="headerIn"]
 ifeng.com##section[class^="fixSlide-"]
-ifeng.com#?#.box_list:-abp-has(.tuig)
 ifeng.com#?#div[class^="index_link"]:contains(app)
 ifeng.com#?#div[class^="titleImg-"]:-abp-has(span[class^="source-"]:-abp-contains(推广))
 ifeng.com#?#header:contains(立即打开)
@@ -22114,7 +22099,6 @@ news.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 news.qq.com##.download-banner-wrap
 news.qq.com##.download-content
 news.qq.com##.godown.qqcom_fb-item
-news.qq.com##.time > a[style="position: absolute;top: -8px;left: 296px;"]
 news.qq.com#?#div:has(> div[dt-eid="em_rec_app"])
 news.qq.com#?#div[id="download-btn-wrapid"]
 news.sina.com.cn##.side-btns-2w
@@ -22376,6 +22360,7 @@ player.bilibili.com##.bilibili-player-video-recommend
 playporn.xxx,videosdemadurasx.com##.wrap-spot
 playstationtrophies.org,xboxachievements.com###vnt-lb-a
 po.baidu.com###shareBoxBlank
+pocketpc.ch,gizchina.com,cleantechnica.com,proandroid.com,dkoding.in,iheartintelligence.com,revistaforum.com.br##.mrf-sticky-wrapper
 poczta.gazeta.pl,kontakty.onet.pl,poczta.onet.pl##div[class^="styles__SlotTopMobileStyled-"]
 poczta.gazeta.pl,kontakty.onet.pl,poczta.onet.pl##div[class^="styles__VirtualListStyled-"] > div[style] > div[class^="styles__RowWrapper-"] > div:not([class], [id]) > div[class^="styles__Slot"][class*="Ad-"]
 poe2db.tw,poedb.tw##[href^="/s/tl3"] > img
@@ -22634,7 +22619,6 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##[id^=
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##article[id] > a[href^="https://alb.reddit.com/"] ~ *
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##shreddit-async-loader[bundlename="bottom_bar_xpromo"]
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##shreddit-comments-page-ad
-reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#.XPromoBlockingModal { display: none !important; }
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#.theme-beta .sidebar-grid.fixed { position: unset !important;}
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#body:not([style^="overflow:"]):not([class="rpl-scroll-lock"]) { pointer-events: auto !important; overflow: auto !important; }
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#div[class="NavFrame"] div.XPromoBottomBar { display: none !important; }
@@ -26038,9 +26022,7 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||tiexue.net/pic/tx_1220.jpg
 ||timecn.cn/image/alipay.jpg
 ||tingchina.com/images/aibaoliang.gif
-||tingroom.com/file/A*.js
 ||tingroom.com/images/qsbdc.gif
-||tingroom.com/tingroom/ad/
 ||tingyun.com^$third-party
 ||titan007.com/js/indexshow.
 ||tj.ali213.net/
@@ -26251,6 +26233,7 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||xinhuanet.com/jjimages/jc/js/fla.js
 ||xinhuanet.com/s?
 ||xinhuanet.com^*/adv
+||xinmin.cn/framepage/foot1.htm
 ||xinmin.cn/framepage/left1.htm
 ||xinmin.cn/framepage/top
 ||xinmin.cn/framepage/yqLink1.htm
