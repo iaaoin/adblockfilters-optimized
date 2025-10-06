@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard App Banners Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Anti Adblock Filters、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、Xinggsf MV、NoAppDownload。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/psychosispy/adblockfilters-optimized
 ! Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockfilterslite.txt
-! Version: 20251005093658
-! Last modified: 2025/10/05 09:36:58
-! Blocked Filters: 26381
+! Version: 20251006092350
+! Last modified: 2025/10/06 09:23:50
+! Blocked Filters: 26375
 !
 ###AC_ad
 ###AD_160
@@ -2641,7 +2641,6 @@
 ###fixedban
 ###fk_faiVisitStateAd
 ###floatAd
-###floatad-winpop
 ###floatads
 ###floating-ad-wrapper
 ###floating-ads
@@ -13568,7 +13567,6 @@
 ##.tsm-ad
 ##.tt_ads
 ##.tw-adv-slot
-##.twavt-ads
 ##.txp_ad[data-role="txpad-interact-pause"]
 ##.txp_ad_center
 ##.txt_ads
@@ -14145,6 +14143,7 @@
 ##div[id^="adrotate_widgets-"]
 ##div[id^="adspot-"]
 ##div[id^="adv-"].adv
+##div[id^="apn_native_ad_slot_"]
 ##div[id^="crt-"][style]
 ##div[id^="dfp-ad-"]
 ##div[id^="div-ads-"]
@@ -16435,7 +16434,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /uc123_no/*/index/js/activity.
 /umd/advertisingWebRenderer.min.js$script
 /uploadfile/ad/*
-/uploads/setting/ad/*
 /ut.js?cb=
 /utx?cb=$third-party
 /v.gif?logtype=
@@ -16728,7 +16726,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 163.com##span[class^="gg"]
 163.com#@#.s-btns
 163.com,55188.com,csai.cn,miercn.com##div[class^="gg"]
-163.com,bilibili.com,longzhu.com##a[href*=".admaster."]
 163.com,changsha.cn,jrj.com.cn,neotv.com.cn,sina.cn,sina.com.cn##.topad
 163.com,jishujd.com##.index_top_ad
 163.com,zybang.com##.top-banner
@@ -18160,6 +18157,7 @@ androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,space.com,techrada
 androidcommunity.com,euro-sd.com,sfbg.com,techworm.net##.td-header-rec-wrap
 androiddevtools.cn###auto-scroll-ad-box
 androidheadlines.com,dailyveganmeal.com,discussingfilm.net,gcaptain.com,mp1st.com,thedebrief.org,unofficialnetworks.com##.adthrive
+androidmagazine.eu,samsungmagazine.eu##.lsads-banner
 androidpctv.com,brigantinenow.com,downbeachbuzz.com,thecatholictravelguide.com##.widget_sp_image
 androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,moms.com,movieweb.com,pocket-lint.com,pocketnow.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##.adsninja-ad-zone-container-with-set-height
 androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,moms.com,movieweb.com,pocket-lint.com,pocketnow.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##[class*="ad-zone-container-content-character-count-repeatable"]
@@ -19289,8 +19287,10 @@ csdn.net###csdn-toolbar > div.toolbar-advert:first-child > a.toolbar-advert-defa
 csdn.net###kp_box_476
 csdn.net###kp_box_58
 csdn.net###kp_box_www_swiper
+csdn.net###layerd
 csdn.net###mainBox~*, body > .imgViewDom~*
 csdn.net###wap_open_app_btn
+csdn.net##.ad_class
 csdn.net##.blog-column-pay
 csdn.net##.blog_star_enter
 csdn.net##.btn_open_app_prompt_div
@@ -20267,7 +20267,6 @@ google.*#?##views > div > div[class][decode-data-ved="1"] > div[class]:has(> div
 google.*#?#.sh-sr__blk > #sh-sr__results + div:has(> div > div > div > div > div[class][jscontroller] > div[class^=" _-"])
 google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws##.commercial-unit-mobile-bottom
 google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws##.nWi0wf.kDTz5c
-google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws##.rbgrBd div[role="dialog"] > div[jsaction^="settings."] button[jsaction^="settings.useApp;"]
 google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws##div[data-aavs]:has(> div[data-ad-tracking-url])
 google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws##div[data-id="lclad"]
 google.de,spiegel.de,www-spiegel-de.cdn.ampproject.org##amp-fx-flying-carpet[height="300px"][style*="height:"][style*="300px;"]
@@ -20562,7 +20561,6 @@ hujiang.com##.qrcode
 huke88.com##.hand-once
 hunker.com,livestrong.com##.component-article-section-jwplayer-wrapper
 hupu.com###game-center-entrance-container
-hupu.com###topPub
 hupu.com##.ad361-240-240
 hupu.com##.hupu-shihuo-hot
 hupu.com##.m-app-info
@@ -20606,7 +20604,6 @@ i.ifeng.com#?#div[class^=list-]:contains(APP)
 i.maxthon.cn##.module.tools-main[data-s-n="bottom"]
 i.maxthon.cn##.site-ad-container
 i.youku.com##.promotelogin_infobottom
-i24news.tv,zara.com##.native-app-banner
 iamgujarat.com,indiatimes.com,samayam.com,vijaykarnataka.com##.colombia
 iask.sina.com.cn###daily_topic_flnr
 iask.sina.com.cn###topic_ylzz_new
@@ -21378,7 +21375,6 @@ lxapk.com,lzacg.one##.custom-html-widget
 lyd.com.cn##.ad:not(:nth-child(15))
 lyngsat-logo.com,lyngsat-maps.com,lyngsat-stream.com,lyngsat.com,webhostingtalk.com##img[width="160"]
 lz13.cn##.left_box3
-lzcfz2.com,lzcfz7.xyz##body > .cl.wp
 lzep.cn##.aside
 m-haber7-com.cdn.ampproject.org,m.haber7.com##.default-ad
 m-sabah-com-tr.cdn.ampproject.org,m.sabah.com.tr##.adv-content
@@ -21878,7 +21874,6 @@ mmbang.com##.footer_adver-warp
 mmonly.cc###\32 vm_box
 mob.iyingdi.com##.down-load-app-container
 mob.iyingdi.com##.reply
-mobanwang.com##.g960
 mobi.yahoo.com,delfi.ee,delfi.lt,delfi.lv##.smart-app-banner
 mobil.express.de,mobil.mopo.de##article[data-title="ANZEIGE"]
 mobil.macwelt.de,mobil.pcwelt.de##.mobile_mpu
@@ -23343,6 +23338,7 @@ tuliu.com###red-envelope
 tuliu.com###siderbar-join-form
 tuliu.com###vFloat
 tuliu.com##.info-recommend
+tuliu.com##.zx-advertising-box
 turkiye.gov.tr,teb.com.tr#$##smartbanner.ios { display: none!important; }
 turkiye.gov.tr,teb.com.tr#$#html { margin-top: 0!important; }
 tuwan.com##.Player-zan
@@ -24682,7 +24678,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||baidu.com/newspage/api/getadsdata?
 ||baidu.com/newspage/api/getmobads?
 ||baidu.com/po/api/configure/show.jsonp
-||baidu.com/rec?*=ad&
 ||baidu.com/resource/tuisong/
 ||baidu.com/smalllog/
 ||baidu.com/tb/zt/$subdocument,domain=tieba.baidu.com
@@ -25089,7 +25084,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||eastday.com/assets/js/resources/new_detail_
 ||eastday.com/jrdftt/static/javascript/ad/ECommerceAd.
 ||eastday.com/jscss/v4/js/lib/DSPload.js
-||eastday.com/k.js
 ||eastday.com/static/scripts/eastday_tj.js
 ||eastday.com/static/styles/*_gg.css
 ||eastday.com^$subdocument,~third-party
@@ -25778,6 +25772,7 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||qidian.qpic.cn/qidian_common/$image
 ||qilanxiaozhu.*/data/attachment/portal/
 ||qinbing.cn/data/upload/ueditor/
+||qingqingxs.*/static/xbiquge/js/wap.
 ||qingqingxs.*/static/xbiquge/wap.js
 ||qinxue100.com/qinxue/pc/js/add_js.js
 ||qixin007.com/webbanner/
@@ -26124,7 +26119,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||wbiao.cn/common/adapi/
 ||wbiao.cn/common/newsbannerAds/
 ||wbiao.co/src2/js/expand/fudong/
-||weathercn.com/m_mobile/ad_image/
 ||webfunny.cn^$third-party
 ||webjx.com/zanzhushang/
 ||webkaka.com*/click/$image
