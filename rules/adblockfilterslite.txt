@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard App Banners Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Anti Adblock Filters、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、Xinggsf MV、NoAppDownload。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/psychosispy/adblockfilters-optimized
 ! Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockfilterslite.txt
-! Version: 20251008092238
-! Last modified: 2025/10/08 09:22:38
-! Blocked Filters: 26363
+! Version: 20251009092253
+! Last modified: 2025/10/09 09:22:53
+! Blocked Filters: 26360
 !
 ###AC_ad
 ###AD_160
@@ -14923,7 +14923,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 *gonggao.js|$domain=~lol.qq.com
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
--*-*-*-*.panda^$script,third-party
 -120-600.
 -120_600_
 -120x600-
@@ -15869,6 +15868,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /ezf-min.$script
 /ezo/*$script,~third-party,domain=~yandex.by|~yandex.com|~yandex.kz|~yandex.ru|~yandex.ua
 /ezoic/*$script,~third-party
+/fage/ad.js
 /fage/sjad.js
 /fb_hilltopads.php$popup
 /fdjdjghrut_tt.js
@@ -16860,7 +16860,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 247solitaire.com,247spades.com##div[class^="aspace-"]
 247wallst.com,cubdomain.com##.hello-bar
 24fm.ps,datingscammer.info,ihrc24x7.com,kayifamily.net,news365.co.za,thedefensepost.com,xboxera.com##.stream-item
-24k99.com,fx168.com##.yy_guangao
 2ch-n.net,lifeantenna.com##.highlight-entry
 2chblog.jp,blog.jp,blog.livedoor.jp,bloggeek.jp,blogism.jp,blogo.jp,blogstation.jp,blogto.jp,cafeblog.jp,corpblog.jp,diary.to,doorblog.jp,dreamlog.jp,gger.jp,golog.jp,ldblog.jp,liblo.jp,livedoor.biz,livedoor.blog,myjournal.jp,mynikki.jp,officeblog.jp,officialblog.jp,publog.jp,storeblog.jp,teamblog.jp,techblog.jp,weblog.to,xxxblog.jp,youblog.jp##.ad2
 2conv.com,flv2mp3.by,flvto.biz,flvto.com.mx##.horizontal-area
@@ -16954,7 +16953,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 3addedminutes.com,anguscountyworld.co.uk,banburyguardian.co.uk,bedfordtoday.co.uk,biggleswadetoday.co.uk,blackpoolgazette.co.uk,bucksherald.co.uk,burnleyexpress.net,buxtonadvertiser.co.uk,chad.co.uk,daventryexpress.co.uk,derbyshiretimes.co.uk,derbyworld.co.uk,derryjournal.com,dewsburyreporter.co.uk,doncasterfreepress.co.uk,falkirkherald.co.uk,fifetoday.co.uk,glasgowworld.com,halifaxcourier.co.uk,harboroughmail.co.uk,harrogateadvertiser.co.uk,hartlepoolmail.co.uk,hemeltoday.co.uk,hucknalldispatch.co.uk,lancasterguardian.co.uk,leightonbuzzardonline.co.uk,lep.co.uk,lincolnshireworld.com,liverpoolworld.uk,londonworld.com,lutontoday.co.uk,manchesterworld.uk,meltontimes.co.uk,miltonkeynes.co.uk,newcastleworld.com,newryreporter.com,newsletter.co.uk,northamptonchron.co.uk,northantstelegraph.co.uk,northernirelandworld.com,northumberlandgazette.co.uk,nottinghamworld.com,peterboroughtoday.co.uk,portsmouth.co.uk,rotherhamadvertiser.co.uk,scotsman.com,shieldsgazette.com,stornowaygazette.co.uk,sunderlandecho.com,surreyworld.co.uk,thescarboroughnews.co.uk,thesouthernreporter.co.uk,thestar.co.uk,totallysnookered.com,wakefieldexpress.co.uk,warwickshireworld.com,wigantoday.net,worksopguardian.co.uk,yorkshireeveningpost.co.uk,yorkshirepost.co.uk##div[class^="SidebarAds_"]
 3addedminutes.com,anguscountyworld.co.uk,banburyguardian.co.uk,bedfordtoday.co.uk,biggleswadetoday.co.uk,blackpoolgazette.co.uk,bucksherald.co.uk,burnleyexpress.net,buxtonadvertiser.co.uk,chad.co.uk,daventryexpress.co.uk,derbyshiretimes.co.uk,derbyworld.co.uk,derryjournal.com,dewsburyreporter.co.uk,doncasterfreepress.co.uk,falkirkherald.co.uk,fifetoday.co.uk,glasgowworld.com,halifaxcourier.co.uk,harboroughmail.co.uk,harrogateadvertiser.co.uk,hartlepoolmail.co.uk,hemeltoday.co.uk,hucknalldispatch.co.uk,lancasterguardian.co.uk,leightonbuzzardonline.co.uk,lep.co.uk,lincolnshireworld.com,liverpoolworld.uk,londonworld.com,lutontoday.co.uk,manchesterworld.uk,meltontimes.co.uk,miltonkeynes.co.uk,newcastleworld.com,newryreporter.com,newsletter.co.uk,northamptonchron.co.uk,northantstelegraph.co.uk,northernirelandworld.com,northumberlandgazette.co.uk,nottinghamworld.com,peterboroughtoday.co.uk,portsmouth.co.uk,rotherhamadvertiser.co.uk,scotsman.com,shieldsgazette.com,stornowaygazette.co.uk,sunderlandecho.com,surreyworld.co.uk,thescarboroughnews.co.uk,thesouthernreporter.co.uk,thestar.co.uk,totallysnookered.com,wakefieldexpress.co.uk,warwickshireworld.com,wigantoday.net,worksopguardian.co.uk,yorkshireeveningpost.co.uk,yorkshirepost.co.uk##div[class^="helper__AdContainer"]
 3addedminutes.com,anguscountyworld.co.uk,banburyguardian.co.uk,bedfordtoday.co.uk,biggleswadetoday.co.uk,blackpoolgazette.co.uk,bucksherald.co.uk,burnleyexpress.net,buxtonadvertiser.co.uk,chad.co.uk,daventryexpress.co.uk,derbyshiretimes.co.uk,derbyworld.co.uk,derryjournal.com,dewsburyreporter.co.uk,doncasterfreepress.co.uk,falkirkherald.co.uk,fifetoday.co.uk,glasgowworld.com,halifaxcourier.co.uk,harboroughmail.co.uk,harrogateadvertiser.co.uk,hartlepoolmail.co.uk,hemeltoday.co.uk,hucknalldispatch.co.uk,lancasterguardian.co.uk,leightonbuzzardonline.co.uk,lep.co.uk,lincolnshireworld.com,liverpoolworld.uk,londonworld.com,lutontoday.co.uk,manchesterworld.uk,meltontimes.co.uk,miltonkeynes.co.uk,newcastleworld.com,newryreporter.com,newsletter.co.uk,northamptonchron.co.uk,northantstelegraph.co.uk,northernirelandworld.com,northumberlandgazette.co.uk,nottinghamworld.com,peterboroughtoday.co.uk,portsmouth.co.uk,rotherhamadvertiser.co.uk,scotsman.com,shieldsgazette.com,stornowaygazette.co.uk,sunderlandecho.com,surreyworld.co.uk,thescarboroughnews.co.uk,thesouthernreporter.co.uk,thestar.co.uk,totallysnookered.com,wakefieldexpress.co.uk,warwickshireworld.com,wigantoday.net,worksopguardian.co.uk,yorkshireeveningpost.co.uk,yorkshirepost.co.uk##div[data-ads-params]
-3czol.com##[class^="ban_"]
 3d66.com###botfocus-soft
 3d66.com##.King_Chance_LayerCont
 3d66.com##.botfocus
@@ -17360,6 +17358,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@://www.googleadservices.com^|
 @@://xhamster.$script,~third-party
 @@=mywebloadt1&$domain=myweb.hinet.net
+@@?sid=ads$domain=126.com|mail.163.com
 @@^utm_source=aff^$popup,domain=gamble.co.uk|gokkeninonlinecasino.nl|top5casinosites.co.uk
 @@|data:text^$popup,domain=box.com|clker.com|labcorp.com
 @@||073img.com/*,*,
@@ -17404,7 +17403,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||alicdn.com/js/*/xpopup.js
 @@||alicdn.com/mm/tb-page-peel/
 @@||alicdn.com/retcode/log/log.js
-@@||alicdn.com^*/click_track.js
 @@||alicdn.com^*/log.js,
 @@||alicdn.com^*/tanxssp.js$domain=dlkoo.cc
 @@||aliyun.com/nocaptcha/analyze.js
@@ -17428,6 +17426,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||bdimg.com/static/wapwenku/static/common/widget/share/share_
 @@||bdimg.com/static/wkcore/widget/adControl/adControl_
 @@||bdstatic.com/??*,*,*,
+@@||bdstatic.com/po/??*,*,*,
 @@||bdstatic.com/static/common/widget/ui/admanager/
 @@||bdstatic.com/static/common/widget/ui/admanager/$script,domain=image.baidu.com
 @@||bdstatic.com/static/exp-pc/article/widget/cms-banner-ads/cms-banner-ads_*.css
@@ -18396,6 +18395,7 @@ baidu.com##.guidetowkOperationwg-root
 baidu.com##.home-app-promotion
 baidu.com##.icon-bdad
 baidu.com##.index-module_drawerHand__aRhcO
+baidu.com##.intro-adv
 baidu.com##.invoke-app-floating-tips
 baidu.com##.invoke-app-san-container
 baidu.com##.landrightbanner
@@ -20519,7 +20519,6 @@ house365.com###youXFsmall
 house365.com##.home-new-user
 house365.com##.left_fudong_ad
 house365.com##.leftfixed_box
-house365.com##a[style*="1200px;"]
 howbuy.com##a[href^="https://www.howbuy.com/advertisement/"]
 howbuy.com#@#.ad_wrapper
 howtogeek.com,www-howtogeek-com.cdn.ampproject.org##.adfullwrap
@@ -20557,6 +20556,7 @@ hujiang.com##.qrcode
 huke88.com##.hand-once
 hunker.com,livestrong.com##.component-article-section-jwplayer-wrapper
 hupu.com###game-center-entrance-container
+hupu.com###shihuo1111
 hupu.com##.ad361-240-240
 hupu.com##.hupu-shihuo-hot
 hupu.com##.m-app-info
@@ -20836,6 +20836,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > st
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > style[id^="s-"] + style + div[id]:nth-child(3)
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_right > div[id][data-click^="\7b \"fm"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_right > table > tbody > tr > td > div:not(#con-ar):not([class])
+ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###ecl-weigou-view-container
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###lm
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ec_bdtg
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ecl-health-pagelist-wrapper
@@ -20959,7 +20960,6 @@ ithome.com##.down_app
 ithome.com##.lapin
 ithome.com##.open-app-banner
 ithome.com##.rds
-ithome.com##.related_buy
 ithome.com##.rm-modal-bg
 ithome.com##.rm-modal-body
 ithome.com##a[href*="/lapin."]
@@ -21667,6 +21667,7 @@ m.xiaomiyoupin.com###download-bar
 m.xiaomiyoupin.com##.download-bar-container
 m.xiaomiyoupin.com##.lib10-opapp-wrap
 m.xiaomiyoupin.com##[src="//m.xiaomiyoupin.com/shopcenter/erised/index.html"]
+m.yelp.*##div[class]:has(> div[class^="overlay-wrapper"] > a[aria-label="Download the Yelp app"])
 m.yelp.*##main[class^="content-"] > section[class]:has(> div[class] > a[href^="https://www.yelp."][href*="app.adjust.com"])
 m.yelp.*##main[class^="content-"] ~ div[class^="banner_"]
 m.yicai.com###app1
@@ -21911,7 +21912,6 @@ mparticle.uc.cn##.share-import-title
 mparticle.uc.cn##div[class^=ShowContent__ShowContentButton]
 mparticle.uc.cn##div[class^=recommend]
 mpyit.com###sidebar a > img
-mpyit.com##.cboxElement + a[target="_blank"]
 mpyit.com##a[href^="https://www.laomo.me/cdn/html/go"]
 mpyit.com#?##content > .post_box:has(> a[href^="https://www.laomo.me/cdn/html/go"])
 mqihuan.bookresource.qq.com##.auto-tr
@@ -22580,7 +22580,6 @@ qzone.qq.com,show.qq.com##.ico_new
 qzwb.com##.qzw_live_img
 r6.tracker.network,fortnitetracker.com##.trn-site-appbar__apps
 racingtv.com,twitter.com,wral.com,x.com##.promotion
-radarbox.com,compendium.com.ua,maximonline.ru##.apps
 radio.*###content-wrapper #stations-in-family + div[class]:not([data-testid])
 radio.*#?##stationpage-holder > div[class]:has(> div[class] > div[id^="RAD_NET"])
 radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se###headerTopBar ~ div > div:has(div#RAD_D_station_top)
@@ -23407,7 +23406,6 @@ uta-net.com,sp.uta-net.com##.ad-area-d
 uteka.ru,investing.com##.mobile-apps
 v.163.com###v_shapeLeft_divId
 v.163.com###v_shapeRight_divId
-v.163.com##div[style^="width: 140px; height: 199px;"]
 v.ifeng.com##.vAdbox,div.vAdImg,div.newAdImg,div.ad300,div.ad1000,div.vPlayerAdbox,div.main+.scrollcol
 v.ifeng.com##div[class^="index_container"]
 v.ifeng.com##div[class^="toolbar-"] > div[class^="partMore-"]
@@ -24653,6 +24651,7 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||baidu.com/4.gif?
 ||baidu.com/?action=getadsdata&
 ||baidu.com/adpc/scrollTextAd.js
+||baidu.com/adver?
 ||baidu.com/api/*/ads/
 ||baidu.com/api/wikiad/
 ||baidu.com/api/wikiui/getasp?
@@ -24668,7 +24667,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||baidu.com/newspage/api/getadsdata?
 ||baidu.com/newspage/api/getmobads?
 ||baidu.com/po/api/configure/show.jsonp
-||baidu.com/resource/tuisong/
 ||baidu.com/smalllog/
 ||baidu.com/tb/zt/$subdocument,domain=tieba.baidu.com
 ||baidu.com/tbliveact/data/xiu8/
@@ -24717,6 +24715,7 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||bdstatic.com/tb/cms/img/tieba_index_banner960x90.png
 ||bdstatic.com/tb/img/icon_coo_operation_
 ||bdstatic.com/tb/mobile/sglobal/img/bannerLogo_
+||bdstatic.com/tb/zt/tengfei/gzdialog.jpg
 ||bdstatic.com^*/QSURrcmRKV.js
 ||bdstatic.com^*/container/module/bottombanner/
 ||bdstatic.com^*/fullpage-pop/
@@ -25211,7 +25210,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||go.$domain=kickass.cd|thepiratebay.*|btsow.*
 ||go.*.com/apu.php$redirect=noop.txt,domain=movies.is,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||gocye.com^$third-party
-||goodgupiao.com/skins/default/js/backTop.js
 ||google.*/pagead/
 ||google.*/pagead/lvz?
 ||googleadservices.
@@ -26228,7 +26226,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||xinmin.cn/framepage/foot1.htm
 ||xinmin.cn/framepage/left1.htm
 ||xinmin.cn/framepage/top
-||xinmin.cn/framepage/yqLink1.htm
 ||xiongzhang.baidu.com/xzhstatistics/rp^
 ||xitek.com/idzone
 ||xitonghe.com/SkinNew/js/init_g.
