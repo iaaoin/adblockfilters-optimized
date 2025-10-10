@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard App Banners Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Anti Adblock Filters、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、Xinggsf MV、NoAppDownload。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/psychosispy/adblockfilters-optimized
 ! Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockfilterslite.txt
-! Version: 20251009092253
-! Last modified: 2025/10/09 09:22:53
-! Blocked Filters: 26360
+! Version: 20251010092323
+! Last modified: 2025/10/10 09:23:23
+! Blocked Filters: 26362
 !
 ###AC_ad
 ###AD_160
@@ -2151,6 +2151,7 @@
 ###billboard-atf
 ###billboard_ad
 ###bingadcontainer2
+###bl_mobile_float
 ###blkAds1
 ###blkAds2
 ###blkAds3
@@ -9170,6 +9171,7 @@
 ##.app_ad_unit
 ##.app_advertising_skyscraper
 ##.app_nexus_banners_common
+##.appdownload_ad + .hider
 ##.appguide-wrap[onclick*="bcebos.com"]
 ##.ar-header-m-ad
 ##.arc-ad-wrapper
@@ -14120,7 +14122,7 @@
 ##div[class^="Adstyled__AdWrapper-"]
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"]
 ##div[class^="ps_"][value="20"]
-##div[class^="smartbanner"][class$="-android"]
+##div[class^="smartbanner"][class*="-android"]
 ##div[data-ad-placeholder]
 ##div[data-ad-region]
 ##div[data-ad-targeting]
@@ -15338,6 +15340,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /Ads/bid728.aspx$subdocument
 /Ads/sponsor.$stylesheet
 /AdvAdsV3/*$script,stylesheet
+/CC6F9ACB52D1582671AFEA808AFE10FE.gif
 /Code/pccpcv.php
 /GunosyAdsSDKv2.js$script
 /MDassets/images/*.gif$~third-party
@@ -16775,7 +16778,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 18comic.org,18comic.vip##.modal-backdrop
 18comic.org,18comic.vip##.row[style="display: flex;flex-wrap: wrap;"]
 18comic.org,18comic.vip##a[herf*="//"]:not([href*="comic."]) > img
-18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > [style*="back"]
 18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > div[style]
 18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
 18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
@@ -16843,6 +16845,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 2345.com##.comp-logo-wall
 2345.com##.dzc-hn-cmoe
 2345.com##.lian-meng-box
+2345.com##.mod-serchright
 2345.com##.mod-txtred
 2345.com##.mzdh_bottom
 2345.com##.part-banner > .part-ppt
@@ -18462,6 +18465,7 @@ baidu.com,bdimg.com,tieba.com##.fengchao-wrap-feed
 baidu.com,bdimg.com,tieba.com##div.thread_item_box[style="position: relative;"]
 baidu.com,bdimg.com,tieba.com#?#.l_post:-abp-has(div[class*=" fc-"])
 baidu.com,bdimg.com,tieba.com#?#.thread_item_box:-abp-has(div[class*=" fc-"])
+baidu.com,cntour2.com##.topBanner
 baidu.com,comefromchina.com#@#.ad-block
 baidu.com,youdao.com,yun.cn#@#.share-content
 baidu.com/static/mapping/*.php
@@ -18895,7 +18899,6 @@ c114.com.cn###ad_r1
 c114.com.cn,chemicalbook.com,china.com.cn,foodmate.net,hibiquan.com,qingdaonews.com##.ad2
 c4dsky.com##a[href*="ibaotu.com"]
 ca168.com##.admarket
-ca168.com,cs.com.cn,qiannao.com,qinbing.cn,sonimei.cn###rightDiv
 caijing.com.cn##.downdiv
 caixin.com##.course_box
 caixinglobal.com,chicagobusiness.com,chronicle.co.zw,clinicaltrialsarena.com,dailymaverick.co.za,dailytarheel.com,duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion,dunyanews.tv,fifplay.com,freebmd.org.uk,hbr.org,herald.co.zw,lawandcrime.com,libhunt.com,motherjones.com,naval-technology.com,reviewjournal.com,saashub.com,samedicalspecialists.co.za,sportsbusinessjournal.com,statnews.com,stocksnap.io,thedp.com,timeslive.co.za##.sponsored
@@ -19157,6 +19160,7 @@ cnet.com,medicalnewstoday.com###MyFiAd
 cnfol.com###CjAdvBt
 cnfol.com##.Ad1000
 cnfol.com##.Ad310
+cnfol.com##.AdAsideW300H250
 cnfol.com##.FixedLeft
 cnfol.com##.FixedRight
 cnfol.com##.NavTopAd
@@ -19261,7 +19265,6 @@ creditkarma.com#$?#.nativeUpsell-container[data-event-props*="upsellUnauthBanner
 cricketnetwork.co.uk,f1network.net,pop.inquirer.net,rugbynetwork.net,thefootballnetwork.net###billboard
 crmbuyer.com,ectnews.com,technewsworld.com##.content-block-slinks
 crmbuyer.com,ectnews.com,technewsworld.com##.content-tab-slinks
-crmeb.com##.floatWindow
 crmeb.com##body > div#side
 crsky.com##.Adown_v_gs
 crsky.com##.adowGright
@@ -19863,7 +19866,6 @@ fakings.com,nigged.com###banners_footer
 familydoctor.com.cn##.adExtra
 familydoctor.com.cn##.global-top-links-wrap
 familyporn.tv,mywebcamsluts.com,transhero.com##.side_spot
-familyxxxhd.com,erotic-hentai.com,villagesexvideos.com,xxxvideoindian2.com,fistingplanet.com##.happy-footer-mobile
 fang.com###xmlAd
 fang.com##.bannger_inbox
 fang.com,soufun.com##.add1200
@@ -20077,7 +20079,6 @@ funabashi-tsushin.com,kashiwa-tsushin.com,katsushika-tsushin.com,matsudo-tsushin
 futura-sciences.com,forocoches.com,macg.co##.optidigital-wrapper-div
 futurezone.de,rp-online.de,derwesten.de,www-timesnownews-com.cdn.ampproject.org,theprint.in,timesnownews.com,amp.focus.de##amp-fx-flying-carpet
 fux.com,pornerbros.com,porntube.com,tubedupe.com##.sponsored
-fuyang.net##.eis_fbox_980
 fwwang.cn###n_s_300250
 fwwang.cn###n_s_300250ad
 fwxgx.com###jPpo_sc
@@ -20170,7 +20171,6 @@ gayvegas.com,geekhistory.com,looktothestars.org,nintandbox.net,plurk.com,thebare
 gazette.com,thehindu.com##.dfp-ad
 gazo-chat.net,gamerch.com,motion.nowtice.net,mudainodocument.com,keitaijoho.com###slide_wrap
 gbnews.com,smithsonianmag.com,tasty.co##.ad-wrapper
-gbnews.com.stiky_sky.right::before
 gd.qq.com###r_ad
 gd163.cn##.bbs_ad
 gd163.cn,itavcn.com,jmnews.com.cn###msg_win
@@ -20477,7 +20477,6 @@ hinews.cn##div[id^="hi_gg_"]
 hjenglish.com###regscrollcontainer
 hjenglish.com##.fix_questionnaire_btn
 hjenglish.com,hujiang.com##.lamu_banner
-hkcd.com###download-box
 hkwb.net##.leftadv2
 hkwb.net##.rightadv2
 hlgnet.com##.co_ad
@@ -21136,9 +21135,11 @@ justjared.com,justjaredjr.com##.top_rail_shell
 jw.org,smart-flash.jp#@#.adsBlock
 jx3pve.com##.m-banner-tool
 jxcn.cn,redianyule.com##.dsp_yxxf
+jyacht.com###playergg
 jyacht.com###zy_topgg2
 jyacht.com###zyc1r_03
 jyacht.com###zyc1r_05
+jyacht.com##.hot_reoc_adve
 jzzo.com,xxxvogue.net###embed-overlay
 jzzo.com,xxxvogue.net###parrot
 k.sina.cn#$#.sina_sliders_pos { display: none !important; }
@@ -21667,7 +21668,7 @@ m.xiaomiyoupin.com###download-bar
 m.xiaomiyoupin.com##.download-bar-container
 m.xiaomiyoupin.com##.lib10-opapp-wrap
 m.xiaomiyoupin.com##[src="//m.xiaomiyoupin.com/shopcenter/erised/index.html"]
-m.yelp.*##div[class]:has(> div[class^="overlay-wrapper"] > a[aria-label="Download the Yelp app"])
+m.yelp.*##div[class]:has(> div[class^="overlay-wrapper"] > a[data-testid="pitch-link"][href^="https://www.yelp.com/search?"])
 m.yelp.*##main[class^="content-"] > section[class]:has(> div[class] > a[href^="https://www.yelp."][href*="app.adjust.com"])
 m.yelp.*##main[class^="content-"] ~ div[class^="banner_"]
 m.yicai.com###app1
@@ -22406,6 +22407,8 @@ pornid.name,pornid.xxx##.aside-box
 pornid.name,pornid.xxx##.cs-under-player-link
 pornlulu.com,pornbest.org,ptt.sex###fullPageModal
 pornogratisdiario.com,xcafe.com##.bnr
+pornolatinox.com,familyxxxhd.com,erotic-hentai.com,villagesexvideos.com,xxxvideoindian2.com,fistingplanet.com##.happy-footer-mobile
+pornolatinox.com,fistingplanet.com##.happy-related-videos-mobile
 pornpics.com,pornpics.de##.adss-rel
 pornpics.com,pornpics.de##.sponsor-type-4
 pornpics.com,pornpics.de##.stamp-bn-1
@@ -25664,7 +25667,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||offcn.com/index.php?m=dbsource&c=call&a=get&id=77
 ||offcn.com/offcnewm/
 ||offerstrack.net^$popup
-||ofweek.com/pop/ad/
 ||okbmf.com/imgad/
 ||oklink.com/api/explorer/v2/index/text-advertisement?
 ||okooo.com/I/?method=system.data.ad&
