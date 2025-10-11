@@ -1,11 +1,11 @@
 #
 # Title: AdBlock DNSMasq Lite
-# Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard App Banners Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Anti Adblock Filters、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、Xinggsf MV、NoAppDownload。Lite 版仅针对国内域名拦截。
+# Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、NoAppDownload。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/psychosispy/adblockfilters-optimized
 # Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockdnsmasqlite.txt
-# Version: 20251011091953
-# Last modified: 2025/10/11 09:19:53
-# Blocked domains: 1523
+# Version: 20251011125856
+# Last modified: 2025/10/11 12:58:56
+# Blocked domains: 1516
 #
 local=/img.0279.net/
 local=/o.027eat.com/
@@ -38,7 +38,6 @@ local=/log.study.163.com/
 local=/nex.163.com/
 local=/sentry.music.163.com/
 local=/165tchuang.com/
-local=/log1.17173.com/
 local=/stat.v.17173.com/
 local=/1buo.icu/
 local=/1dki0.icu/
@@ -485,7 +484,6 @@ local=/doubleclick.net/
 local=/abc.douguo.com/
 local=/kpshx.douguo.com/
 local=/leabd.douguo.com/
-local=/wan.douyu.com/
 local=/dyp2p-ali.douyucdn.cn/
 local=/dyp2p-hw.douyucdn.cn/
 local=/p2pchunk-table.douyucdn.cn/
@@ -709,9 +707,6 @@ local=/hulichuang.mobi/
 local=/api-ad-product.huxiu.com/
 local=/log-api.huxiu.com/
 local=/log-api-mn.huxiu.com/
-local=/g.huya.com/
-local=/statwup.huya.com/
-local=/va.huya.com/
 local=/api.hzsanjiaomao.com/
 local=/sdk.hzsanjiaomao.com/
 local=/gdl.i9dhjx.ru/
@@ -744,15 +739,12 @@ local=/inmobicdn.net/
 local=/innity.net/
 local=/iovia-pmj.com/
 local=/c81.ipanocloud.com/
-local=/ipinyou.com/
 local=/ipyhf.icu/
 local=/iqi4l.icu/
-local=/apisgame.iqiyi.com/
 local=/ifacelog.iqiyi.com/
 local=/mbdlog.iqiyi.com/
 local=/msg.iqiyi.com/
 local=/static-s.iqiyi.com/
-local=/static.g.iqiyi.com/
 local=/t7z.cupid.iqiyi.com/
 local=/tpa-hcdn.iqiyi.com/
 local=/m.iqiyipic.com/
@@ -866,7 +858,6 @@ local=/zq.lansedir.com/
 local=/wap1.laogu.wang/
 local=/un1.lawyernet.cn/
 local=/mnqlog.ldmnq.com/
-local=/banana.le.com/
 local=/ads-api-o.api.leiniao.com/
 local=/update.lejiao.tv/
 local=/analyze.lemurbrowser.com/
@@ -901,7 +892,10 @@ local=/data-sdk-uuid-log.d.meituan.net/
 local=/a.mfcad.net/
 local=/mobaliyun.res.mgtv.com/
 local=/mhwy6.icu/
-local=/miaozhen.com/
+local=/g.dtv.cn.miaozhen.com/
+local=/tencent-dtv.m.cn.miaozhen.com/
+local=/tytx.m.cn.miaozhen.com/
+local=/xiaomi-dtv.m.cn.miaozhen.com/
 local=/micro-xdb.com/
 local=/clog.miguvideo.com/
 local=/ggx01.miguvideo.com/
@@ -1035,12 +1029,10 @@ local=/bsrv.qq.com/
 local=/bugly.qq.com/
 local=/c.gj.qq.com/
 local=/cfg.imtt.qq.com/
-local=/cm.l.qq.com/
 local=/commdata.v.qq.com/
 local=/e.qq.com/
 local=/file.daihuo.qq.com/
 local=/gdt.qq.com/
-local=/iwan-s.video.qq.com/
 local=/jpush.html5.qq.com/
 local=/kde.qq.com/
 local=/lives.l.ott.video.qq.com/
@@ -1149,16 +1141,18 @@ local=/open.snssdk.com/
 local=/tnc3-aliec2.snssdk.com/
 local=/tnc3-alisc1.snssdk.com/
 local=/tnc3-bjlgy.snssdk.com/
-local=/sobot.com/
 local=/adx.sogaha.cn/
 local=/ws-keyboard.shouji.sogou.com/
 local=/theta.sogoucdn.com/
 local=/ads.sohu.com/
+local=/agn.aty.sohu.com/
 local=/assp.sohu.com/
 local=/fpb.sohu.com/
+local=/m.aty.sohu.com/
 local=/qpb.sohu.com/
 local=/reke.at.sohu.com/
 local=/track.sohu.com/
+local=/vm.aty.sohu.com/
 local=/xls.go.sohu.com/
 local=/gg.sonhoo.com/
 local=/sopqvhe.cn/
@@ -1169,7 +1163,6 @@ local=/cod.southmoney.com/
 local=/spkh.cn/
 local=/sscefsol.com/
 local=/sslir.icu/
-local=/show.ssports.com/
 local=/3.ssqzj.com/
 local=/stgowan.com/
 local=/webtracksdk.stnts.com/

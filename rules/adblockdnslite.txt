@@ -1,11 +1,11 @@
 !
 ! Title: AdBlock DNS Lite
-! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard App Banners Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Anti Adblock Filters、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、Xinggsf MV、NoAppDownload。Lite 版仅针对国内域名拦截。
+! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、NoAppDownload。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/psychosispy/adblockfilters-optimized
 ! Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockdnslite.txt
-! Version: 20251011091953
-! Last modified: 2025/10/11 09:19:53
-! Blocked domains: 1523
+! Version: 20251011125856
+! Last modified: 2025/10/11 12:58:56
+! Blocked domains: 1516
 ! unBlocked domains: 4
 !
 ||img.0279.net^
@@ -39,7 +39,6 @@
 ||nex.163.com^
 ||sentry.music.163.com^
 ||165tchuang.com^
-||log1.17173.com^
 ||stat.v.17173.com^
 ||1buo.icu^
 ||1dki0.icu^
@@ -486,7 +485,6 @@
 ||abc.douguo.com^
 ||kpshx.douguo.com^
 ||leabd.douguo.com^
-||wan.douyu.com^
 ||dyp2p-ali.douyucdn.cn^
 ||dyp2p-hw.douyucdn.cn^
 ||p2pchunk-table.douyucdn.cn^
@@ -710,9 +708,6 @@
 ||api-ad-product.huxiu.com^
 ||log-api.huxiu.com^
 ||log-api-mn.huxiu.com^
-||g.huya.com^
-||statwup.huya.com^
-||va.huya.com^
 ||api.hzsanjiaomao.com^
 ||sdk.hzsanjiaomao.com^
 ||gdl.i9dhjx.ru^
@@ -745,15 +740,12 @@
 ||innity.net^
 ||iovia-pmj.com^
 ||c81.ipanocloud.com^
-||ipinyou.com^
 ||ipyhf.icu^
 ||iqi4l.icu^
-||apisgame.iqiyi.com^
 ||ifacelog.iqiyi.com^
 ||mbdlog.iqiyi.com^
 ||msg.iqiyi.com^
 ||static-s.iqiyi.com^
-||static.g.iqiyi.com^
 ||t7z.cupid.iqiyi.com^
 ||tpa-hcdn.iqiyi.com^
 ||m.iqiyipic.com^
@@ -867,7 +859,6 @@
 ||wap1.laogu.wang^
 ||un1.lawyernet.cn^
 ||mnqlog.ldmnq.com^
-||banana.le.com^
 ||ads-api-o.api.leiniao.com^
 ||update.lejiao.tv^
 ||analyze.lemurbrowser.com^
@@ -902,7 +893,10 @@
 ||a.mfcad.net^
 ||mobaliyun.res.mgtv.com^
 ||mhwy6.icu^
-||miaozhen.com^
+||g.dtv.cn.miaozhen.com^
+||tencent-dtv.m.cn.miaozhen.com^
+||tytx.m.cn.miaozhen.com^
+||xiaomi-dtv.m.cn.miaozhen.com^
 ||micro-xdb.com^
 ||clog.miguvideo.com^
 ||ggx01.miguvideo.com^
@@ -1036,12 +1030,10 @@
 ||bugly.qq.com^
 ||c.gj.qq.com^
 ||cfg.imtt.qq.com^
-||cm.l.qq.com^
 ||commdata.v.qq.com^
 ||e.qq.com^
 ||file.daihuo.qq.com^
 ||gdt.qq.com^
-||iwan-s.video.qq.com^
 ||jpush.html5.qq.com^
 ||kde.qq.com^
 ||lives.l.ott.video.qq.com^
@@ -1150,16 +1142,18 @@
 ||tnc3-aliec2.snssdk.com^
 ||tnc3-alisc1.snssdk.com^
 ||tnc3-bjlgy.snssdk.com^
-||sobot.com^
 ||adx.sogaha.cn^
 ||ws-keyboard.shouji.sogou.com^
 ||theta.sogoucdn.com^
 ||ads.sohu.com^
+||agn.aty.sohu.com^
 ||assp.sohu.com^
 ||fpb.sohu.com^
+||m.aty.sohu.com^
 ||qpb.sohu.com^
 ||reke.at.sohu.com^
 ||track.sohu.com^
+||vm.aty.sohu.com^
 ||xls.go.sohu.com^
 ||gg.sonhoo.com^
 ||sopqvhe.cn^
@@ -1170,7 +1164,6 @@
 ||spkh.cn^
 ||sscefsol.com^
 ||sslir.icu^
-||show.ssports.com^
 ||3.ssqzj.com^
 ||stgowan.com^
 ||webtracksdk.stnts.com^
