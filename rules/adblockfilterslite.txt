@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、NoAppDownload。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/psychosispy/adblockfilters-optimized
 ! Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockfilterslite.txt
-! Version: 20251013092806
-! Last modified: 2025/10/13 09:28:06
-! Blocked Filters: 25552
+! Version: 20251014092301
+! Last modified: 2025/10/14 09:23:01
+! Blocked Filters: 25558
 !
 ###AC_ad
 ###AD_160
@@ -13858,6 +13858,7 @@
 ##a[href*=".bright.cn/?utm_"]
 ##a[href*=".cfm?domain="][href*="&fp="]
 ##a[href*=".com/?Extend="]
+##a[href*=".com/Register.aspx?aid="]
 ##a[href*=".com/Register/?a="]
 ##a[href*=".downok.com"]
 ##a[href*=".engine.adglare.net/"]
@@ -13898,6 +13899,7 @@
 ##a[href*="aHR0cHM6Ly9xc2Z2bDExLmFsYXp2LmNvbS8zNzA4Lmh0bWw="]
 ##a[href*="bjty"] > img[src*="imgsrc.baidu.com"]
 ##a[href*="xchina.click/prepare."]
+##a[href="/AllRes/Vlog2.html"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
 ##a[href="/ht.html"]
 ##a[href="/iwagbwfiwehaeyh"]
@@ -15728,7 +15730,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /gwunggou/*
 /haijiao3/*/popup.
 /haojio/js/scoll_bg.js
-/heituad/*
 /heji/mei00*.js
 /hjstore/system/banner/*.txt
 /hkz*^$popup,domain=piracyproxy.app|piraproxy.info|unblocked.club|unblockedstreaming.net
@@ -16389,6 +16390,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post + div[class]:not(.l_post)
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post[data-field^="\7b \"author\":\7b \"user_id\":1224761005,"]
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post[data-field^="\7b \"author\":\7b \"user_id\":1480194257,"]
+1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post[data-field^="\7b \"author\":\7b \"user_id\":50012654,"]
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.live_show_aside
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.order_repost_wrap
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.per_list.j_per_list.per_list_frs
@@ -16618,7 +16620,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 2345.com##.search-right-swiper-news
 2345.com##.tip_stopXP
 2345.com##.top > .fred
-2345.com##.top-browser-wrap
 2345.com##.v_picConBox.height214
 2345.com##.wawaji
 2345.com##div[class*="act-navspec"]
@@ -17256,6 +17257,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||genshuixue.com/??/*/counter/action_
 @@||gias.jd.com/js/td.js
 @@||gifshow.com/rest/wd/common/log/collect/acfun
+@@||gitee.com/HServer/
 @@||gk.sina.cn/v1/gkmatch?
 @@||google-analytics.com/analytics.js$domain=citytalk.tw|ebb.io|komica.org|lenovo.com.cn|linetv.tw|maminews.com.tw|support.amd.com
 @@||google-analytics.com/plugins/ua/ec.js$domain=lenovo.com.cn
@@ -18057,7 +18059,9 @@ baidu.com###content_right > div > div[id^="m"]
 baidu.com###copyright + .banner
 baidu.com###ec_im_container
 baidu.com###exp-fixed-bottom
+baidu.com###fc-left
 baidu.com###fengchaoad
+baidu.com###ggbtm
 baidu.com###header > div:last-child
 baidu.com###header > div[style="overflow: hidden;background: #fff;position: relative;"]
 baidu.com###index_banner_top
@@ -18110,6 +18114,7 @@ baidu.com##.first-card-container
 baidu.com##.fufei-activity-bar
 baidu.com##.game-adv-fram
 baidu.com##.gg-content
+baidu.com##.ggbtm-vip-close
 baidu.com##.guide-to-univer-app-root
 baidu.com##.guidetowkOperationwg-root
 baidu.com##.home-app-promotion
@@ -20085,6 +20090,7 @@ hqyman.cn##a[href="https://hqyman.cn/taobao/"]
 htmleaf.com##.htmleaf-adv
 htmlsucai.com,sucai8.cn,ui.cn#@#.adv_img
 https://g.csdnimg.cn/copyright/*
+huaban.com###top_promotion
 huaban.com##.hb-ad
 huaban.com,start.firefoxchina.cn##.extra
 huaban.com,zcool.com.cn##.ad
@@ -20626,7 +20632,6 @@ jjwxc.net##[id^="adp_"]
 jmbbs.com###xjj_jmbbs2015_01
 jmbbs.com##.middle_guanggao
 jmw.com.cn##.coupon
-jmw.com.cn##.rightCouplet
 job.inshokuten.com,netmile.co.jp#@#.ad-area:not(.text-ad)
 job.inshokuten.com,sexgr.net,webbtelescope.org,websaver.ca#@#.ad-box:not(#ad-banner):not(:empty)
 joins.com,kmplayer.com##.r_banner
@@ -21277,6 +21282,7 @@ meteofor.com,nofilmschool.com,protothema.gr##.placeholder
 meteologix.com,weather.us##.dkpw-billboard-margin
 metro.co.uk,metro-co-uk.cdn.ampproject.org##.metro-amp-ad
 mf.meizu.cn##.guide-suspend.suspend
+mgtv.com##.ad-fixed-bar
 mi.com###J_siteDownloadApp
 mi.com##.item-image.item
 mi.com##span.sep:nth-of-type(10)
@@ -21710,6 +21716,7 @@ pconline.com.cn##a[href^="http://ivy.pconline."]
 pconline.com.cn##div.jcztl,div.box.best,div.ivy-330
 pcpop.com##[id^=ad_],div.ad1,div.pcpop_ad1,div#banner9th
 pcquest.com,wionews.com##.ads-div-style
+pcsoft.com.cn##.shang11-top
 pcsoft.com.cn##.xzdz_huodong
 pcsoft.com.cn##iframe[id]
 pcworks.cn##.md-show
@@ -22882,6 +22889,7 @@ wenku.baidu.com##.install-pwa
 wenku.baidu.com##.pay-layer-wrapper
 wenku.baidu.com##.pwa-toast
 wenku.baidu.com##.pwaInstall.btn
+wenku.baidu.com##.service-entry
 wenku.baidu.com##.tool-bar-wrap .btns-wrap .small-btn:has(> .tag-pc-client)
 wenku.baidu.com##.vip-activity-wrap
 wenku.baidu.com##.vip-activity-wrap-new
@@ -23829,6 +23837,7 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||alicdn.com^*_!!3361094544.
 ||alicdn.com^*yksdk/*sdk.js$script,domain=youku.com
 ||alimama.com^$third-party
+||aliyuncs.com/ad/jd-smoofit-ad.jpg
 ||aliyuncs.com/gg/
 ||allsportsflix.
 ||allsportsflix.$document
@@ -23985,7 +23994,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||bio-equip.com/dimgs/
 ||bio-equip.com/uploadimages/peiqing.gif
 ||bitauto.com/bglog.gif?
-||bitauto.com/js/sense*.js
 ||biz5.
 ||bjmama.net/a/spc_
 ||bjsvp*.space^
@@ -24373,7 +24381,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||flighty.cn/images/
 ||fm086.com/Plugins/search
 ||fobshanghai.com/bbsad/
-||fontke.com/custom/
 ||fonts.googleapis.com/css?family=Noto+Sans+HK$stylesheet
 ||fonts.googleapis.com/css?family=Noto+Sans+JP$stylesheet
 ||fonts.googleapis.com/css?family=Noto+Sans+KR$stylesheet
@@ -24703,7 +24710,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||kb-render.alicdn.com/html/*.html
 ||ke.youdao.com/api/course/*
 ||kekenet.com/images/*/app
-||kekenet.com/images/*/tom468X60.gif
 ||kekenet.com/images/*980
 ||kgimg.com/public/root//images/hardware.jpg
 ||kiees.cn/img/
