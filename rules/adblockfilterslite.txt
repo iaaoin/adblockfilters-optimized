@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、NoAppDownload。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/psychosispy/adblockfilters-optimized
 ! Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockfilterslite.txt
-! Version: 20251014092301
-! Last modified: 2025/10/14 09:23:01
-! Blocked Filters: 25558
+! Version: 20251015092518
+! Last modified: 2025/10/15 09:25:18
+! Blocked Filters: 25573
 !
 ###AC_ad
 ###AD_160
@@ -2663,6 +2663,7 @@
 ###footer_adspace
 ###footer_adv
 ###footer_advertising
+###footer_fix_ggw
 ###footer_leaderboard_ad
 ###footer_text_ad
 ###footerad
@@ -9633,6 +9634,7 @@
 ##.bs-sneaker-container
 ##.bshare-custom
 ##.btm_ad
+##.btn.btn-success.text-white[href*=".com:"]
 ##.btn_ad
 ##.bump-ad
 ##.bunyad-ad
@@ -14889,7 +14891,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .cn/gg/$script,third-party
 .cn/js/ads/
 .cn/sc/*?n=$script,third-party
-.cn/uL389.js$script,third-party
 .co/ads/$popup
 .com*/ps/psCreat.js
 .com./$popup,domain=pornhub.com
@@ -15010,6 +15011,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .tor*/js/jquery.bpopup.
 .tv/gg/
 .tw/ads/
+.us/js/ads/
 .vip/ads/
 .vip/gg/
 .vip/html/hfv.js
@@ -16246,6 +16248,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /vjioew-1322507002.
 /vmind.qqvideo.tc.qq.com^
 /vtdd/*$script
+/vtdt/*$script
 /w300/h250/*
 /w728/h90/*
 /waWQiOjE*=eyJ.js^$third-party
@@ -16372,7 +16375,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_encourage-appforum\/pagelet\/my_app
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_frs-header\/pagelet\/head_content_middle > div[class]:not([class*="_"]):first-child
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pc2client
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###plat_order_head
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###plat_recom_carousel > .activity_head
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###plat_recom_carousel > .tbui_slideshow_list
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###search_button_wrapper
@@ -17079,6 +17081,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@/adpic/*$domain=baike.baidu.com|czsrc.com|nieyou.com|ontheup.com.tw|zform.net
 @@/ads/*$domain=189.cn|95516.com
 @@/adsbygoogle.$domain=moa.tw
+@@/adsense/*$domain=piseneasy.com|taobao.com
 @@/adslider/*$domain=firstbank.com.tw
 @@/advertise/*$domain=ceair.com|sfbuy.com
 @@/advertisement.js$domain=gimhoy.com
@@ -17193,6 +17196,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||baidu.com/static/touch/js/lib/fingerprint.js$~third-party
 @@||baidu.com^*&cb=BaiduSuggestion.
 @@||baixing.net/combine/*,/css/ad-
+@@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
 @@||bdimg.com/libs/$domain=yebiquge.com|taobiquge.com|piaotianxiaoshuo.com|bqduo.cc|biqutime.com|00ksw.com|147xiaoshuo.com|23xstxt.net|24kxs.cc|8181zw.vip|b520.cc|b5200.net|biqivge.cc|xbiquge99.cc|biqugecd.com|biqugewu.net|boquku.com|bqq999.cc|bqwxg8.com|bxwx.live|ddbqgtxt.cc|gdbzkz.org|msxsw.com|paoshu8.com|piaotian55.com|quge66.com|shuyy8.com|sytxt.cc|txtwan.com|u33.me|xqianqian.cc|xxbiqudu.com|xygwh.cc|ygshu.com|ymxwx.com|yuyougu.com
 @@||bdimg.com/static/wapwenku/static/common/widget/share/share_
 @@||bdimg.com/static/wkcore/widget/adControl/adControl_
@@ -17771,6 +17775,7 @@ alphaporno.com,crocotube.com,hellporno.com,tubewolf.com,xbabe.com,xcum.com##.bnn
 alphaporno.com,katestube.com,sleazyneasy.com,vikiporn.com##.bottom-banners
 alphaporno.com,tubewolf.com##.block-banner
 alu.cn###sanjia
+alu.cn###xxxhuangjinzhanwei
 alu.cn##.Tg_125x70
 alu.cn##.Tg_230x80
 alu.cn##.Tg_260x70
@@ -18164,7 +18169,6 @@ baidu.com##.swan-ad-fc-feed
 baidu.com##.tb-threadlist__item.tb-banner
 baidu.com##.ts-qrcode
 baidu.com##.under-tips
-baidu.com##.union-tg
 baidu.com##.w-question-list[data-sign]
 baidu.com##.wa-zp-exact-new-border
 baidu.com##.wgt-ad-bmc
@@ -19361,6 +19365,8 @@ eetimes.eu,korinthostv.gr,powerelectronicsnews.com##.masthead-banner
 eetimes.eu,miloserdov.org###custom_html-16
 eetop.cn##.alert_windows
 efu.com.cn##.banners-top-b
+efu.com.cn##.zs_banner_a
+efu.com.cn##div[class*="banner-"]
 egame.qq.com###inner-container
 egame.qq.com##.left-menu-footer
 egame.qq.com##.live-list-guess
@@ -19854,7 +19860,7 @@ google.de,spiegel.de,www-spiegel-de.cdn.ampproject.org##amp-fx-flying-carpet[hei
 google.de,spiegel.de,www-spiegel-de.cdn.ampproject.org##amp-layout[width="300"][style*="height:"][style*="266px"]
 google.de,sueddeutsche.de##amp-ad + div[class^="css-"]
 googleads.g.doubleclick.net,safeframe.googlesyndication.com#@#div[id^="ad_position_"]
-gosunoob.com,indianexpress.com,matrixcalc.org,medicalxpress.com,philstarlife.com,phys.org,roblox.com,spotify.com,techxplore.com##.ads-container
+gosunoob.com,indianexpress.com,matrixcalc.org,medicalxpress.com,philstarlife.com,phys.org,roblox.com,speakerdeck.com,spotify.com,techxplore.com##.ads-container
 gotrip.hk,nmplus.hk,weekendhk.com##.ai_widget
 gov.uk,honor.com#@#.ad-section
 gov.uk,videosalon.jp#@#.ad-widget
@@ -20402,6 +20408,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div:not([id]) > st
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[class^="ecr"][class*="game"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[id$="2"] ~ #\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[id$="_canvas"]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[tpl="b2b_straight"] > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[tpl^="job"] > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[tpl^="soft"] > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + script + div[id]
@@ -21382,6 +21389,7 @@ muchong.com##div[id^="paper"]
 muchong.com##p[onclick="view_ok();"]
 muchong.com#?#.forum_Post_index:-abp-has(nobr:-abp-contains(18))
 mumayi.com##.clientBox
+mumayi.com##.h80
 mumbailive.com,porntube.com,amarujala.com,www-amarujala-com.cdn.ampproject.org##div.ad
 mumu.163.com##.pic-con
 muratorplus.pl,muratordom.pl###m_zpr_box_art_lead
@@ -22020,6 +22028,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Pos
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.PostsList > div:not([class]):not([id]) > div:not([class]):not([id]) > article.Post:has(> .adLinkBar)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.PostsList > span > article:has(> .adLinkBar)
 redgol.cl,lapaginamillonaria.com##.bg-adContainerHeaderMobile
+redocn.com###yc_adv_1_2
 redocn.com##.big_vip_gg
 redocn.com##.small_vip_gg
 redtube.com,redtube.com.br,redtube.net###pb_block
@@ -22420,6 +22429,7 @@ takken-k.co.jp,zanmai.co.jp#@#.ad_box:not(.text-ad)
 tangdoucdn.com#@#.video-ad
 taobao.com###J_shopkeeper
 taobao.com###J_shopkeeper_bottom
+taobao.com###mainsrp-shopstar
 taobao.com##.J_TWeitaoHover.follow-mobile
 taobao.com##.J_smartBanner
 taobao.com##.banner.row
@@ -22432,6 +22442,7 @@ taobao.com##.qr-tip
 taobao.com##.rb-op
 taobao.com##.show.J_TWeiTaoPopup.weitao-popup
 taobao.com##.smartbanner-wrapper
+taobao.com#?#.item-ad
 taobao.com#?#button:contains(打开手机淘宝)
 taobao.com#@#+js(set-constant, aplus, {})
 taoguba.com.cn###joinTGB
@@ -23221,6 +23232,7 @@ xinhua110.com,91porny.org,jstv600.com###main > div[id^="rd"]
 xinhua110.com,91porny.org,jstv600.com##.footer + .block
 xinhua110.com,91porny.org,jstv600.com#?#.card:-abp-has(>.card-image>a[href^="http"])
 xinhuanet.com##.columBox.book
+xinhuanet.com##.part-ad1
 xitek.com##a[href*="/adclick"]
 xitonghe.com##.sidebar-wx
 xitongzhijia.net###top_gg
@@ -23843,6 +23855,8 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||allsportsflix.$document
 ||allyes.
 ||allyes.$third-party
+||alu.cn*/aluad/
+||alu.cn/Ashx/AjaxGuangGao.
 ||alypw.com/zb_users/plugin/ZF_tanchuang/
 ||anqu.com/b.js
 ||antpedia.com/antad/
@@ -24285,7 +24299,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||douyin.com/api/user/getPcBanner?
 ||douyin.com/aweme/v1/web/solution/resource/list/*_banner&
 ||douyu.com/japi/sign/web/getinfo
-||douyu.com/member/gamegift/gameList/
 ||down.tgjkbx.cn/xxjs/$script
 ||downxia.com/dgjs/download.js
 ||downxia.com/dgjs/pic/
@@ -24433,6 +24446,8 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||gd.sina.com.cn/iframe/22/
 ||gd163.*/2018_ad/
 ||gdcytv.cn^*.gif
+||gdmm.com*/mybt/
+||gdmm.com/api.php?mod=js&bid=2111
 ||gdmm.com/api.php?mod=js&bid=2188
 ||gedu.org/js/meiqia_pc_groupmarket.
 ||geekbang.org/public/serving/
