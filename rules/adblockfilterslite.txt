@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、NoAppDownload。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/psychosispy/adblockfilters-optimized
 ! Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockfilterslite.txt
-! Version: 20251017092414
-! Last modified: 2025/10/17 09:24:14
-! Blocked Filters: 25572
+! Version: 20251018092016
+! Last modified: 2025/10/18 09:20:16
+! Blocked Filters: 25570
 !
 ###AC_ad
 ###AD_160
@@ -4811,6 +4811,7 @@
 ##._articleAdvert
 ##._bannerAds
 ##._bottom_ad_wrapper
+##._cggp
 ##._fullsquaread
 ##._has-ads
 ##._popIn_recommend_article_ad
@@ -6893,7 +6894,6 @@
 ##.ad_rhs
 ##.ad_right
 ##.ad_rightSky
-##.ad_right_1
 ##.ad_right_2
 ##.ad_right_300_250
 ##.ad_right_cell
@@ -9909,6 +9909,7 @@
 ##.content-page-ad_wrap
 ##.content-result-ads
 ##.content-top-ad-item
+##.content-video > .ads
 ##.content-video > .ads-player
 ##.content1-ad
 ##.content2-ad
@@ -12064,7 +12065,6 @@
 ##.pgevoke-story-rightrail-ad1
 ##.pgevoke-story-topads
 ##.pgevoke-topads
-##.pggc > .ng-star-inserted
 ##.pggd > .ng-star-inserted
 ##.pggf > .ng-star-inserted
 ##.ph-ad
@@ -13905,7 +13905,6 @@
 ##a[href*="aHR0cHM6Ly9xc2Z2bDExLmFsYXp2LmNvbS8zNzA4Lmh0bWw="]
 ##a[href*="bjty"] > img[src*="imgsrc.baidu.com"]
 ##a[href*="xchina.click/prepare."]
-##a[href="/AllRes/Vlog2.html"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
 ##a[href="/ht.html"]
 ##a[href="/iwagbwfiwehaeyh"]
@@ -14045,6 +14044,7 @@
 ##img[width="320"][height="50"]
 ##ins.adsbygoogle[data-ad-client]
 ##ins.adsbygoogle[data-ad-slot]
+##p > a[href^="/AllRes/Vlog"]
 ##ps-connatix-module
 ##script + #coupletBox
 ##script + #rbbox
@@ -14076,6 +14076,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 $popup,third-party,domain=1337x.buzz|adblockeronstape.me|adblockeronstreamtape.me|adblockeronstrtape.xyz|adblockplustape.com|adblockplustape.xyz|adblockstreamtape.art|adblockstreamtape.fr|adblockstreamtape.site|adblocktape.online|adblocktape.store|adblocktape.wiki|advertisertape.com|animeworld.biz|antiadtape.com|atrocidades18.net|cloudemb.com|cloudvideo.tv|d000d.com|databasegdriveplayer.xyz|dembed1.com|diampokusy.com|dirproxy.info|dood.la|dood.li|dood.pm|dood.re|dood.sh|dood.so|dood.to|dood.watch|dood.wf|dood.ws|dood.yt|doods.pro|dooood.com|ds2play.com|embedsito.com|fembed-hd.com|file-upload.com|filemoon.sx|freeplayervideo.com|geoip.redirect-ads.com|gettapeads.com|gogoanime.lol|gogoanime.nl|haes.tech|hubfiles.ws|hydrax.xyz|katfile.com|kissanime.lol|kokostream.net|livetv498.me|loader.to|luluvdo.com|mixdroop.co|mixdrop.ag|mixdrop.bz|mixdrop.click|mixdrop.club|mixdrop.nu|mixdrop.ps|mixdrop.si|mixdrop.sx|mixdrop.to|mixdrp.co|mixdrp.to|noblocktape.com|okru.link|oneproxy.org|piracyproxy.biz|piraproxy.info|pixroute.com|playtube.ws|pouvideo.cc|projectfreetv2.com|proxyer.org|raes.tech|sbfast.com|sbplay2.com|sbplay2.xyz|sbthe.com|scloud.online|shavetape.cash|slmaxed.com|ssbstream.net|stapadblockuser.info|stapadblockuser.xyz|stape.fun|stape.me|stapewithadblock.beauty|stapewithadblock.monster|stapewithadblock.xyz|strcloud.in|streamadblocker.cc|streamadblocker.com|streamadblocker.store|streamadblocker.xyz|streamlare.com|streamnoads.com|streamta.pe|streamtape.cc|streamtape.com|streamtape.to|streamtape.xyz|streamtapeadblock.art|streamtapeadblockuser.art|streamtapeadblockuser.homes|streamtapeadblockuser.monster|streamtapeadblockuser.xyz|streamz.ws|strtape.cloud|strtapeadblocker.xyz|strtapewithadblock.art|strtapewithadblock.xyz|strtpe.link|supervideo.tv|suzihaza.com|tapeadsenjoyer.com|tapeadvertisement.com|tapeantiads.com|tapeblocker.com|tapelovesads.org|tapenoads.com|tapepops.com|tapewithadblock.com|tapewithadblock.org|theproxy.ws|trafficdepot.xyz|tubeload.co|un-block-voe.net|uproxy.co|upstream.to|upvid.biz|uqload.com|userload.co|vanfem.com|vgfplay.com|vidcloud9.com|vidlox.me|viewsb.com|vivo.sx|voe-unblock.com|voe-unblock.net|voe.sx|voeunblock1.com|voeunblock2.com|voiranime.com|watchsb.com|welovemanga.one|wiztube.xyz|wootly.ch|y2mate.is|youtubedownloader.sh|ytmp3.cc|ytmp3.sh
 $popup,third-party,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $popup,third-party,domain=hentai2read.com|porn-tube-club.com
+$script,subdocument,third-party,domain=dlkoo.com
 $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzhong8.com|miwens.com
 $script,third-party,domain=cilimao.co|cilimao.one
 $script,third-party,domain=colamanga.com
@@ -14786,7 +14787,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 -160x600-$image,subdocument
 -160x600.
 -160x600_
--1688-wp-media/ads/
 -300-250.
 -300x250-$image
 -300x250_
@@ -15807,6 +15807,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /js/AD_tv.js
 /js/aa.htm$script
 /js/ad_common.js$script
+/js/adblockdetect.js$script
 /js/adpopup.js$script
 /js/ads/*0.js
 /js/ads/*2.js
@@ -16173,6 +16174,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /sticky_ads.js$script
 /stickyad.js$script
 /stickyads.js$script
+/storage/js/videojs.sda.js$script
 /stui_ads/xyz456e/*
 /style_ad.css$stylesheet
 /sungg/*$domain=sun0769.com
@@ -16242,7 +16244,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /videoads/*$~xmlhttprequest
 /videojs.ads-$script,stylesheet
 /videojs.ads.css$stylesheet
-/videojs.sda.js$script
 /view/ad/*$subdocument
 /view/image/ngps1.gif
 /view_banner.php$image
@@ -16304,6 +16305,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /wxh_asy.js
 /wxhfm.html?cid=
 /x-3111-33.js$domain=pianku.li
+/xdy_yyo.php
 /xianbao_theme/ziyuan/1111/hongbao.
 /xiazxvbgyjw220923.js
 /xiwang/dfumeiti.js
@@ -17018,6 +17020,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 ://r.*/s1/$other,subdocument,third-party
 ://rou*/_next/static/chunks/pages/home-
 ://rs-stripe.wsj.com/stripe/image?
+://s.*.com/venor.php$third-party
 ://sli.*/imp?s=$image
 ://t.*/s1/$other,subdocument,third-party
 ://uads.$third-party,xmlhttprequest
@@ -17114,7 +17117,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@/jquery/*$domain=sobooks.cc
 @@/js/omni_v3.js$script,domain=www.030buy.jp|rennigou.jp
 @@/log/report/*$script,domain=bilibili.com
-@@/needsharebutton.min.js$domain=leetcode-cn.com
 @@/prebid-js-$domain=mytvsuper.com|tvb.com|tvbs.com.tw
 @@/prebid.$script,domain=mingpao.com
 @@/pubads_impl.js$domain=mytvsuper.com|tvb.com|tvbs.com.tw
@@ -18652,7 +18654,6 @@ cger.com,pcsoft.com.cn#@#.share_box
 cgown.com##.banner-gg
 chacuo.net###mailtooltipss
 chacuo.net##.a96090
-chaicp.com,qiuyi.cn##.Advertisement
 chajiaotong.com##div[id^="cjtad_"]
 chalkbeat.org,irishnews.com##.b-ads-block
 chaomi.cc,cpnn.com.cn,cs.com.cn,dyhjw.com,kkj.cn,my0538.com,mydrivers.com,ofweek.com,silver.org.cn,wendu.cn,y1118.com##.duilian
@@ -18837,6 +18838,7 @@ cncrk.com,kxdw.com##.gsdt
 cnet.com,filehippo.*##[data-meta="placeholder-slot"]
 cnet.com,healthline.com##.myFinance-ad-unit
 cnet.com,medicalnewstoday.com###MyFiAd
+cnfol.com###CjAdvBt
 cnfol.com##.Ad1000
 cnfol.com##.Ad310
 cnfol.com##.AdAsideW300H250
@@ -19109,7 +19111,6 @@ dianping.com##.weixin1
 dianyingim.com,dyxs11.com##.popup-tips
 diarioconvos.com,svetmobilne.cz##.mobile
 dicebreaker.com,rockpapershotgun.com##.primis_wrapper
-dict.cn###tjcd
 dict.cn##.search-right-ad5
 dict.cn##.search-right-ad7
 dictionary.com,thesaurus.com##.SZjJlj7dd7R6mDTODwIT
@@ -19932,7 +19933,6 @@ hao.360.cn###festival_fly + .couten
 hao.360.cn###iguess
 hao.360.cn##.hot-word
 hao.360.cn,hao.360.com###activity
-hao.360.cn,hao.360.com###festival_balloon
 hao.360.cn,hao.360.com###left_float
 hao.360.cn,hao.360.com###plane > .plane-hd
 hao.360.cn,hao.360.com###plane-ria
@@ -20887,6 +20887,7 @@ lxapk.com,lzacg.one##.custom-html-widget
 lyd.com.cn##.ad:not(:nth-child(15))
 lyngsat-logo.com,lyngsat-maps.com,lyngsat-stream.com,lyngsat.com,webhostingtalk.com##img[width="160"]
 lz13.cn##.left_box3
+lz13.cn##.left_box4
 lzep.cn##.aside
 m-haber7-com.cdn.ampproject.org,m.haber7.com##.default-ad
 m-sabah-com-tr.cdn.ampproject.org,m.sabah.com.tr##.adv-content
@@ -21448,6 +21449,7 @@ mydrivers.com##.bb
 mydrivers.com##.duilian2
 mydrivers.com##.good_ths
 mydrivers.com##.i1vbApifa5
+mydrivers.com##.jdong1div_double
 mydrivers.com##.main_right_div[style="padding-top: 10px;"]
 mydrivers.com##a[href*=".dangbei.com"]
 mydrivers.com##div[style="margin: auto;width: 580px;padding: 10px 0;"]
@@ -22159,7 +22161,6 @@ sina.cn##.zhidi
 sina.cn##.zhidi.sw_c0
 sina.cn##[data-href*="://sax"]
 sina.cn##[data-href*="://sax"] + aside
-sina.cn##[data-href*="://sax"] + aside + blockquote
 sina.cn##[data-videojc*="://sax"]
 sina.cn##a[href*=".maozhuar.com"]
 sina.cn##div[class^=m-client-call]
@@ -22223,6 +22224,7 @@ sinolub.com##div[style="float:left; padding-right:20px;"]
 skidrowcodexreloaded.com,tbsnews.net##.footer-sticky
 skyarea.cn#@#.post-share
 skycn.com###top970,ul.ul_Address>h3,a[href^="http://down.xiazaidc.com/"]
+skyscanner.*##[data-testid="inline-ad-panel-desktop-layout"]:has([data-testid="adInfoBtn"])
 skyscanner.*##div[class^="UnpricedBrandInline_link__"]
 skyscanner.*,tianxun.com##[class^="FlightsResults"] > div:has([class^="Sponsored"])
 skyscanner.*,tianxun.com##div > a:has(div[class^="DefaultBanner_sponsorshipRow"])
@@ -24117,7 +24119,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||click.aliexpress.com^$subdocument,third-party
 ||click.gamersky.com/
 ||click.taobao.com/$third-party,popunder
-||click.taobao.com^$popup,domain=steamcn.com
 ||cloudservice24.kingsoft-office-service.com/cards
 ||cls.cn/v2/web/ad?
 ||cm.$image,script,xhr,3p
@@ -24440,11 +24441,9 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||games.qq.com/playgame/gamesad/js/swfobject.js
 ||games.qq.com/playgame/videoweb/
 ||gaosan.com/js/b.js
-||gavbus*.com/assets/common/js/ad.js
 ||gcw*.2liang.cn^
 ||gd.189.cn/gz/promotion/$popup,third-party
 ||gd.sina.com.cn/iframe/22/
-||gd163.*/2018_ad/
 ||gdcytv.cn^*.gif
 ||gdmm.com*/mybt/
 ||gdmm.com/api.php?mod=js&bid=2111
@@ -24999,7 +24998,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||qixin007.com/webbanner/
 ||qixingquan.com/api.php?mod=ad&adid=
 ||qixingquan.com/partner/
-||qixingquan.com/qxq-images/dawangka.png
 ||qixingquan.com/qxq-images/js/qxq_t.js
 ||qiyipic.com/common/*/banner.jpg
 ||qiyukf.com^$third-party
