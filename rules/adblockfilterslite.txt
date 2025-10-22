@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、NoAppDownload。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/psychosispy/adblockfilters-optimized
 ! Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockfilterslite.txt
-! Version: 20251021092628
-! Last modified: 2025/10/21 09:26:28
-! Blocked Filters: 25373
+! Version: 20251022092827
+! Last modified: 2025/10/22 09:28:27
+! Blocked Filters: 25376
 !
 ###AC_ad
 ###AD_160
@@ -1253,6 +1253,7 @@
 ###adright2
 ###adrightbottom
 ###adrightrail
+###adrights14
 ###adriver_middle
 ###adriver_top
 ###adrotator
@@ -3961,7 +3962,6 @@
 ###sponsorAd1
 ###sponsorAd2
 ###sponsorAdDiv
-###sponsorAdDiv2
 ###sponsorBar
 ###sponsorBorder
 ###sponsorContainer0
@@ -4382,6 +4382,7 @@
 ###video-side-adv
 ###video-sponsor-links
 ###video-under-player-ad
+###videoADPIC
 ###videoAd
 ###videoAdContainer
 ###videoAdvert
@@ -12039,6 +12040,7 @@
 ##.pc-ad
 ##.pc-ads
 ##.pcads_widget
+##.pccb > .ng-star-inserted
 ##.pcd_ad
 ##.pcgg
 ##.pd-ads-mpu
@@ -13745,6 +13747,7 @@
 ##.wrap_boxad
 ##.wrapad
 ##.wrapper > #asxv
+##.wrapper > a[target="_blank"] > .ads
 ##.wrapper-ad
 ##.wrapper-header-ad-slot
 ##.wrapper_ad
@@ -16456,7 +16459,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 163.com###layout-bobo
 163.com###layout-love
 163.com###layout-shop
-163.com###suning-bottom-banner
 163.com###yjj_pop_wrapper
 163.com##.at_item
 163.com##.bobo-area
@@ -16605,6 +16607,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 2345.com###kz
 2345.com###leftSideBar
 2345.com###right > div:first-child
+2345.com###sideCat
 2345.com###sidel_lvy
 2345.com###sidenav > .activity-trig
 2345.com##._isFirstAd
@@ -17342,7 +17345,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||static.vrv.co^$media,domain=crunchyroll.com
 @@||static.zhihu.com/ad-raccoon-web/$script
 @@||stats.g.doubleclick.net/dc.js$script,domain=chintaistyle.jp|gyutoro.com
-@@||suning.cn/project/msIndex/js/??
 @@||survey.g.doubleclick.net^$script,domain=sporcle.com
 @@||szhr.com.cn^$generichide
 @@||szhr.com.cn^*ad
@@ -18161,8 +18163,8 @@ bdimg.com,tieba.baidu.com,tieba.com,wapp.baidu.com###pblist > li[class]:not(.j_p
 bdsmx.tube,desi-porn.tube,hclips.com,hdzog.com,hdzog.tube,hotmovs.com,inporn.com,upornia.com,upornia.tube,vjav.com,vjav.tube,vxxx.com##.fah-btn
 bdsmx.tube,desi-porn.tube,hclips.com,hdzog.com,hdzog.tube,hotmovs.com,inporn.com,vxxx.com##.under-channel
 bearingarms.com,hotair.com,pjmedia.com,redstate.com,townhall.com,twitchy.com##.advs
-beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,greenwichtime.com,houstonchronicle.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,theintelligencer.com##.mb32:has-text(Advertisement)
-beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,greenwichtime.com,houstonchronicle.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,sfchronicle.com,stamfordadvocate.com,thehour.com,theintelligencer.com##.b-gray300:has-text(Advertisement)
+beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,greenwichtime.com,houstonchronicle.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,theintelligencer.com#?#.mb32:has-text(Advertisement)
+beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,greenwichtime.com,houstonchronicle.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,sfchronicle.com,stamfordadvocate.com,thehour.com,theintelligencer.com#?#.b-gray300:has-text(Advertisement)
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,mysanantonio.com,newstimes.com,nhregister.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,timesunion.com##.b-gray300.bt
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,mysanantonio.com,newstimes.com,nhregister.com,registercitizen.com,seattlepi.com,sfgate.com,stamfordadvocate.com,thehour.com,timesunion.com##.ar16-9
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,mysanantonio.com,newstimes.com,nhregister.com,registercitizen.com,stamfordadvocate.com,thehour.com##.mnh90px
@@ -18794,6 +18796,7 @@ cqmmgo.com##div[data-id*="_adv_"]
 cqnews.net##.taobao
 cr173.com###foot~*,div.show_970,[data=viewAds]
 cr173.com,downcc.com,downyi.com,itmop.com##.downnowgaosu
+cr173.com,itmop.com,jisuxz.com##.xiazaiqi
 cranestodaymagazine.com,hoistmagazine.com,ttjonline.com###wrapper_banners
 crash.net,defence-ua.com##.banner-block
 crash.net,visordown.com##.block-ad-manager
@@ -19110,6 +19113,7 @@ douyu.com##div[class*=LiveRoomDianzan]
 douyu.com##div[class^="code_box"]
 douyu.com##div[id^="sign_p_"]
 douyu.com#?#.SharePanel:-abp-has(> .SharePanel-content > .SharePanel-contentTitle:-abp-contains(福利))
+douyu.com#?#.wm-general:-abp-has(.link[href*=".tmall.com"])
 douyu.com,~wan.douyu.com##a[href*="g.wan.douyu.com"]
 down.ali213.net##.common_down_l > .common_down_l_one > h4 ~ *
 down.ali213.net##.otherGameContainer
@@ -19149,6 +19153,7 @@ duba.com##.tempAd
 duba.com##a[w="topad"]
 duba.com,iduba.com,newduba.cn##.left_slidebar_con
 duba.com,iduba.com,newduba.cn,uu114.cn##.fav_box
+duba.com,newduba.cn###J_FloorWave
 duba.com,newduba.cn##.top_ad_tmall
 duba.com,newduba.cn##a[href*=".zhhainiao.com/"]
 duba.net###login_alert
@@ -19159,6 +19164,7 @@ duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.results--ads
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-layout="ad"]
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##li[data-layout="products"]
+duelmeta.com##.single-top-html
 dujiaoshou.cn###ad1
 duote.com###quickDown
 duote.com##.links-banner
@@ -20102,7 +20108,6 @@ ifeng.com##.recommend > .picNews
 ifeng.com##.slideImg-lGG7Uta-
 ifeng.com##.topAdBox
 ifeng.com##.trade
-ifeng.com##.vAdImg
 ifeng.com##.vAdbox
 ifeng.com##.v_adbox
 ifeng.com##.yc_con_r
@@ -22086,7 +22091,6 @@ sina.com.cn##DIV[class^="side-btns-jifen"]
 sina.com.cn##[data-info^="ad_"]
 sina.com.cn##p + .article-video
 sinadaxue.cn##.fixed-tips.app-tips
-sinolub.com##.erjlogo > .fl + .fl
 sinolub.com##[id^="xker"]
 sinolub.com##div[style="float:left; padding-right:20px;"]
 skidrowcodexreloaded.com,tbsnews.net##.footer-sticky
@@ -23444,6 +23448,7 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 |javascript:*window.location$popup
 ||*.$image,redirect=1x1.gif,third-party,domain=rmdown.com
 ||*.libaishuo.com^$third-party
+||02wq.com/script/
 ||02wq.com/script1/
 ||042.cn/adver/
 ||0575bbs.com/js/float.js
@@ -24004,7 +24009,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||con-article.hjapi.com/v1/txs/
 ||cp-jobmacha-servicemacha-widgets.oss-ap-southeast-3.aliyuncs.com/chinapress-jobads-prod.js
 ||cp121.com/js2/
-||cpnn.com.cn/cpnn_images/diangong.gif
 ||cpro.$domain=~baidu.com
 ||cpu.baidu.com^$third-party
 ||cqvip.com/viewserver/ViewAD
@@ -24029,6 +24033,7 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||ctfile.com/iz.php?
 ||ctrip.com/Domestic/tool/AjaxGetCPTList.ashx?advpositioncode=
 ||d*.ruiwen.com^
+||d*.xinshipu.com^
 ||d1.sina.com.cn/
 ||d1.sina.com.cn^$object,script
 ||d2.sina.com.cn/
@@ -24797,7 +24802,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||qilanxiaozhu.*/data/attachment/portal/
 ||qinbing.cn/data/upload/ueditor/
 ||qingqingxs.*/static/xbiquge/js/wap.
-||qingqingxs.*/static/xbiquge/wap.js
 ||qinxue100.com/qinxue/pc/js/add_js.js
 ||qixin007.com/webbanner/
 ||qixingquan.com/api.php?mod=ad&adid=
@@ -24913,7 +24917,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||sinaimg.cn/finance/wanghong_
 ||sinaimg.cn/finance/zwy/sidead_
 ||sinaimg.cn/jslib/kuozhanad.js
-||sinaimg.cn/large/$domain=chakd.com|seehd.so
 ||sinaimg.cn/large/*.gif$domain=mp4ba.la
 ||sinaimg.cn/large/007drMcOly1gfnqzv8a7ij30xc02nwfr.jpg
 ||sinaimg.cn/large/a518ed97jw1eu4mxubbe6j209q01e3ys.jpg
@@ -24933,7 +24936,6 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||sinaimg.cn^*/pushDiversion*.js
 ||sinaimg.cn^*/yyy_pop
 ||sinaimg.cn^*_wap_ad_
-||sinolub.com/index.php?m=poster&
 ||skeyword.browser.qq.com/getHotRank
 ||sl.al/gdrive/pic/*.gif
 ||snzfj.net^$third-party
@@ -25243,6 +25245,7 @@ zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 ||xiongzhang.baidu.com/xzhstatistics/rp^
 ||xitek.com/idzone
 ||xitonghe.com/SkinNew/js/init_g.
+||xitongzhijia.net/theme/2020/js/10033_
 ||xizi.com/js/rotator.js
 ||xkzzz.com/zb_users/plugin/MoreLinks*/show.
 ||xkzzz.com/zb_users/plugin/MoreLinks/MoreLinks.
