@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、NoAppDownload。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/psychosispy/adblockfilters-optimized
 # Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockclashlite.list
-# Version: 20251026093841
-# Last modified: 2025/10/26 09:38:41
-# Blocked domains: 1486
+# Version: 20251027094208
+# Last modified: 2025/10/27 09:42:08
+# Blocked domains: 1485
 #
 [Rule]
 DOMAIN-SUFFIX,img.0279.net,REJECT-DROP
@@ -573,7 +573,6 @@ DOMAIN-SUFFIX,50m.gkcyc.com,REJECT-DROP
 DOMAIN-SUFFIX,1.glook.cn,REJECT-DROP
 DOMAIN-SUFFIX,mg.glwxw.net,REJECT-DROP
 DOMAIN-SUFFIX,ad.gmw.cn,REJECT-DROP
-DOMAIN-SUFFIX,go2yd.com,REJECT-DROP
 DOMAIN-SUFFIX,godloveme.cn,REJECT-DROP
 DOMAIN-SUFFIX,adpush.goforandroid.com,REJECT-DROP
 DOMAIN-SUFFIX,adserver.goforandroid.com,REJECT-DROP
