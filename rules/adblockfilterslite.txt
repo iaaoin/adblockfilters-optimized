@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、NoAppDownload。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/psychosispy/adblockfilters-optimized
 ! Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockfilterslite.txt
-! Version: 20251029094428
-! Last modified: 2025/10/29 09:44:28
-! Blocked Filters: 25363
+! Version: 20251030094326
+! Last modified: 2025/10/30 09:43:26
+! Blocked Filters: 25361
 !
 ###AC_ad
 ###AD_160
@@ -4092,6 +4092,7 @@
 ###stripadv
 ###subheaderAd
 ###swtleft[style^="position:fixed;"]
+###syad4
 ###table1[width="812"][height="60"]
 ###taboola
 ###taboola-above-homepage-thumbnails
@@ -16550,6 +16551,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 18comic.org,18comic.vip##.modal-backdrop
 18comic.org,18comic.vip##.row[style="display: flex;flex-wrap: wrap;"]
 18comic.org,18comic.vip##a[herf*="//"]:not([href*="comic."]) > img
+18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > [style*="back"]
 18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > div[style]
 18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
 18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
@@ -18055,7 +18057,6 @@ baidu.com##.wgt-ad-exp-pic
 baidu.com##.wgt-ads
 baidu.com##.wgt-bottom-union
 baidu.com##.yitiao-box
-baidu.com##a[class*="fengchaoContainer"]
 baidu.com##div[class$="-ecom-ads"]
 baidu.com##div[class*="fc-"][tplid]
 baidu.com##div[data-ad]
@@ -19102,6 +19103,7 @@ douyu.com##.pendant-wrap
 douyu.com##.row-4.theatre
 douyu.com##.row.row-3
 douyu.com##.summer_enter
+douyu.com##.tab-content.promote
 douyu.com##.vcode9-sign
 douyu.com##.video-info-download
 douyu.com##a[href*=".miaozhen.com"]
@@ -19589,7 +19591,6 @@ gameapp.qq.com##.act-tips
 gamebyte.com,irishnews.com##div[id^="mpu"]
 gamecopyworld.com,gamecopyworld.eu##[href*="@"]
 gamecopyworld.com,gamecopyworld.eu##[href^="https://www.kinguin.net/"]
-gameinns.com##a[url^="/api/ads?"]
 gamepress.gg,amazingribs.com##.top-mobile-ad
 gamer.com.tw,~buy.gamer.com.tw##a[href^="https://buy.gamer.com.tw"]
 gamereactor.*###videoContainer:has(> [id^="videoContent-videoad-"])
@@ -21235,6 +21236,7 @@ msn.cn##above-river-block
 msn.cn##div[class^="nativeAd-DS-card"]
 msn.cn##gaming-discover-strip
 mtrend.cn###topictabs1
+mtrend.cn###toptabs1 > .kz_line
 mtrend.cn##a[href*="taomoubao.com"]
 mtrend.cn##a[href^="http://tao.mtrend.cn/"]
 muchong.com###creditegg
@@ -21808,8 +21810,8 @@ qq.com##.code-content
 qq.com##.cps_inner
 qq.com##.elevator[class^="jsx-"]
 qq.com##.father-ad
+qq.com##.home-download-btn
 qq.com##.m[pbflag="guess"]
-qq.com##.main_ad_bottom
 qq.com##.main_ad_top
 qq.com##.mian-ad
 qq.com##.mod-download-tips
@@ -21824,6 +21826,7 @@ qq.com##.public-banner
 qq.com##.qGirl-wrap
 qq.com##.sider_ad
 qq.com##.site_words
+qq.com##.tb-activity-list
 qq.com##.txp_ad_link
 qq.com##.wrap[class^="jsx-"]
 qq.com##.yscoin-box
@@ -23068,7 +23071,6 @@ xhamster.com,xhamster2.com#$#body { overflow: visible!important; position: stati
 xhd.cn##.xinad
 xiadele.com##.details-small-carousel
 xiadele.com##.yun-advertisement
-xianzhenyuan.cn##a[href*=".tmall.com"]:not(#xztba)
 xiaohongshu.com##.android.all-comment
 xiaohongshu.com##.bottom-bar.button-bottom-bar.cube-z-bottom-bar
 xiaohongshu.com##.bottom-button-box
@@ -25228,9 +25230,6 @@ zyue.com##div[id^="divad_"]
 ||xinhuanet.com/jjimages/jc/js/fla.js
 ||xinhuanet.com/s?
 ||xinhuanet.com^*/adv
-||xinmin.cn/framepage/foot1.htm
-||xinmin.cn/framepage/left1.htm
-||xinmin.cn/framepage/top
 ||xiongzhang.baidu.com/xzhstatistics/rp^
 ||xitek.com/idzone
 ||xitonghe.com/SkinNew/js/init_g.
@@ -25302,7 +25301,6 @@ zyue.com##div[id^="divad_"]
 ||zglww.net/jsnew/pfkf.js
 ||zhan.com^*/middle_ad_modal.js
 ||zhanqi.tv/api/static/v2.1/actives.lists/
-||zhaofuli.*/data/content
 ||zhenbuka*/statics/js/toastr/jquery.toast.js
 ||zhev.com.cn/file/weixin/
 ||zhidao.baidu.com/question/api/hao123word
