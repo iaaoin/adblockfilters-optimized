@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、NoAppDownload。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/psychosispy/adblockfilters-optimized
 ! Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockfilterslite.txt
-! Version: 20251030094326
-! Last modified: 2025/10/30 09:43:26
-! Blocked Filters: 25361
+! Version: 20251031094035
+! Last modified: 2025/10/31 09:40:35
+! Blocked Filters: 25365
 !
 ###AC_ad
 ###AD_160
@@ -14932,6 +14932,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .com/json/cctv.json?v=
 .com/logo/logo.js
 .com/pc/ad/
+.com/players/*/-1/70/*?hash=-$script,third-party
 .com/rs/shto/$third-party
 .com/sc/*?n=$script,third-party
 .com/script/a.js$third-party
@@ -15811,6 +15812,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /jquery.popunder.js
 /js/AD_tv.js
 /js/aa.htm$script
+/js/ad.js$domain=69shuba.com
 /js/ad_common.js$script
 /js/adblockdetect.js$script
 /js/adpopup.js$script
@@ -16549,7 +16551,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 18avtube.com,mm-cg.com##.CN_qmvtoy
 18comic.org,18comic.vip###guide-modal
 18comic.org,18comic.vip##.modal-backdrop
-18comic.org,18comic.vip##.row[style="display: flex;flex-wrap: wrap;"]
 18comic.org,18comic.vip##a[herf*="//"]:not([href*="comic."]) > img
 18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > [style*="back"]
 18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > div[style]
@@ -16684,7 +16685,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 36kr.com##.float-home-button-wrp
 36kr.com##.goapp-btn
 36kr.com##.goapp-wrapper > .kr-mobile-goapp
-36kr.com##.home-ad-flow-banner
 36kr.com##.interact-area
 36kr.com##.kr-ad-home-flow-article
 36kr.com##.kr-ad-home-flow-banner
@@ -19767,7 +19767,6 @@ guba.eastmoney.com##.redian
 gucheng.com##.right_info
 guilinlife.com##a[href*="adclicks&"]
 guilinlife.com#?#li:-abp-has(> div > .content-other > .content-type:-abp-contains(广告))
-guitarchina.com,iqiyi.com##.banner4
 gumtree.com.au,s.tabelog.com#@#[data-ad-name]
 guru.porn,hdporno.xxx,poz.xxx,pornbaron.net,porn2.xxx,watch.xxx,tubeporn.site,myporn.tube,pornfree.gg,porn69.xxx,beeg.gg,porntek.com,haha.xxx,longvideos.xxx,hdporner.org,porno.wiki,3porn.gg,33porn.net,hqporner.gg,300.porn,sexyporn.org,pornstars.gg,sexvideos.gg,ixxx.gg,sexyporn.xxx,pornhd.tube,porn36.com,porn9.xxx,porn13.org,bee.xxx,filmz.xxx,xfilms.org,xporn.gg,porndo.net,tor.xxx,bestporn.gg,eporn.xxx,fullpornvideos.xxx,24porn.biz,bigporn.org,pornfulls.com,fullmovies.xxx,pornvideos.gg,pornfilms.xxx,hdporn.gg,txxx.porn,porntube.gg,1porn.tv,freeporn.gg,freepornmovies.net,freeporntube.tv,freesexvideos.xxx,wow.xxx,fullhd.xxx,many.xxx,porner.xxx,fullvideos.xxx,omg.xxx,4kporno.xxx,fullporn.*,fullporno.xxx,freepornvideos.xxx##.ft
 guru.porn,many.xxx##.avd_mob
@@ -20104,6 +20103,7 @@ ifeng.com##.pic1000
 ifeng.com##.pic300
 ifeng.com##.pic950
 ifeng.com##.recommend > .picNews
+ifeng.com##.right_gg
 ifeng.com##.slideImg-lGG7Uta-
 ifeng.com##.topAdBox
 ifeng.com##.trade
@@ -20298,7 +20298,6 @@ iqiyi.com###scrollWrap-vipbuy
 iqiyi.com###videoBuyContainer
 iqiyi.com###widget-jingdongAd
 iqiyi.com##.ad-seed
-iqiyi.com##.banner3
 iqiyi.com##.cupid-panel + div
 iqiyi.com##.header_app.iqiyi-h5-empty
 iqiyi.com##.hotWords-wrap
@@ -21403,6 +21402,7 @@ news.sky.com,skysports.com,trueachievements.com,truesteamachievements.com,truetr
 news.sohu.com,www.sohu.com#?#.list16 > ul > li:-abp-contains(广告)
 news18.com,m.economictimes.com,m.haberler.com,redtube.com,redtube.net,pornhub.com,pornhub.org,pornhub.net##.adContainer
 news18.com,readcomiconline.li##div[style*="width: 300px"]
+news18a.com,tom.com##.ina_ad_class
 newsmth.net###ban_ner
 newsmth.net##.Smthtwenty_float
 newsmth.net##.b-content > #sogou_banner:nth-child(3)
@@ -22052,6 +22052,7 @@ sina.com.cn###pip_taobao
 sina.com.cn###tg_app_w
 sina.com.cn##.AD_hqbottom
 sina.com.cn##.adC
+sina.com.cn##.adF
 sina.com.cn##.ad_01_center
 sina.com.cn##.ad_01_left
 sina.com.cn##.ad_01_right
@@ -22282,6 +22283,7 @@ susongbbs.com#@#.ad_banner
 sutekinakijo.com,syurabahazard.com##div[id^="articleAd"]
 swoole.com##.swoole-resource
 swoole.com##.wiki-resource
+sxyprn.net,sxyprn.com##.tbd
 syakouba.com,deview.co.jp###meerkat-wrap
 szhk.com##.banner_dt
 szxx.com.cn###A1
@@ -24018,6 +24020,7 @@ zyue.com##div[id^="divad_"]
 ||ctfile.com/img/*ssp
 ||ctfile.com/iz.php?
 ||ctrip.com/Domestic/tool/AjaxGetCPTList.ashx?advpositioncode=
+||cww.net.cn/js/urdev.js
 ||d*.ruiwen.com^
 ||d*.xinshipu.com^
 ||d1.sina.com.cn/
@@ -24332,6 +24335,7 @@ zyue.com##div[id^="divad_"]
 ||hujiang.com/ciku/getDetailSoftText/
 ||hujiang.com/ciku/getLesson
 ||huobaowang.com/meeting/js/hbchat.
+||huoche.net/Images/pc/ad_
 ||huoche.net/public/huoche/ad/
 ||hupu.com/_dace.gif?
 ||hupu.com^*/interfaceAd/

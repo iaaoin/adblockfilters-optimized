@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、NoAppDownload。
 ! Homepage: https://github.com/psychosispy/adblockfilters-optimized
 ! Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockfilters.txt
-! Version: 20251030094326
-! Last modified: 2025/10/30 09:43:26
-! Blocked Filters: 46605
+! Version: 20251031094035
+! Last modified: 2025/10/31 09:40:35
+! Blocked Filters: 46613
 !
 ###AC_ad
 ###AD_160
@@ -15144,6 +15144,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .com/json/cctv.json?v=
 .com/logo/logo.js
 .com/pc/ad/
+.com/players/*/-1/70/*?hash=-$script,third-party
 .com/rs/shto/$third-party
 .com/sc/*?n=$script,third-party
 .com/script/a.js$third-party
@@ -16023,6 +16024,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /jquery.popunder.js
 /js/AD_tv.js
 /js/aa.htm$script
+/js/ad.js$domain=69shuba.com
 /js/ad_common.js$script
 /js/adblockdetect.js$script
 /js/adpopup.js$script
@@ -16823,7 +16825,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 18avtube.com,mm-cg.com##.CN_qmvtoy
 18comic.org,18comic.vip###guide-modal
 18comic.org,18comic.vip##.modal-backdrop
-18comic.org,18comic.vip##.row[style="display: flex;flex-wrap: wrap;"]
 18comic.org,18comic.vip##a[herf*="//"]:not([href*="comic."]) > img
 18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > [style*="back"]
 18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > div[style]
@@ -17042,7 +17043,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 36kr.com##.float-home-button-wrp
 36kr.com##.goapp-btn
 36kr.com##.goapp-wrapper > .kr-mobile-goapp
-36kr.com##.home-ad-flow-banner
 36kr.com##.interact-area
 36kr.com##.kr-ad-home-flow-article
 36kr.com##.kr-ad-home-flow-banner
@@ -23665,8 +23665,10 @@ duckduckgo.com##.module--carousel-toursactivities
 duckduckgo.com##.vertical-section-divider:has(span.badge--ad-wrap)
 duckduckgo.com##[data-layout$="_ads"]
 duckduckgo.com##[data-testid=serp-popover-promo]
+duckduckgo.com##div[data-react-module-id="products-0"]
 duckduckgo.com##li[data-layout="products_middle"]
 duckduckgo.com##main[data-testid="zci-products"] > nav + div > div:has( > h2 button[data-testid="ad-badge"])
+duckduckgo.com##section > div[class]:has(button[data-testid="ad-badge-ad-tooltip-products"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.highlight_sponsored
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.js-results-ads
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.js-sidebar-ads > .nrn-react-div
@@ -25132,6 +25134,7 @@ fusetter.com##.sp_ad
 futbin.com##.fb-ad-placement
 futbol24.com##.adv2
 futbol24.com##.rek
+futbolperuano.com#$#header.sticky-top { top: 0 !important; }
 futura-sciences.com,forocoches.com,macg.co##.optidigital-wrapper-div
 futurecurrencyforecast.com##.cwc-tor-widget
 futuregaming.io##.ez-video-wrap
@@ -26060,7 +26063,6 @@ guidingtech.com##.at2
 guilinlife.com##a[href*="adclicks&"]
 guilinlife.com#?#li:-abp-has(> div > .content-other > .content-type:-abp-contains(广告))
 guitaradvise.com##.wp-block-affiliate-plugin-lasso
-guitarchina.com,iqiyi.com##.banner4
 gulf-times.com##.gt-horizontal-ad
 gulf-times.com##.gt-square-desktop-ad
 gulf-times.com##.gt-vertical-ad
@@ -26971,6 +26973,7 @@ ifeng.com##.pic1000
 ifeng.com##.pic300
 ifeng.com##.pic950
 ifeng.com##.recommend > .picNews
+ifeng.com##.right_gg
 ifeng.com##.slideImg-lGG7Uta-
 ifeng.com##.topAdBox
 ifeng.com##.trade
@@ -27478,7 +27481,6 @@ iqiyi.com###scrollWrap-vipbuy
 iqiyi.com###videoBuyContainer
 iqiyi.com###widget-jingdongAd
 iqiyi.com##.ad-seed
-iqiyi.com##.banner3
 iqiyi.com##.cupid-panel + div
 iqiyi.com##.header_app.iqiyi-h5-empty
 iqiyi.com##.hotWords-wrap
@@ -31273,6 +31275,7 @@ news18.com#?#.article_main > div[class^="jsx-"][style*="min-height:"] > .OUTBRAI
 news18.com#?#.hntranding > ul > li:has(> .lazyAds)
 news18.com,m.economictimes.com,m.haberler.com,redtube.com,redtube.net,pornhub.com,pornhub.org,pornhub.net##.adContainer
 news18.com,readcomiconline.li##div[style*="width: 300px"]
+news18a.com,tom.com##.ina_ad_class
 news24.com##.featured-category
 news24online.com##.desktop_new_ads
 news24online.com##.n24_ads_div_title
@@ -34222,6 +34225,7 @@ sina.com.cn###pip_taobao
 sina.com.cn###tg_app_w
 sina.com.cn##.AD_hqbottom
 sina.com.cn##.adC
+sina.com.cn##.adF
 sina.com.cn##.ad_01_center
 sina.com.cn##.ad_01_left
 sina.com.cn##.ad_01_right
@@ -35098,6 +35102,7 @@ sxyprn.com##.cbd
 sxyprn.com##.fbd
 sxyprn.com##.tbd
 sxyprn.com##[href*="/re/"]
+sxyprn.net,sxyprn.com##.tbd
 syakouba.com###bbs > p[style]:has(> a[target="_blank"]:only-child)
 syakouba.com##div[style^="width:320px;height:100px"]
 syakouba.com##p:has(> a[href^="https://click.dtiserv2.com/"])
@@ -36482,7 +36487,6 @@ tvmaze.com##.blad
 tvmost.com.hk##.main_ad_b
 tvnz.co.nz##.AdOnPause
 tvnz.co.nz,world-nuclear-news.org##.Advert
-tvsou.com##.sogou-temp-show
 tvspielfilm.de##.livetv-ad-bottom
 tvtropes.org###asteri-sidebar
 tvtropes.org###mobile_1
@@ -37158,7 +37162,6 @@ w3school.com.cn###sbtg
 w3school.com.cn###sp_tiy
 w3techs.com##.feat
 waamradio.com##.elementor-element-f389212
-wacowla.com###home-top-narrow
 wago.io##.ad-in-search
 wahm.com##.box2
 wahm.com##.rad-links
@@ -38551,6 +38554,7 @@ yahoo.com##.ntk-ad-item
 yahoo.com##.searchCenterBottomAds
 yahoo.com##.searchCenterTopAds
 yahoo.com##.stream-items > li.stream-item[data-wf-image-beacons]
+yahoo.com##.stream-responsive-ad-item
 yahoo.com##.stream-sm-ad
 yahoo.com##.sys_shopleguide
 yahoo.com##.taboola-ad-item-wrapper
@@ -39440,7 +39444,6 @@ zznews.cn#@#.ad-wrapper
 ||66wz.com/eap/
 ||66zhuang.com/public_2017/js/count-gou.js
 ||69games.xxx/ajax/skr?
-||69shuba.com/js/ad.js
 ||69shuba.cx^*/shu.js
 ||6angebot.ch^$popup,third-party
 ||6gxs.net/js/
@@ -39521,6 +39524,7 @@ zznews.cn#@#.ad-wrapper
 ||abcache.com/xc/image/
 ||aboutads.quantcast.com^$third-party
 ||absoluporn.com/code/script/
+||absoluteroute.com^$popup
 ||ac*.786ip.com^
 ||ac*.faxingchina.com^
 ||ac*.pingguolv.com^
@@ -40009,6 +40013,7 @@ zznews.cn#@#.ad-wrapper
 ||allyes.
 ||allyes.$third-party
 ||alpha-affiliates.com^$third-party
+||alpheratzscheat.top^$popup
 ||alpinedrct.com^$popup
 ||alright.network^$third-party
 ||alrincon.com/nbk/
@@ -40125,7 +40130,6 @@ zznews.cn#@#.ad-wrapper
 ||apple886.com/subs/*.js
 ||appledaily.hk/banners/subscription/
 ||applift.com^$redirect=noop.txt,image,media,subdocument,stylesheet,script,xmlhttprequest,other
-||applinzi.com^$domain=soyunpan.com
 ||applixir.com^$third-party
 ||appnext.com^$third-party
 ||apprupt.com^$third-party
@@ -40196,6 +40200,7 @@ zznews.cn#@#.ad-wrapper
 ||audience2media.com^$third-party
 ||audiencerun.com^$third-party
 ||audiensi.com^$third-party
+||audio.ad^$third-party
 ||audiotag.info/images/banner_
 ||audrte.com^$popup
 ||aungudie.com^$popup
@@ -41281,6 +41286,7 @@ zznews.cn#@#.ad-wrapper
 ||cutegurlz.com/promos-royal-slider/aff/
 ||cuveeoxanate.top^$popup
 ||cwn0drtrk.com^$popup
+||cww.net.cn/js/urdev.js
 ||cx.ssacdn.com/image/fetch/*supersonicads
 ||cyber-guard.me^$popup
 ||cyberlink.pro^$popup
@@ -42350,6 +42356,7 @@ zznews.cn#@#.ad-wrapper
 ||handgripvegetationhols.com^$popup
 ||hanime.xxx/wp-content/cache/wpfc-minified/fggil735/fa9yi.js
 ||hao123.com/erjiapi/adv?
+||haogushi88.cc/static/simple/yue
 ||happyhongkong.com/images/client/
 ||hardbritlads.com/banner/
 ||hardcoreluv.com/hmt.gif
@@ -42563,6 +42570,7 @@ zznews.cn#@#.ad-wrapper
 ||hungryrise.com^$popup
 ||huo720.com/back/ad_
 ||huobaowang.com/meeting/js/hbchat.
+||huoche.net/Images/pc/ad_
 ||huoche.net/public/huoche/ad/
 ||hupu.com/_dace.gif?
 ||hupu.com^*/interfaceAd/
@@ -43068,7 +43076,6 @@ zznews.cn#@#.ad-wrapper
 ||jz5u.com/public/new/
 ||jzzo.com/_ad
 ||k3on.com^$document
-||k8dm.com/960x70.
 ||kaas.am/hhapia/
 ||kadam.ru^$third-party
 ||kaipuyun.cn/count/
@@ -44046,6 +44053,7 @@ zznews.cn#@#.ad-wrapper
 ||otherprofit.com^$third-party
 ||otm-r.com^$third-party
 ||otomi-games.com/wp-content/uploads/*-Ad-728-
+||ottadvisors.com^$third-party
 ||otzovik.com/scripts/function/iri2.php?
 ||oulsaultaulert.com^$popup
 ||ourcommonnews.com^$popup
