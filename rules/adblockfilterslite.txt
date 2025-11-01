@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、NoAppDownload。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/psychosispy/adblockfilters-optimized
 ! Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockfilterslite.txt
-! Version: 20251031094035
-! Last modified: 2025/10/31 09:40:35
-! Blocked Filters: 25365
+! Version: 20251101094414
+! Last modified: 2025/11/01 09:44:14
+! Blocked Filters: 25372
 !
 ###AC_ad
 ###AD_160
@@ -1475,7 +1475,6 @@
 ###ads_top_content
 ###ads_top_right
 ###ads_top_sec
-###ads_top_video
 ###ads_topbanner
 ###ads_tower_top
 ###ads_vert
@@ -13877,6 +13876,7 @@
 ##a[href*=".g2afse.com/"]
 ##a[href*=".kaiyunty.live"]
 ##a[href*=".labsda.com"] > img[src^="/game/20"]
+##a[href*=".ssmh"][href*="?u="]
 ##a[href*=".sudun.com/"]
 ##a[href*=".taobao.com"] > img[src*=".tucao."]
 ##a[href*=".xacg.info/"]
@@ -14982,7 +14982,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .lol/sw.js$third-party
 .lu/ads/
 .me/gg.js
-.men/ads/
 .net/ad2/$~xmlhttprequest
 .net/adx.php?$popup
 .net/js/ads/
@@ -16532,7 +16531,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 17ce.com##section[id*="top_banner"]
 17house.com##.suiping
-17jita.com###wp > .wp > .pbm
 17k.com##.baiduBox
 17yy.com###addiv
 18183.com###gsBtn
@@ -18707,7 +18705,6 @@ cnfol.com##.Ad1000
 cnfol.com##.Ad310
 cnfol.com##.AdAsideW300H250
 cnfol.com##.FixedLeft
-cnfol.com##.FixedRight
 cnfol.com##.NavTopAd
 cnfol.com##.NewAdBox
 cnfol.com##.allAd
@@ -19141,7 +19138,6 @@ drtuber.com,iceporn.com,nuvid.com,proporn.com,viptube.com,winporn.com##.drt-spot
 drtuber.com,nuvid.com##.drt-sponsor-block
 drtuber.com,thisvid.com,vivatube.com,xxbrits.com##.spots
 duangks.com###a_d_sidebar
-duba.com###oneTip
 duba.com###searchRight
 duba.com##.J_side_activity
 duba.com##.bgOpen
@@ -19174,7 +19170,6 @@ dzwww.com##.popular
 dzwww.com##div[style="margin:0;padding:0;width:620px;height:345px;overflow:hidden;background-color:#fff;"]
 e0575.cn###main > div:first-child
 e0575.cn##a[href*="/showad.php?"]
-e0575.cn##div[id^="tid_"]
 e23.cn##div[id*="adv"]
 eastday.com###yxxf_area
 eastday.com##.ad-foot-right
@@ -19707,6 +19702,8 @@ gmw.cn###ysp_gmrbAppLayer
 gmw.cn##.ad_pics
 gmw.cn##.g_adMain
 goal.com,thisislondon.co.uk##.commercial
+gogetaroomie.com,snafu-comics.com###right-space
+gogetaroomie.com,snafu-comics.com###top-space
 gohome.com.hk,idv.st#@##adFrame
 golflink.com,yourdictionary.com##.ui-advertisement
 golfmagic.com,kbb.com,thisismoney.co.uk##.sticky-container
@@ -19767,6 +19764,7 @@ guba.eastmoney.com##.redian
 gucheng.com##.right_info
 guilinlife.com##a[href*="adclicks&"]
 guilinlife.com#?#li:-abp-has(> div > .content-other > .content-type:-abp-contains(广告))
+guitarchina.com,iqiyi.com##.banner4
 gumtree.com.au,s.tabelog.com#@#[data-ad-name]
 guru.porn,hdporno.xxx,poz.xxx,pornbaron.net,porn2.xxx,watch.xxx,tubeporn.site,myporn.tube,pornfree.gg,porn69.xxx,beeg.gg,porntek.com,haha.xxx,longvideos.xxx,hdporner.org,porno.wiki,3porn.gg,33porn.net,hqporner.gg,300.porn,sexyporn.org,pornstars.gg,sexvideos.gg,ixxx.gg,sexyporn.xxx,pornhd.tube,porn36.com,porn9.xxx,porn13.org,bee.xxx,filmz.xxx,xfilms.org,xporn.gg,porndo.net,tor.xxx,bestporn.gg,eporn.xxx,fullpornvideos.xxx,24porn.biz,bigporn.org,pornfulls.com,fullmovies.xxx,pornvideos.gg,pornfilms.xxx,hdporn.gg,txxx.porn,porntube.gg,1porn.tv,freeporn.gg,freepornmovies.net,freeporntube.tv,freesexvideos.xxx,wow.xxx,fullhd.xxx,many.xxx,porner.xxx,fullvideos.xxx,omg.xxx,4kporno.xxx,fullporn.*,fullporno.xxx,freepornvideos.xxx##.ft
 guru.porn,many.xxx##.avd_mob
@@ -20102,6 +20100,7 @@ ifeng.com##.mr_top_box
 ifeng.com##.pic1000
 ifeng.com##.pic300
 ifeng.com##.pic950
+ifeng.com##.playad
 ifeng.com##.recommend > .picNews
 ifeng.com##.right_gg
 ifeng.com##.slideImg-lGG7Uta-
@@ -20298,6 +20297,7 @@ iqiyi.com###scrollWrap-vipbuy
 iqiyi.com###videoBuyContainer
 iqiyi.com###widget-jingdongAd
 iqiyi.com##.ad-seed
+iqiyi.com##.banner3
 iqiyi.com##.cupid-panel + div
 iqiyi.com##.header_app.iqiyi-h5-empty
 iqiyi.com##.hotWords-wrap
@@ -20555,7 +20555,6 @@ kan.china.com##.pages a[href^="/recommend.shtml"]
 kankanmi.com##.listnewli
 kanman.com###\5f _acgn-virtual-coin__
 kaoyan.com##.floatQrcode
-kaoyan1v1.com###showAD
 kare11.com,wzzm13.com,king5.com##.universal-ad
 katano-times.com,takatsuki2.jp###article-contents > span[class="subject"]
 katestube.com,sleazyneasy.com,vikiporn.com##.after_adv
@@ -21519,6 +21518,7 @@ oschina.net##.blog-left-ad,#project_ad_banner,a[data-traceid],a[href^="http://cl
 oschina.net##.recruitment
 oschina.net##a[data-traceid$="_ad"]
 oschina.net##a[data-traceid*="_detail_above_text_link_"]
+oschina.net##a[data-traceid="explore_right_bar_70"]
 oschina.net##a[data-traceid^="questionbanner"]
 oschina.net##a[data-tracepid^="index_banner_"]
 oschina.net##div[data-traceid*="_ad_"]
@@ -22248,6 +22248,13 @@ sspai.com##.content hr:nth-last-child(-n+4) ~ p
 ssr.tools,zhujiwiki.com##.asb-post-footer
 ssuip.com###mask
 stackexchange.com,stackoverflow.com##.js-freemium-cta
+startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion##.a-bg-result
+startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion##.css-1j5r2ie
+startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion##.pa-bg
+startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion##.pa-bg + section
+startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion##a[href^="https://ww44.affinity.net/"]
+startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion##div.result[style="margin-bottom: 10px;"]:has(path[d^="m6.07067"])
+startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion##div[style="display: block; padding: 12px; margin: 0px 0px 10px; border-radius: 4px; border: 1px solid rgb(59, 67, 91);"]
 stat-nba.com###ad_video
 steelcn.cn###table img
 steelcn.cn##.new_fixed
