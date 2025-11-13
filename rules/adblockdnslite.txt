@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、NoAppDownload。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/psychosispy/adblockfilters-optimized
 ! Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockdnslite.txt
-! Version: 20251112094235
-! Last modified: 2025/11/12 09:42:35
-! Blocked domains: 1458
+! Version: 20251113094342
+! Last modified: 2025/11/13 09:43:42
+! Blocked domains: 1461
 ! unBlocked domains: 4
 !
 ||img.0279.net^
@@ -38,6 +38,7 @@
 ||log.study.163.com^
 ||nex.163.com^
 ||sentry.music.163.com^
+||ac.dun.163yun.com^
 ||165tchuang.com^
 ||stat.v.17173.com^
 ||1buo.icu^
@@ -333,6 +334,8 @@
 ||mlog.bigda.com^
 ||union-mlog.bigda.com^
 ||dataflow.biliapi.com^
+||cm.bilibili.com^
+||data.bilibili.com^
 ||bingdianhuanyuan.cn^
 ||ai.bioon.com^
 ||carstat.bitauto.com^
