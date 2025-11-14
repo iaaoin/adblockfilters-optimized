@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、NoAppDownload。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/psychosispy/adblockfilters-optimized
 # Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockclashlite.list
-# Version: 20251113094342
-# Last modified: 2025/11/13 09:43:42
-# Blocked domains: 1461
+# Version: 20251114094306
+# Last modified: 2025/11/14 09:43:06
+# Blocked domains: 1468
 #
 [Rule]
 DOMAIN-SUFFIX,img.0279.net,REJECT-DROP
@@ -1084,6 +1084,8 @@ DOMAIN-SUFFIX,1.shopit.cn,REJECT-DROP
 DOMAIN-SUFFIX,shudi8.com,REJECT-DROP
 DOMAIN-SUFFIX,umini.shujupie.com,REJECT-DROP
 DOMAIN-SUFFIX,js.shunqi.com,REJECT-DROP
+DOMAIN-SUFFIX,adservice.sigmob.cn,REJECT-DROP
+DOMAIN-SUFFIX,dc.sigmob.cn,REJECT-DROP
 DOMAIN-SUFFIX,sigmob.com,REJECT-DROP
 DOMAIN-SUFFIX,mixer.sina.cn,REJECT-DROP
 DOMAIN-SUFFIX,sa.sina.cn,REJECT-DROP
@@ -1097,6 +1099,11 @@ DOMAIN-SUFFIX,huichuan.sm.cn,REJECT-DROP
 DOMAIN-SUFFIX,huichuan-mc.sm.cn,REJECT-DROP
 DOMAIN-SUFFIX,image-ad.sm.cn,REJECT-DROP
 DOMAIN-SUFFIX,video-ad.sm.cn,REJECT-DROP
+DOMAIN-SUFFIX,adx-ad.smart-tv.cn,REJECT-DROP
+DOMAIN-SUFFIX,launcher.smart-tv.cn,REJECT-DROP
+DOMAIN-SUFFIX,launcherimg.smart-tv.cn,REJECT-DROP
+DOMAIN-SUFFIX,mission-pub.smart-tv.cn,REJECT-DROP
+DOMAIN-SUFFIX,newvoice.chiq5.smart-tv.cn,REJECT-DROP
 DOMAIN-SUFFIX,abtest-ch.snssdk.com,REJECT-DROP
 DOMAIN-SUFFIX,open.snssdk.com,REJECT-DROP
 DOMAIN-SUFFIX,tnc3-aliec2.snssdk.com,REJECT-DROP

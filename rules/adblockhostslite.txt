@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、NoAppDownload。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/psychosispy/adblockfilters-optimized
 # Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockhostslite.txt
-# Version: 20251113094342
-# Last modified: 2025/11/13 09:43:42
-# Blocked domains: 1461
+# Version: 20251114094306
+# Last modified: 2025/11/14 09:43:06
+# Blocked domains: 1468
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -1098,6 +1098,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	shudi8.com
 0.0.0.0	umini.shujupie.com
 0.0.0.0	js.shunqi.com
+0.0.0.0	adservice.sigmob.cn
+0.0.0.0	dc.sigmob.cn
 0.0.0.0	sigmob.com
 0.0.0.0	mixer.sina.cn
 0.0.0.0	sa.sina.cn
@@ -1111,6 +1113,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	huichuan-mc.sm.cn
 0.0.0.0	image-ad.sm.cn
 0.0.0.0	video-ad.sm.cn
+0.0.0.0	adx-ad.smart-tv.cn
+0.0.0.0	launcher.smart-tv.cn
+0.0.0.0	launcherimg.smart-tv.cn
+0.0.0.0	mission-pub.smart-tv.cn
+0.0.0.0	newvoice.chiq5.smart-tv.cn
 0.0.0.0	abtest-ch.snssdk.com
 0.0.0.0	open.snssdk.com
 0.0.0.0	tnc3-aliec2.snssdk.com

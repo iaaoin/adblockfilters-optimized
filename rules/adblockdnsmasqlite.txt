@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：EasyList Optimized、EasyList China Optimized、AdGuard Mobile Ads Optimized、CJX's Annoyance List、Crystal RainSlide CN、Crystal RainSlide Intl、AWAvenue Ads Rule、Xinggsf Rule、NoAppDownload。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/psychosispy/adblockfilters-optimized
 # Source: https://raw.githubusercontent.com/psychosispy/adblockfilters-optimized/main/rules/adblockdnsmasqlite.txt
-# Version: 20251113094342
-# Last modified: 2025/11/13 09:43:42
-# Blocked domains: 1461
+# Version: 20251114094306
+# Last modified: 2025/11/14 09:43:06
+# Blocked domains: 1468
 #
 local=/img.0279.net/
 local=/o.027eat.com/
@@ -1083,6 +1083,8 @@ local=/1.shopit.cn/
 local=/shudi8.com/
 local=/umini.shujupie.com/
 local=/js.shunqi.com/
+local=/adservice.sigmob.cn/
+local=/dc.sigmob.cn/
 local=/sigmob.com/
 local=/mixer.sina.cn/
 local=/sa.sina.cn/
@@ -1096,6 +1098,11 @@ local=/huichuan.sm.cn/
 local=/huichuan-mc.sm.cn/
 local=/image-ad.sm.cn/
 local=/video-ad.sm.cn/
+local=/adx-ad.smart-tv.cn/
+local=/launcher.smart-tv.cn/
+local=/launcherimg.smart-tv.cn/
+local=/mission-pub.smart-tv.cn/
+local=/newvoice.chiq5.smart-tv.cn/
 local=/abtest-ch.snssdk.com/
 local=/open.snssdk.com/
 local=/tnc3-aliec2.snssdk.com/
