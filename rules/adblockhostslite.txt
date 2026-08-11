@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260811085446
-# Last modified: 2026/08/11 08:54:46
-# Blocked domains: 5044
+# Version: 20260811164337
+# Last modified: 2026/08/11 16:43:37
+# Blocked domains: 5030
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -538,10 +538,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	alipaylog.com
 0.0.0.0	acjs.aliyun.com
 0.0.0.0	click.aliyun.com
-0.0.0.0	1fw35mn5y7h-sdk.rum.aliyuncs.com
-0.0.0.0	1hlahoc4rpc-sdk.rum.aliyuncs.com
-0.0.0.0	1hqput7vfyl-sdk.rum.aliyuncs.com
-0.0.0.0	1m9o22qt9lx-sdk.rum.aliyuncs.com
 0.0.0.0	ad-host-backup-america.oss-us-west-1.aliyuncs.com
 0.0.0.0	ad-host-backup-asia.oss-ap-southeast-1.aliyuncs.com
 0.0.0.0	ad-host-backup-europe.oss-eu-central-1.aliyuncs.com
@@ -557,17 +553,12 @@ ff02::3	ip6-allhosts
 0.0.0.0	dmg-dd.oss-accelerate.aliyuncs.com
 0.0.0.0	dongtukj.oss-cn-hongkong.aliyuncs.com
 0.0.0.0	dreemdmbabys.oss-cn-guangzhou.aliyuncs.com
-0.0.0.0	ep2x3kiawg-sdk.rum.aliyuncs.com
-0.0.0.0	f8ds5tkidk-sdk.rum.aliyuncs.com
 0.0.0.0	facai383.oss-cn-guangzhou.aliyuncs.com
 0.0.0.0	first-hufu.oss-cn-shanghai.aliyuncs.com
 0.0.0.0	free-cdn.oss-cn-shanghai.aliyuncs.com
-0.0.0.0	haa3j9plpi-default-cn.rum.aliyuncs.com
 0.0.0.0	hdtu.oss-cn-beijing.aliyuncs.com
-0.0.0.0	hfwpz4bisq-default-cn.rum.aliyuncs.com
 0.0.0.0	httpdns-api.aliyuncs.com
 0.0.0.0	httpdns-sc.aliyuncs.com
-0.0.0.0	j2c03hoppk-default-cn.rum.aliyuncs.com
 0.0.0.0	jpg1.oss-cn-beijing.aliyuncs.com
 0.0.0.0	jun01.oss-cn-beijing.aliyuncs.com
 0.0.0.0	kmmgoogle.oss-ap-southeast-1.aliyuncs.com
@@ -857,9 +848,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	baminw.com.cn
 0.0.0.0	ad.bandao.cn
 0.0.0.0	midinfo.baofeng.com
-0.0.0.0	a.baomihua.com
 0.0.0.0	djs.baomihua.com
-0.0.0.0	resource.baomihua.com
 0.0.0.0	baycode.cn
 0.0.0.0	bayescom.com
 0.0.0.0	bbbazlp.cn
@@ -2010,7 +1999,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	hnltcw.com
 0.0.0.0	online.hnoexpo.com
 0.0.0.0	hnol.net
-0.0.0.0	ho521.cn
 0.0.0.0	metrics.hollisterco.cn
 0.0.0.0	home-you.click
 0.0.0.0	home-you.club
@@ -3414,6 +3402,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.qyer.com
 0.0.0.0	hades.qyer.com
 0.0.0.0	qypaizhuo.com
+0.0.0.0	qyxiangr.com
 0.0.0.0	qyxrwl.com
 0.0.0.0	u1.qyxxpd.com
 0.0.0.0	v11-reading-ad.qznovelvod.com
@@ -3657,7 +3646,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	sms.info.smart.com
 0.0.0.0	smucdn.com
 0.0.0.0	errortracking.snapp.site
-0.0.0.0	ad.snappea.com
 0.0.0.0	sensors.snappea.com
 0.0.0.0	misc.api.snaptube.app
 0.0.0.0	sensors.snaptube.app
@@ -4408,7 +4396,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	vrbrothers.com
 0.0.0.0	vrr.name
 0.0.0.0	vrrm.cn
-0.0.0.0	n.vs108.com
 0.0.0.0	vungle.cn
 0.0.0.0	bu1.vvvdj.com
 0.0.0.0	vwe5pjt0jq.com
@@ -4686,11 +4673,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	adm.xmfish.com
 0.0.0.0	cmm.xmfish.com
 0.0.0.0	xmlsxar.cn
-0.0.0.0	xmtrading.com
 0.0.0.0	xmywlyh.cn
 0.0.0.0	xn--2qu92fhtxsxexqab.xn--fiqs8s
 0.0.0.0	xn--2qux23cwrdmnaz3gj3w.xn--fiqs8s
 0.0.0.0	xn--2ss830adjbqy7h.xn--fiqs8s
+0.0.0.0	xn--m7r781dz66a.cn
 0.0.0.0	xn--w9q675dm1p7em.net
 0.0.0.0	xn--wxtr9fwyxk9c.xn--fiqs8s
 0.0.0.0	xn--wxtr9fwyxk9co4hbua.xn--fiqs8s
@@ -4867,7 +4854,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	yvdb.cn
 0.0.0.0	yw800.com.cn
 0.0.0.0	ywkkmze.cn
-0.0.0.0	123.ywxww.net
 0.0.0.0	adsclick.yx.js.cn
 0.0.0.0	qiniuyunxz.yxflzs.com
 0.0.0.0	ad.a.yximgs.com
