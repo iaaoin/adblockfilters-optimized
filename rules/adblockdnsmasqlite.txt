@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260820083712
-# Last modified: 2026/08/20 08:37:12
-# Blocked domains: 4981
+# Version: 20260820162531
+# Last modified: 2026/08/20 16:25:31
+# Blocked domains: 4990
 #
 local=/kwflvcdn.000dn.com/
 local=/img.0279.net/
@@ -852,6 +852,7 @@ local=/s.bdstatic.com/
 local=/sofire.bdstatic.com/
 local=/su.bdstatic.com/
 local=/zz.bdstatic.com/
+local=/ads-i3.xhscdn.com.a.bdydns.com/
 local=/smetrics.beatsbydre.com/
 local=/smetrics.beatsbydre.com.cn/
 local=/beizi.biz/
@@ -1270,7 +1271,6 @@ local=/xcx.dcad01.com/
 local=/trackercollect.ddxq.mobi/
 local=/trackerfeed.ddxq.mobi/
 local=/analytics.dealmoon.com/
-local=/sm.dell.com/
 local=/aem.dentsuchina.cn/
 local=/www.destinationurl.com/
 local=/msz3.destinia.cn/
@@ -1432,8 +1432,8 @@ local=/pretty-white-ziekneey.edgeone.dev/
 local=/request-copyright-policy-review.edgeone.dev/
 local=/review-copyright-infringement-reports.edgeone.dev/
 local=/review-copyright-policy-violations.edgeone.dev/
+local=/srvkdtsged5w23456ds-dplleb90jz3x.edgeone.dev/
 local=/symmetrical-octo-umbrella-dpfq8j6ozudi.edgeone.dev/
-local=/upgrade-dp2c1xqj8ejo.edgeone.dev/
 local=/w6r46g0hb-dpv3acpgp8ta.edgeone.dev/
 local=/well-aquamarine-psata8ej.edgeone.dev/
 local=/ytterbic-amber-qilwigl2.edgeone.dev/
@@ -2490,6 +2490,7 @@ local=/jmacs-m.lazada.vn/
 local=/msgacs-m.lazada.vn/
 local=/cc.lbesec.com/
 local=/lbprjdi.cn/
+local=/lccfjszp.cn/
 local=/ldhy.click/
 local=/mnqlog.ldmnq.com/
 local=/storeen.ldmnq.com/
@@ -2916,6 +2917,7 @@ local=/o5y2zd1lq8.com/
 local=/o8u3n4q7fe.com/
 local=/oaclrst.cn/
 local=/oadz.com/
+local=/metrics.oanda.com/
 local=/obsworks.com/
 local=/obv3epx22d.com/
 local=/analytics.oceanengine.com/
@@ -3431,6 +3433,7 @@ local=/rumt-zh.com/
 local=/abc.ruodian360.com/
 local=/rvbztg.cn/
 local=/rvzlobj.cn/
+local=/rwix.cn/
 local=/rxys.cn/
 local=/ryd626moj.com/
 local=/rytm-inwestek.com/
@@ -3842,6 +3845,7 @@ local=/tdlop7tsme.com/
 local=/log.tec73.com/
 local=/tongji.techweb.com.cn/
 local=/tecunonline.com/
+local=/data.tempersyi.com/
 local=/apd-pcdnvodstat.teg.tencent-cloud.net/
 local=/apd-pcdnwxlogin.teg.tencent-cloud.net/
 local=/apd-pcdnwxnat.teg.tencent-cloud.net/
@@ -3879,6 +3883,7 @@ local=/report.tencentmusic.com/
 local=/tengfeidn.cn/
 local=/tepusi888.cn/
 local=/answers.teradata.com.cn/
+local=/teue.cn/
 local=/th7.cn/
 local=/advert.api.thejoyrun.com/
 local=/adpai.thepaper.cn/
@@ -3958,6 +3963,7 @@ local=/tnc3-bjlgy.toutiaoapi.com/
 local=/toutiaopage.com/
 local=/tovbus.cn/
 local=/tovppl.cn/
+local=/tpjw.cn/
 local=/trackingio.com/
 local=/tradplus.cn/
 local=/tradplus.com/
@@ -3991,6 +3997,7 @@ local=/twzui6.com/
 local=/livetech.shopee.co.id.txlivecdn.com/
 local=/livetech.shopee.com.br.txlivecdn.com/
 local=/livetech.shopee.vn.txlivecdn.com/
+local=/txre.cn/
 local=/m.txtxr.com/
 local=/ty.cn/
 local=/u7u9.com/
@@ -4547,6 +4554,7 @@ local=/stats.music.xiaomi.com/
 local=/storeconfig.mistat.intl.xiaomi.com/
 local=/sys.tv.india.xiaomi.com/
 local=/t1.a.market.xiaomi.com/
+local=/t17.market.xiaomi.com/
 local=/tz.sec.xiaomi.com/
 local=/video.market.xiaomi.com/
 local=/api.device.xiaomi.net/
@@ -4612,6 +4620,7 @@ local=/xn--w9q675dm1p7em.net/
 local=/xn--wxtr9fwyxk9c.xn--fiqs8s/
 local=/xn--wxtr9fwyxk9co4hbua.xn--fiqs8s/
 local=/xpcwrgy.cn/
+local=/xpdyqax.cn/
 local=/xryrylt.cn/
 local=/bchina-1.xsfaya.com/
 local=/rdbd.xsread.com/
