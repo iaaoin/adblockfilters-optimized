@@ -3,9 +3,9 @@
 # Description: 适用于 MosDNS 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmosdnslite.txt
-# Version: 20260829124331
-# Last modified: 2026/08/29 12:43:31
-# Blocked domains: 5013
+# Version: 20260829212814
+# Last modified: 2026/08/29 21:28:14
+# Blocked domains: 5015
 #
 kwflvcdn.000dn.com
 img.0279.net
@@ -152,10 +152,12 @@ lianmeng.360.cn
 mclean.f.360.cn
 msch.f.360.cn
 mvconf.f.360.cn
+openbox.mobilem.360.cn
 papi.look.360.cn
 pscan.f.360.cn
 pub.se.360.cn
 qurl.f.360.cn
+s.360.cn
 s.f.360.cn
 soft.data.weather.360.cn
 stat.m.360.cn
@@ -226,7 +228,6 @@ trace.51jingying.com
 scdata.51job.com
 a1.51shiti.cn
 51taifu.com
-ad.51wnl-cq.com
 r.51wnl-cq.com
 ad.51wnl.com
 51xuex.com.cn
@@ -966,6 +967,7 @@ ads5-normal-lq.zijieapi.com.c.dsa.cdnbuild.net
 ads5-normal.zijieapi.com.c.dsa.cdnbuild.net
 tracker.cdnbye.com
 ads-img-al.xhscdn.com.w.cdngslb.com
+ads-video-al.xhscdn.com.w.cdngslb.com
 ads3-normal-hl.zijieapi.com.w.cdngslb.com
 ads3-normal-lf.zijieapi.com.w.cdngslb.com
 ads3-normal-lq.zijieapi.com.w.cdngslb.com
@@ -1100,8 +1102,6 @@ log-eap-in.coloros.com
 log-eap-sg.coloros.com
 moa-upload-online.coloros.com
 smartcard.apps.coloros.com
-smartcardf-eu.apps.coloros.com
-smartcardf.apps.coloros.com
 iadcontent-lb.apple.com.akadns.net
 iadsdk.apple.com.akadns.net
 wangsu-smetrics.redhat.com.edgekey.net
@@ -1269,7 +1269,6 @@ diament-zyskura.com
 diamentzyskura-pl.com
 catfront.dianping.com
 dianru.com
-www.digitalfiles.org
 bea-s.dinghuoche.com
 resolver.dingtalk.com
 linktrace.diningcity.cn
@@ -1420,8 +1419,10 @@ intellectual-property-troubleshooting-center.edgeone.dev
 khjfdgsfsdfhjklljdhgdstryt-dp97141gwv85.edgeone.dev
 loginpages0000-dpf0869el7ik.edgeone.dev
 loginsecurde4-dpqom26teqv9.edgeone.dev
+mailwilling-dp9gqao71lzl.edgeone.dev
 musical-octo-robot-dptlf6z6tv2g.edgeone.dev
 no2body7-dpyijatuyl2q.edgeone.dev
+ordinary-silver-rkbwyw06.edgeone.dev
 prior-jade-yjoyvniu.edgeone.dev
 profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev
 request-copyright-policy-review.edgeone.dev
@@ -1518,7 +1519,6 @@ fenxi.com
 img.ferlie.net
 ks.ferlytc.com
 21.fh21static.com
-fhitagd.cn
 fighter-shop.shop
 filar-zwrotelin.com
 fileh.xyz
@@ -1955,7 +1955,6 @@ hnol.net
 metrics.hollisterco.cn
 smetrics.hollisterco.cn
 homebargainmarket.shop
-log.homestyler.com
 w88.hongkongdisneyland.com.cn
 om.hotels.cn
 ad.house365.com
@@ -2005,6 +2004,7 @@ vipauth.hpplay.cn
 vipgslb.hpplay.cn
 cdn.hpplay.com.cn
 h5.hpplay.com.cn
+leboapi.hpplay.com.cn
 support.hqts.com
 hseda.com
 hsrgnac.cn
@@ -2691,7 +2691,6 @@ analytics.metro.cn
 dump.mewcdn.online
 a.mfcad.net
 mfxyqh.cn
-mgs123.com
 disp.titan.mgtv.com
 mobaliyun.res.mgtv.com
 ott-v0-al.data.mgtv.com
@@ -2773,7 +2772,6 @@ ccc.sys.miui.com
 cse.avlyun.sec.miui.com
 data.sec.miui.com
 data.sec.intl.miui.com
-feedback.miui.com
 flash.sec.miui.com
 flash.sec.intl.miui.com
 geofence.sys.miui.com
@@ -2893,6 +2891,7 @@ httpdns.n.netease.com
 hubble.netease.com
 mam.netease.com
 pr.nss.netease.com
+sigma-agentlog-mumusdk.proxima.nie.netease.com
 vmonitor.ws.netease.com
 networkbench.com
 t.home.news.cn
@@ -3385,6 +3384,7 @@ v3-reading-ad.qznovelvod.com
 v5-bd-daily-reading-ad.qznovelvod.com
 v5-ex-reading-ad.qznovelvod.com
 v5-reading-ad.qznovelvod.com
+v5-se-ex-mc-reading-ad.qznovelvod.com
 v5-se-gddgtc-reading-ad.qznovelvod.com
 v5-se-sjy-daily-reading-ad.qznovelvod.com
 v6-daily-reading-ad.qznovelvod.com
@@ -3526,7 +3526,6 @@ umini.shujupie.com
 ad.shunchangzhixing.com
 js.shunqi.com
 shuzilm.cn
-ads-monitoring.shziyi.com
 sigmob.com
 smetrics.marketing.signify.com.cn
 silna-notownica.net
@@ -3961,6 +3960,7 @@ adscfg.togothermany.cn
 adsup.togothermany.cn
 track.tom.com
 track.tomwx.net
+fp.tongdun.net
 sky.tongjiai.com
 ato.tooopen.com
 toponad.com
@@ -4354,6 +4354,7 @@ m1.vodjk.com
 vodone.com
 mini-prog-drm.vodplayvideo.net
 voiceads.cn
+dev.voicecloud.cn
 log.voicecloud.cn
 httpdns.volcengineapi.com
 apmplus.ap-southeast-1.volces.com
@@ -4368,7 +4369,6 @@ p.vq6nsu.cn
 vrbrothers.com
 vrr.name
 vrrm.cn
-vry1c9qmofnkp1uraf7d.s3.us-east-1.amazonaws.com
 n.vs108.com
 vungle.cn
 bu1.vvvdj.com
@@ -4516,7 +4516,6 @@ img.xgo.com.cn
 imp.xgo.com.cn
 stat.xgo.com.cn
 xhkvff.cn
-ads-hera-s1.xhscdn.com
 ads-i1.xhscdn.com
 ads-i10.xhscdn.com
 ads-i2.xhscdn.com
@@ -4525,6 +4524,10 @@ ads-i4.xhscdn.com
 ads-img-al.xhscdn.com
 ads-img-bak.xhscdn.com
 ads-img-qc.xhscdn.com
+ads-splash-i1.xhscdn.com
+ads-splash-i2.xhscdn.com
+ads-splash-v1.xhscdn.com
+ads-splash-v2.xhscdn.com
 ads-video-al.xhscdn.com
 ads-video-qc.xhscdn.com
 ads-vp5.xhscdn.com
@@ -4876,7 +4879,6 @@ api-analytics-de.zepp.com
 api-analytics-us.zepp.com
 api-analytics-us3.zepp.com
 clarity.zepp.com
-ssp.zf313.com
 zggxkj.com.cn
 zgisp.net
 yin1.zgpingshu.com
