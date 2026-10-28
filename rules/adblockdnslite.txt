@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20261028105755
-! Last modified: 2026/10/28 10:57:55
-! Blocked domains: 7982
+! Version: 20261028224103
+! Last modified: 2026/10/28 22:41:03
+! Blocked domains: 8011
 ! unBlocked domains: 16
 !
 ||kwflvcdn.000dn.com^
@@ -392,11 +392,11 @@
 ||mclean.f.360.cn^
 ||msch.f.360.cn^
 ||mvconf.f.360.cn^
+||openbox.mobilem.360.cn^
 ||papi.look.360.cn^
 ||pscan.f.360.cn^
 ||pub.se.360.cn^
 ||qurl.f.360.cn^
-||s.360.cn^
 ||s.f.360.cn^
 ||soft.data.weather.360.cn^
 ||stat.m.360.cn^
@@ -480,6 +480,7 @@
 ||3rev8wh22y.com^
 ||3rs337ci4.com^
 ||3s7m2ss7g.com^
+||3sbbnyzps.com^
 ||img.3sjt.com^
 ||3sqvexc60y.com^
 ||3t4j5adg9x.com^
@@ -729,7 +730,6 @@
 ||66l11y82dn.com^
 ||1.66law.cn^
 ||bj.ad.track.66mobi.com^
-||sdk-track.66mobi.com^
 ||6711.com^
 ||kl.67it.com^
 ||67qlvj0jcj.com^
@@ -1060,6 +1060,7 @@
 ||www.ab8965471225.net^
 ||www.ab8965471225.vip^
 ||abbyychina.com^
+||metrics.abercrombie.cn^
 ||smetrics.abercrombie.cn^
 ||discover.absciex.com.cn^
 ||ac00qmnjz.com^
@@ -1080,9 +1081,7 @@
 ||ads.adfunlink.com^
 ||adtracker.adfunlink.com^
 ||adfuture.cn^
-||xadsmartget.adgain.cn^
 ||adhdsb.cn^
-||sdk.adhuanxiao.com^
 ||sa.adidas.cn^
 ||adinall.com^
 ||adintl.cn^
@@ -1605,10 +1604,10 @@
 ||tuplogpublic.bangcdn.net^
 ||midinfo.baofeng.com^
 ||ploy.baofeng.net^
-||resource.baomihua.com^
+||a.baomihua.com^
 ||bartender.cc^
 ||baycode.cn^
-||ad.bayescom.com^
+||raddus.bayescom.com^
 ||bb2k0pq1vf.com^
 ||bbbazlp.cn^
 ||bbcoe.cn^
@@ -1650,6 +1649,7 @@
 ||bengbeng.com^
 ||analytics.bestfulfill.com^
 ||besthunny.com^
+||bestmarketzone.shop^
 ||bestwaypool.club^
 ||betylife.com^
 ||beyondcompare.cc^
@@ -1757,6 +1757,7 @@
 ||bu1jw93q1l.com^
 ||burnercombustion.org.cn^
 ||butoqj0vh.com^
+||buycenterpro.shop^
 ||buyrbto5z2.com^
 ||bvhd1uhl5z.com^
 ||bvmlt.top^
@@ -1808,6 +1809,7 @@
 ||c3q6l5oeq.com^
 ||c3vzqvifsn.com^
 ||c4ru5li2sa.com^
+||c5i6rfwyf.com^
 ||c5krw17gn0.com^
 ||c5mj81yuuo.com^
 ||c64ihqx0gj.com^
@@ -1851,6 +1853,7 @@
 ||cbxp9xqbnh.com^
 ||www.cc4008001935.cn^
 ||adv.ccb.com^
+||cccspl.shop^
 ||ad.ccement.com^
 ||ccpvq7fgy.com^
 ||btrace.ysp.cctv.cn^
@@ -1879,7 +1882,6 @@
 ||event-tracking-project.log-global.aliyuncs.com.w.cdngslb.com^
 ||log-api.pangolin-sdk-toutiao.com.w.cdngslb.com^
 ||quan-event-tracking.log-global.aliyuncs.com.w.cdngslb.com^
-||sgtm.dhgate.com.cdngtm.com^
 ||httpdns.c.cdnhwc2.com^
 ||httpdns1.cc.cdnhwc5.com^
 ||ad.cdnjm.cn^
@@ -1908,7 +1910,6 @@
 ||chanet.com.cn^
 ||changyi21.cn^
 ||analysis.chatglm.cn^
-||sdata.chatglm.cn^
 ||chavoads.com^
 ||ssgg.chazidian.com^
 ||yong.chazidian.com^
@@ -2185,7 +2186,6 @@
 ||console.data4.net^
 ||gate.datacaciques.com^
 ||pv.datacaciques.com^
-||adsmartget.datads.cn^
 ||datamaster.com.cn^
 ||datanine.com.cn^
 ||matomo.datasanalytics.com^
@@ -2288,6 +2288,7 @@
 ||dhgyq2twp.com^
 ||catfront.dianping.com^
 ||dianru.com^
+||omgup.didiglobal.com^
 ||bea-s.dinghuoche.com^
 ||resolver.dingtalk.com^
 ||linktrace.diningcity.cn^
@@ -2359,6 +2360,7 @@
 ||stun.douyucdn.cn^
 ||stun1.douyucdn.cn^
 ||dotcounter.douyutv.com^
+||bigdata.downza.com^
 ||dp2c7quvk7.com^
 ||dpjzzgw.cn^
 ||dpujvkbv5.com^
@@ -2367,6 +2369,7 @@
 ||drawers06.com^
 ||drdwy.com^
 ||drivethelife.com^
+||go.drtuberlive.com^
 ||ds8k3y2d5n.com^
 ||dseulm.shop^
 ||dshsnxfcjwdhpe.com^
@@ -2391,7 +2394,6 @@
 ||duomai.com^
 ||duomeng.cn^
 ||retrieval-bd.duote.com^
-||tongji.duote.com^
 ||js.duotegame.com^
 ||gt.duowan.com^
 ||market.duowan.com^
@@ -2613,6 +2615,7 @@
 ||countpvn.light.fang.com^
 ||mshow.fang.com^
 ||fanyi100.com.cn^
+||fanzhuang.net.cn^
 ||faoda4xd2.com^
 ||sk.fapnado.xxx^
 ||telemetry.farfetch.net.cn^
@@ -2698,6 +2701,7 @@
 ||adv-sv-stat.focus.cn^
 ||bdu.focus.cn^
 ||foisonad.com^
+||analytics.fontke.com^
 ||metrics.ford.com^
 ||smetrics.ford.com^
 ||smetrics.sandbox.ford.com^
@@ -3493,7 +3497,6 @@
 ||h-adashx.ut.hzshudian.com^
 ||hzvnt399h7.com^
 ||hzyolohcz6.com^
-||sdk.hzzfcm.com^
 ||i-fk.cn^
 ||i-generation.jp^
 ||i06s7yrhn1.com^
@@ -4270,6 +4273,7 @@
 ||ad.data.lianjia.com^
 ||dig.lianjia.com^
 ||adimg.liba.com^
+||libabymarket.shop^
 ||track.libii.cn^
 ||lichunxiao.cn^
 ||liebaovip.com^
@@ -4279,6 +4283,7 @@
 ||ads.linkedin.cn^
 ||linkhaitao.com^
 ||linkintec.cn^
+||lionbaby.shop^
 ||listlessly1.top^
 ||litchiads.com^
 ||litslop.shop^
@@ -4288,6 +4293,7 @@
 ||ws-p2p-pull.live-voip.com^
 ||lj43bm3y8.com^
 ||ljvt4pnl9.com^
+||ljyzic8cr.com^
 ||lk0v8teerw.com^
 ||lk54dfg87.com^
 ||lkmhn.com^
@@ -4318,6 +4324,7 @@
 ||lomark.cn^
 ||lomvmz5ze3.com^
 ||lopwds.shop^
+||loreudkl.shop^
 ||game.loveota.com^
 ||sdk.loveota.net^
 ||lp340p7czf.com^
@@ -4573,10 +4580,12 @@
 ||authbe.sec.intl.miui.com^
 ||cc.sys.miui.com^
 ||ccc.sys.miui.com^
+||cdna.sec.miui.com^
 ||child.sec.miui.com^
 ||cse.avlyun.sec.miui.com^
 ||data.sec.miui.com^
 ||data.sec.intl.miui.com^
+||feedback.miui.com^
 ||flash.sec.miui.com^
 ||flash.sec.intl.miui.com^
 ||gamebox.sec.miui.com^
@@ -4874,7 +4883,9 @@
 ||o17kbwlq9p.com^
 ||o1fhfeu6qa.com^
 ||o28wg9kq8i.com^
+||o35jufwu6.com^
 ||o40d17vln.com^
+||o522zsxbgf.com^
 ||o5y2zd1lq8.com^
 ||o6oxvugdl.com^
 ||o6vmp2h9k0.com^
@@ -4886,6 +4897,9 @@
 ||oaclrst.cn^
 ||oadz.com^
 ||gtm.oasisfeng.com^
+||obs.com.cn^
+||obscj.com^
+||obsproject.com.cn^
 ||obsworks.com^
 ||obv3epx22d.com^
 ||ocbagmarket.shop^
@@ -4972,6 +4986,7 @@
 ||ad.ourgame.com^
 ||ourl.cn^
 ||ad.ourplay.com.cn^
+||ad.ourplay.net^
 ||at-af.outfit7.com^
 ||bidder.dsp.outfit7.com^
 ||hb-af-us-central1.outfit7.com^
@@ -4997,6 +5012,7 @@
 ||p4dc8ve6i.com^
 ||p5doaulee2.com^
 ||p5jrngqnp.com^
+||p5regbg09.com^
 ||p5si0mu8u7.com^
 ||p66jed4iv.com^
 ||p6q6qpze3f.com^
@@ -5024,6 +5040,7 @@
 ||pbaiyho.cn^
 ||pbeldhnbk.com^
 ||pbo8y8igrp.com^
+||m.pc6.com^
 ||ipad.pc899.cn^
 ||count.pcauto.com.cn^
 ||pcmxcdjbgo.com^
@@ -5215,6 +5232,7 @@
 ||qemh16ihyw.com^
 ||qezkdby1jj.com^
 ||qezpjlp.cn^
+||qf21yrnmnk.com^
 ||qf51ho9qtz.com^
 ||qfc4ac1f6.com^
 ||qfcdgy.cn^
@@ -5234,6 +5252,7 @@
 ||js.passport.qihucdn.com^
 ||qijpaih.cn^
 ||roibest-report-sdk.qiliangjia.com^
+||miniapp.qiluyidian.mobi^
 ||qim0lvk6m.com^
 ||up.qingdaonews.com^
 ||bdcode.qinglue.com^
@@ -5782,6 +5801,7 @@
 ||jpaasne.e.shifen.com^
 ||statichf.shihuocdn.cn^
 ||shilian168.cn^
+||metrics-v1.shiyue.com^
 ||ad.shobo.cn^
 ||1.shopit.cn^
 ||ads-shopping.shouqianba.com^
@@ -6897,6 +6917,7 @@
 ||vlion.cn^
 ||vlogerads.com^
 ||vlrvrntcxjljnu.com^
+||vm1mmq2h1.com^
 ||vm5xs8nvqh.com^
 ||vmgi10lt0i.com^
 ||vmj428qvi4.com^
@@ -6929,7 +6950,6 @@
 ||p.vq6nsu.cn^
 ||vqbmxyzda.icu^
 ||vqnvib2h7e.com^
-||vrbrothers.com^
 ||vrr.name^
 ||vrufe4ikql.com^
 ||vsr4jyjpzb.com^
@@ -7178,6 +7198,7 @@
 ||x6d93mku0.com^
 ||x6kd8l204b.com^
 ||x70wk5e54.com^
+||x781w71m0j.com^
 ||x7qhjjryf1.com^
 ||x7weiubb2f.com^
 ||x8s007rgs.com^
@@ -7264,6 +7285,8 @@
 ||t2.xiaohongshu.com^
 ||xiaojifly.cn^
 ||adtrack.xiaojukeji.com^
+||omgup.xiaojukeji.com^
+||omgup1.xiaojukeji.com^
 ||api.d.xiaomi.com^
 ||api.hybrid.xiaomi.com^
 ||api.installer.xiaomi.com^
@@ -7322,6 +7345,7 @@
 ||xiaoxiuapp.com^
 ||xiaoyange.cn^
 ||log.xiaoyi.com^
+||log.eu.xiaoyi.com^
 ||log.us.xiaoyi.com^
 ||ad-sdk.altamob.xiaoying.co^
 ||viva.api.xiaoying.co^
@@ -7695,6 +7719,7 @@
 ||yystzl.cn^
 ||yywridi.cn^
 ||yzhcp6cw1.com^
+||zenstats.yzhy19.cn^
 ||yznwyng.cn^
 ||yktj.yzz.cn^
 ||cdnjs.z-face.cn^
@@ -7721,6 +7746,7 @@
 ||za5ww9yxg.com^
 ||zakladyboleslawiechome-pl.shop^
 ||zalwlz.icu^
+||ad.zamae.cn^
 ||zamplus.com^
 ||zantainet.com^
 ||zas4hfcxr.com^
@@ -7748,6 +7774,7 @@
 ||zdh10261lo.com^
 ||zdh10270lo.com^
 ||zdh10271lo.com^
+||zdh10280lo.com^
 ||zdh10281lo.com^
 ||zdh10290lo.com^
 ||zdh10291lo.com^
@@ -7810,6 +7837,8 @@
 ||zhongkaowu.com^
 ||zhongsijiacheng.com^
 ||jy.zhongxues.com^
+||lego.zhuanzhuan.com^
+||lego-tech.zhuanzhuan.com^
 ||u.zhugeapi.net^
 ||zgsdk.zhugeio.com^
 ||fdfda.zhuzhai.com^
