@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20261104235150
-# Last modified: 2026/11/04 23:51:50
-# Blocked domains: 5382
+# Version: 20261105053744
+# Last modified: 2026/11/05 05:37:44
+# Blocked domains: 5375
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -45,8 +45,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	1.11130.com.cn
 0.0.0.0	1.11467.com
 0.0.0.0	114la.com
-0.0.0.0	ad.107.163.52.12.cn
-0.0.0.0	ad.107.163.53.12.cn
 0.0.0.0	bdwmhz.120askimages.com
 0.0.0.0	ad.12306.cn
 0.0.0.0	matomo4397.123245.com
@@ -145,12 +143,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	25662zubo23739.com
 0.0.0.0	25t9uxgnx.com
 0.0.0.0	2607.cn
-0.0.0.0	ad.23.88.207.28.cn
 0.0.0.0	a1.289.com
 0.0.0.0	2mdn-cn.net
 0.0.0.0	2ztav5r7r.com
 0.0.0.0	ad.3.cn
-0.0.0.0	ad.23.107.112.30.cn
 0.0.0.0	analytics.300624.com
 0.0.0.0	301848.com
 0.0.0.0	d1.3158.cn
@@ -1503,16 +1499,13 @@ ff02::3	ip6-allhosts
 0.0.0.0	flyaairlogis-dp1f8pq5osbp.edgeone.dev
 0.0.0.0	fyguhaghytusg.edgeone.dev
 0.0.0.0	limitlessdubai-dp8oxsl60kva.edgeone.dev
-0.0.0.0	loginsecurde4-dpqom26teqv9.edgeone.dev
 0.0.0.0	moudhgsr-dp4lyapywtjw.edgeone.dev
 0.0.0.0	mxoot-dp3j3hh9ymkp.edgeone.dev
 0.0.0.0	outlookliveonverification-dp52uq80y4cv.edgeone.dev
 0.0.0.0	papa.edgeone.dev
-0.0.0.0	portalportalportalportalportal.edgeone.dev
 0.0.0.0	profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev
 0.0.0.0	sriramnwar-dpoae04723lz.edgeone.dev
 0.0.0.0	super-chocolate-gaxl7qfi.edgeone.dev
-0.0.0.0	tame-yellow-8ck2chxh.edgeone.dev
 0.0.0.0	ediuschina.com
 0.0.0.0	www.ee99654712225.com
 0.0.0.0	www.ee99678923512.com
@@ -1675,7 +1668,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.fx168api.com
 0.0.0.0	fx455rrt4b.com
 0.0.0.0	dms.fx678.com
-0.0.0.0	a.fxltsbl.com
 0.0.0.0	fy14.cn
 0.0.0.0	fzpress.com.cn
 0.0.0.0	g4z8712756.com
@@ -2368,6 +2360,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	jab88.com
 0.0.0.0	eventlog.jackpot.de
 0.0.0.0	a3.jandan.net
+0.0.0.0	icws.jb51.net
 0.0.0.0	jbsy20riz9.com
 0.0.0.0	stat.jc001.cn
 0.0.0.0	addata.jd.com
