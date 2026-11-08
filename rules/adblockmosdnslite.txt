@@ -3,9 +3,9 @@
 # Description: 适用于 MosDNS 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmosdnslite.txt
-# Version: 20261108034352
-# Last modified: 2026/11/08 03:43:52
-# Blocked domains: 5258
+# Version: 20261108111421
+# Last modified: 2026/11/08 11:14:21
+# Blocked domains: 5236
 #
 kwflvcdn.000dn.com
 img.0279.net
@@ -112,7 +112,6 @@ ads.17track.net
 d1.1ppt.com
 1qingdao.com
 1rtb.com
-sdk.1rtb.net
 1s8pj.cn
 1s8zfj6p4.com
 1tvg524vih.com
@@ -128,6 +127,7 @@ bd-retrieval1.2345.com
 bdcode.2345.com
 ggcode.2345.com
 25662zubo23739.com
+258zw.com
 25t9uxgnx.com
 2607.cn
 ad.23.88.207.28.cn
@@ -258,8 +258,7 @@ t-adx.52qumao.com
 adm.52swine.com
 api.52youtu.com
 a.52zxw.com
-accwww9.53kf.com
-trail.53kf.com
+53kf.com
 54kefu.net
 55.la
 555sq.com.cn
@@ -417,7 +416,6 @@ adreal.cn
 ads360.cn
 adsage.cn
 adsame.com
-cdn.adseye.com
 logrcv.adseyeservice.com
 adsmogo.com
 adtx2.cn
@@ -645,12 +643,10 @@ track-ger.aqara.com
 tr.email.archiexpo.com
 a.armystar.com
 trk.arozone.cn
-1.arpun.com
 aspwg.cn
 asyn.cn
 aiseet.aa.atianqi.com
-ac.atpanel.com
-t.atpanel.com
+atpanel.com
 ad.api.attribuly.com
 tr.attribuly.com
 somni.aussiespecialist.cn
@@ -840,6 +836,7 @@ baidustatic.com
 baifendian.com
 ad.baihemob.com
 pic.baihuawen.cn
+baihuwang.com
 baixing.com
 bd-s.baixing.net
 script-bd.baixing.net
@@ -1130,16 +1127,20 @@ conversefemmes.fr
 coocaatv.com
 analytics.coodesker.com
 12.cookcai.com
+detaillog-global-dual.coolacloud.com
 logreport-global-dual.coolacloud.com
 wslog-global-dual.coolacloud.com
 detaillog-global-dual.coolbcloud.com
 logreport-global-dual.coolbcloud.com
 detaillog-global-dual.coolccloud.com
+weblogger-wss.coolccloud.com
 wslog-global-dual.coolccloud.com
 detaillog-global-dual.coolgcloud.com
+weblogger-wss.coolgcloud.com
 detaillog-global-dual.coolhcloud.com
 logreport-global-dual.coolhcloud.com
 coolkaba.com
+detaillog-global.coolzcloud.com
 bdu1.coozhi.cn
 www.costext.com
 cp7iys8fp.com
@@ -1312,6 +1313,7 @@ sensors-log.dongqiudi.com
 stat.dongqiudi.com
 dopa.com
 dope-snow.com
+monitor-web.dotfashion.cn
 at3.doubanio.com
 opt.doubao.com
 doubleclick-cn.net
@@ -1611,11 +1613,6 @@ images8.gaotie.cn
 gardenmarkets.shop
 trk.gardnerdenver.com.cn
 gcbflvx.cn
-adsmind.gdtimg.com
-public.gdtimg.com
-qzs.gdtimg.com
-review.gdtimg.com
-xj-landing.gdtimg.com
 gdtqq.cn
 log.geetest.com
 g.gegeyingshi.com
@@ -1639,6 +1636,8 @@ ulog.v6.gifshow.com
 ulogjp.gifshow.com
 ulogjs.gifshow.com
 ulogko.gifshow.com
+ulogs1.gifshow.com
+ulogs2.gifshow.com
 ulogvg.gifshow.com
 zt.gifshow.com
 giocdn.com
@@ -1693,13 +1692,6 @@ channel-analysis-js.gmw.cn
 i1.go2yd.com
 si1.go2yd.com
 godloveme.cn
-adlockscreen.goforandroid.com
-adpush.goforandroid.com
-adpushsdk.goforandroid.com
-adserver.goforandroid.com
-adviap.goforandroid.com
-geoip.goforandroid.com
-navigation.api.hk.goforandroid.com
 gojunkclean.cn
 prom.gome.com.cn
 gongxifc.com
@@ -1930,19 +1922,9 @@ log-dra.platform.hihonorcloud.com
 log-drcn.platform.hihonorcloud.com
 log-dre.platform.hihonorcloud.com
 log-drru.platform.hihonorcloud.com
-logservice-dra.dt.hihonorcloud.com
-logservice-drcn.dt.hihonorcloud.com
-logservice-dre.dt.hihonorcloud.com
-logservice-lbs-drcn.dt.hihonorcloud.com
 tracking-data-drru.platform.hihonorcloud.com
 tracking-data.platform.hihonorcloud.com
-dlog.hiido.com
-hlog.hiido.com
-klog.hiido.com
-mlog.hiido.com
-tlog.hiido.com
-xlog.hiido.com
-ylog.hiido.com
+hiido.com
 analytics.shop.hisense.com
 ad-cmp.hismarttv.com
 ad-download.hismarttv.com
@@ -2116,8 +2098,6 @@ ylog.huya.com
 xuexi.hydcd.com
 zuowen.hydcd.com
 hypers.com
-hw-t.hypers.com.cn
-t.hypers.com.cn
 hytzp.cn
 api.hzsanjiaomao.com
 sdk.hzsanjiaomao.com
@@ -2366,6 +2346,7 @@ fpb1.jsq886.com
 jszctech.com
 app-analytics.jtexpress.com.cn
 lm10111.jtrincc.cn
+juandou.com
 analytics.julebu.co
 junshi8181.com
 y1.junshitt.com
@@ -2541,7 +2522,6 @@ mobilead.kuwo.cn
 updatepage.kuwo.cn
 wa.kuwo.cn
 kuxkddg.cn
-ask.log.kuyun.com
 kvxc7buwv3.com
 api.kwaizt.com
 open.kwaizt.com
@@ -2681,6 +2661,7 @@ lrswl.com
 a1.lshou.com
 ltdzz.com
 luciochen.cn
+ludashi.com
 192168.luyouwang.com
 luyouxia.net
 lwlqsgr.cn
@@ -2740,11 +2721,7 @@ httpdns.meituan.com
 impdsp.meituan.com
 report.meituan.com
 analytics.meituan.net
-babel-statistics-android.dreport.meituan.net
 data-sdk-uuid-log.d.meituan.net
-data-sdk-uuid-report.dreport.meituan.net
-logan-rtl.dreport.meituan.net
-route-stats.dreport.meituan.net
 cloudcollect.meitudata.com
 meitubeauty.meitudata.com
 my-material.zone1.meitudata.com
@@ -2771,6 +2748,7 @@ tongji-res.meizu.com
 tongji-res1.meizu.com
 umid.orion.meizu.com
 uxip.meizu.com
+matomo.meldingcloud.com
 tracking.c.mercedes-benz.com.cn
 tracking.m.mercedes-benz.com.cn
 tracking.t.mercedes-benz.com.cn
@@ -2908,10 +2886,6 @@ mngjrn.cn
 mnpbxjq.cn
 g.mnw.cn
 mnzvtwd.cn
-d.mob.com
-dfe-mic.mob.com
-log-verify.mob.com
-v6-api-share.mob.com
 api.mobcells.com
 mobgi.com
 ent.mobileanjian.com
@@ -3425,7 +3399,6 @@ sngapm.qq.com
 sngmta.qq.com
 snowflake.qq.com
 soup.v.qq.com
-sq.bls.mdt.qq.com
 ssp.qq.com
 statistic.qzone.qq.com
 stdl.qq.com
@@ -3518,6 +3491,7 @@ v5-daily-cm-reading-ad.qznovelvod.com
 v5-dj-reading-ad.qznovelvod.com
 v5-ex-reading-ad.qznovelvod.com
 v5-reading-ad.qznovelvod.com
+v5-se-bjtc-reading-ad.qznovelvod.com
 v5-se-ex-mc-reading-ad.qznovelvod.com
 v5-se-gddgtc-reading-ad.qznovelvod.com
 v5-se-jltc-reading-ad.qznovelvod.com
@@ -3682,6 +3656,7 @@ siguatv.cn
 ad.cj.sina.cn
 adblock.sina.cn
 adimg.mobile.sina.cn
+cm.dmp.sina.cn
 cre.dp.sina.cn
 gk.sina.cn
 log.sina.cn
@@ -4575,6 +4550,7 @@ w8.com.cn
 w97nv5ibv4.com
 tongdun-fingerprint.walmartmobile.cn
 analytics.med.wanfangdata.com.cn
+mlog.wangsu.com
 analytics.wangzhanmao.com
 analytics.wanmei.com
 analytics-gw.games.wanmei.com
@@ -4677,6 +4653,7 @@ push.wps.cn
 update.wps.cn
 wpsweb-dc.wps.cn
 api-ad-adapter.wps.com
+api-ad-adapter-mb.wps.com
 mo.res.wpscdn.cn
 abroadad.cache.wpscdn.com
 wpwpquse.cn
@@ -4685,6 +4662,7 @@ wsds.cn
 cdn-ad.wtzw.com
 wukongtongji.com
 wumii.cn
+wumii.com
 wv26d.cn
 wwads.cn
 vhs.wwstat.com
