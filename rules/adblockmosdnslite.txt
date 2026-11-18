@@ -3,9 +3,9 @@
 # Description: 适用于 MosDNS 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmosdnslite.txt
-# Version: 20261118130216
-# Last modified: 2026/11/18 13:02:16
-# Blocked domains: 5683
+# Version: 20261119004848
+# Last modified: 2026/11/19 00:48:48
+# Blocked domains: 5700
 #
 kwflvcdn.000dn.com
 img.0279.net
@@ -168,6 +168,7 @@ papi.look.360.cn
 pscan.f.360.cn
 pub.se.360.cn
 qurl.f.360.cn
+s.360.cn
 s.f.360.cn
 soft.data.weather.360.cn
 stat.m.360.cn
@@ -611,7 +612,6 @@ dualstack-logs.amap.com
 h-adashx.ut.amap.com
 logs.amap.com
 optimus-ads.amap.com
-analytics.amarea.cn
 log.amemv.com
 log0-misc-alinc2.amemv.com
 log0-misc-hl.amemv.com
@@ -1177,7 +1177,6 @@ dnlog.cmpassport.com
 log-h5.cmpassport.com
 log1.cmpassport.com
 log2.cmpassport.com
-senlog.cmpassport.com
 cmpxaup.cn
 ggc.cmvideo.cn
 ggx.cmvideo.cn
@@ -1213,6 +1212,8 @@ log-eap-sg.coloros.com
 moa-upload-online.coloros.com
 moa-upload-online-in.coloros.com
 smartcard.apps.coloros.com
+smartcardf-eu.apps.coloros.com
+smartcardf.apps.coloros.com
 iadsdk.apple.com.akadns.net
 wangsu-smetrics.redhat.com.edgekey.net
 trk.compair.com.cn
@@ -1536,7 +1537,6 @@ other.v.duowan.com
 playstats.v.duowan.com
 stats.v.duowan.com
 vupload.duowan.com
-adsmis.duxiaoman.com
 analytics-api.dvdfab.cn
 servo-report.dvdfab.cn
 dvtednm.cn
@@ -1586,16 +1586,18 @@ faktura-nzbdcddw.edgeone.cool
 addmeononoutllokpositionlist-dpu6dy3fqowd.edgeone.dev
 b12051923-16f0-45ca-b4e8-40012086af5b.edgeone.dev
 b71483581-b6dc-4c59-8712-306f54e8e375.edgeone.dev
-balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev
 build-flex-ttg-dpgzqjmv7a1i.edgeone.dev
 buildnowandeployprogram-dpkxx50ris3x.edgeone.dev
 coremail-dp3qtv7j363o.edgeone.dev
 flyaairlogis-dp1f8pq5osbp.edgeone.dev
 fyguhaghytusg.edgeone.dev
+limitlessdubai-dp8oxsl60kva.edgeone.dev
+loginsecurde4-dpqom26teqv9.edgeone.dev
 managpoztaopl.edgeone.dev
 moudhgsr-dp4lyapywtjw.edgeone.dev
 mxoot-dp3j3hh9ymkp.edgeone.dev
 papa.edgeone.dev
+portalportalportalportalportal.edgeone.dev
 profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev
 register-demand-framework-shareholding-capital-dpuvktbvtbq4.edgeone.dev
 super-chocolate-gaxl7qfi.edgeone.dev
@@ -1636,6 +1638,7 @@ enriquetomasshop.shop
 js.entm.top
 eoyqzzk.cn
 epaes.com.cn
+eqlidke.cn
 eraaoec.cn
 m.ercos.cn
 ethan.wang
@@ -1892,6 +1895,7 @@ cpux.gmud.top
 ad.gmw.cn
 channel-analysis-js.gmw.cn
 i1.go2yd.com
+si1.go2yd.com
 godloveme.cn
 goforandroid.com
 gojunkclean.cn
@@ -1981,6 +1985,7 @@ gzfzcj.cn
 gzpinda.com
 gzqvd.cn
 gzzkjdam.cn
+h3806.cn
 h45pmx1.cn
 bm.h576.com
 h57vpulpu.com
@@ -2217,6 +2222,7 @@ stat.house365.com
 abtest-api-data-sg.hoyoverse.com
 ad-log-upload-os.hoyoverse.com
 apm-log-upload-os.hoyoverse.com
+bh3-sdk-os-static.hoyoverse.com
 devlog-upload-os.hoyoverse.com
 hkrpg-log-upload-os.hoyoverse.com
 log-upload-os.hoyoverse.com
@@ -2291,6 +2297,7 @@ huanqiucaijing.cn
 ads.huantest.com
 ads.cloud.huawei.com
 hwa.his.huawei.com
+sg.nebula-collector.huawei.com
 httpdns.huaweicloud.com
 uba.huaweicloud.com
 inner-hw.huazirc.com
@@ -2349,6 +2356,7 @@ report.iciba.com
 report2.iciba.com
 ads.icloseli.cn
 id6.me
+idd1.com
 idubwz.cn
 rc.ie13.com
 myeca.ieasyclick.net
@@ -3141,6 +3149,7 @@ child.sec.miui.com
 cse.avlyun.sec.miui.com
 data.sec.miui.com
 data.sec.intl.miui.com
+feedback.miui.com
 flash.sec.miui.com
 flash.sec.intl.miui.com
 gamebox.sec.miui.com
@@ -3499,6 +3508,7 @@ as.aplus.pptv.com
 de.as.pptv.com
 jp.as.pptv.com
 pp2.pptv.com
+pub.aplus.pptv.com
 pqjprom.cn
 prdohgp.cn
 prlioxb.cn
@@ -3512,7 +3522,6 @@ ptengine.cn
 ptgdb.cn
 ptmabek.cn
 ptzpaxq7bu.com
-pufhzpt.cn
 puma-france.fr
 pig.pupuapi.com
 pure-baby.shop
@@ -3988,6 +3997,8 @@ sg-open-set-api.shenshiads.com
 hm.e.shifen.com
 httpdns.n.shifen.com
 jpaasne.e.shifen.com
+shihuo-new.log.shihuocdn.cn
+shihuo.log.shihuocdn.cn
 statichf.shihuocdn.cn
 shilian168.cn
 metrics-v1.shiyue.com
@@ -4080,6 +4091,7 @@ ads.skktec.com
 skydanceapparel.shop
 static-us-img.skywork.ai
 analytics.skywt.cn
+sm-tc.cn
 c.sm.cn
 hc-ssp.sm.cn
 huichuan.sm.cn
@@ -4330,6 +4342,7 @@ huodong.m.taobao.com
 hybrid.miniapp.taobao.com
 m-adash.m.taobao.com
 m.simba.taobao.com
+mclick.simba.taobao.com
 nbsdk-baichuan.taobao.com
 openjmacs.m.taobao.com
 pcookie.taobao.com
@@ -4383,6 +4396,7 @@ log.tec73.com
 tongji.techweb.com.cn
 tecunonline.com
 teeshoppen.shop
+lpbhnv.telemundolasvegas.com
 data.tempersyi.com
 inland-sdklog.trtc.tencent-cloud.com
 apd-pcdnvodstat.teg.tencent-cloud.net
@@ -4557,6 +4571,7 @@ livetech.shopee.vn.txlivecdn.com
 txscn.cn
 m.txtxr.com
 ty.cn
+tzcfyre.cn
 u7u9.com
 u88.cn
 log.ubianet.com
@@ -4646,6 +4661,7 @@ stats.us-light-edge.com
 uschesssalesstore.shop
 ushaqi.com
 gyqpyr.utsource.net
+utywsi.cn
 dlog-config.uu.cc
 jdlog.uu.cc
 ms-report.uu.cc
@@ -5309,10 +5325,10 @@ xulizui6.com
 ad.xunkids.com
 adsp.xunlei.com
 advertpay-vip-ssl.xunlei.com
-advertpay.vip.xunlei.com
 analytics-union.xunlei.com
 dm.xiazaibao.xunlei.com
 kkpgv2.xunlei.com
+material.xl7.xunlei.com
 soa-vip-ssl.xunlei.com
 stat.download.xunlei.com
 upgrade.xl9.xunlei.com
@@ -5618,6 +5634,7 @@ mssdk5-normal-lq.zijieapi.com
 os-mon.zijieapi.com
 pc-mon.zijieapi.com
 polaris.zijieapi.com
+polaris3-normal-gl2.zijieapi.com
 polaris3-normal-hl.zijieapi.com
 polaris3-normal-lf.zijieapi.com
 polaris3-normal-lq.zijieapi.com
