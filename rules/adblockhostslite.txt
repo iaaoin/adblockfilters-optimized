@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20261119125738
-# Last modified: 2026/11/19 12:57:38
-# Blocked domains: 5660
+# Version: 20261120005540
+# Last modified: 2026/11/20 00:55:40
+# Blocked domains: 5659
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -659,6 +659,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	analytics.api.myqnapcloud.cn
 0.0.0.0	qcenter-metrics-device.api.myqnapcloud.cn
 0.0.0.0	adx.apicgate.com
+0.0.0.0	sg-fp.apitd.net
 0.0.0.0	us-behavior.apitd.net
 0.0.0.0	apkevery.com
 0.0.0.0	r.apkpure.net
@@ -886,6 +887,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	j.baminw.cn
 0.0.0.0	n.baminw.com.cn
 0.0.0.0	q.baminw.com.cn
+0.0.0.0	banmamedia.com
 0.0.0.0	midinfo.baofeng.com
 0.0.0.0	ploy.baofeng.net
 0.0.0.0	a.baomihua.com
@@ -893,7 +895,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	resource.baomihua.com
 0.0.0.0	bartender.cc
 0.0.0.0	baycode.cn
-0.0.0.0	ad.bayescom.com
 0.0.0.0	raddus.bayescom.com
 0.0.0.0	bbbazlp.cn
 0.0.0.0	bbcoe.cn
@@ -1150,6 +1151,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	api-ad.chuangyuejoy.com
 0.0.0.0	y66xvgo5i.chuimg.com
 0.0.0.0	hpplay.cdn.cibn.cc
+0.0.0.0	adx.op.cp18.ott.cibntv.net
 0.0.0.0	pl.cp31.ott.cibntv.net
 0.0.0.0	valf.atm.cp31.ott.cibntv.net
 0.0.0.0	vali-g1.cp31.ott.cibntv.net
@@ -1183,6 +1185,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	log-h5.cmpassport.com
 0.0.0.0	log1.cmpassport.com
 0.0.0.0	log2.cmpassport.com
+0.0.0.0	senlog.cmpassport.com
 0.0.0.0	cmpxaup.cn
 0.0.0.0	ggc.cmvideo.cn
 0.0.0.0	ggx.cmvideo.cn
@@ -1218,7 +1221,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	moa-upload-online.coloros.com
 0.0.0.0	moa-upload-online-in.coloros.com
 0.0.0.0	smartcard.apps.coloros.com
-0.0.0.0	smartcardf-eu.apps.coloros.com
 0.0.0.0	smartcardf.apps.coloros.com
 0.0.0.0	iadsdk.apple.com.akadns.net
 0.0.0.0	wangsu-smetrics.redhat.com.edgekey.net
@@ -1598,8 +1600,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	moudhgsr-dp4lyapywtjw.edgeone.dev
 0.0.0.0	mxoot-dp3j3hh9ymkp.edgeone.dev
 0.0.0.0	papa.edgeone.dev
-0.0.0.0	portalportalportalportalportal.edgeone.dev
-0.0.0.0	profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev
 0.0.0.0	register-demand-framework-shareholding-capital-dpuvktbvtbq4.edgeone.dev
 0.0.0.0	super-chocolate-gaxl7qfi.edgeone.dev
 0.0.0.0	tokyoforum-dpuw1bbe43fa.edgeone.dev
@@ -1649,6 +1649,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	evoqueebikeshop.shop
 0.0.0.0	duologinsupersdk.ewan.cn
 0.0.0.0	a.exam58.com
+0.0.0.0	metrics.atp.demo.exante.eu
 0.0.0.0	drovs.excelliance.cn
 0.0.0.0	excsyrv.cn
 0.0.0.0	exevcl.cn
@@ -2372,7 +2373,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	seeder.igetget.com
 0.0.0.0	igexin.com
 0.0.0.0	ihclam.cn
-0.0.0.0	appadapi.ihuman.com
 0.0.0.0	umami.ihuyi.com
 0.0.0.0	iimedia.cn
 0.0.0.0	ijinshan.com
@@ -2540,6 +2540,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	jhzfwl.cn
 0.0.0.0	wj.jiancai365.cn
 0.0.0.0	acc.jiangsujiaxue.com
+0.0.0.0	1.jiangzheba.com
 0.0.0.0	ahm.jiankang123.net
 0.0.0.0	jiankongbao.com
 0.0.0.0	tr.jianshu.com
@@ -3075,7 +3076,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	microad-cn.com
 0.0.0.0	stat.microvirt.com
 0.0.0.0	pylon.micstatic.com
-0.0.0.0	plausible.midway.run
 0.0.0.0	track.midway.run
 0.0.0.0	app.log.nf.migu.cn
 0.0.0.0	uem.migu.cn
@@ -3505,6 +3505,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ptgdb.cn
 0.0.0.0	ptmabek.cn
 0.0.0.0	ptzpaxq7bu.com
+0.0.0.0	pufhzpt.cn
 0.0.0.0	puma-france.fr
 0.0.0.0	pig.pupuapi.com
 0.0.0.0	pure-baby.shop
@@ -4934,7 +4935,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	vodone.com
 0.0.0.0	mini-prog-drm.vodplayvideo.net
 0.0.0.0	voiceads.cn
-0.0.0.0	dev.voicecloud.cn
 0.0.0.0	log.voicecloud.cn
 0.0.0.0	apm.volccdn.com
 0.0.0.0	httpdns.volcengineapi.com
@@ -5291,7 +5291,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	xtianqi.com.cn
 0.0.0.0	xtjpdfr.cn
 0.0.0.0	xtqpx.cn
-0.0.0.0	ad.xuanheng03.cn
 0.0.0.0	xueaaaw.cn
 0.0.0.0	dove.xueqiu.com
 0.0.0.0	ghghgf.xuexiwa.com
@@ -5300,6 +5299,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.xunkids.com
 0.0.0.0	adsp.xunlei.com
 0.0.0.0	advertpay-vip-ssl.xunlei.com
+0.0.0.0	advertpay.vip.xunlei.com
 0.0.0.0	analytics-union.xunlei.com
 0.0.0.0	dm.xiazaibao.xunlei.com
 0.0.0.0	kkpgv2.xunlei.com
@@ -5462,7 +5462,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	httpdns.yunxindns.com
 0.0.0.0	statistic-overseas.yunxinfw.com
 0.0.0.0	yunxish.com
-0.0.0.0	www.yuyue008.cn
 0.0.0.0	yvdb.cn
 0.0.0.0	yw800.com.cn
 0.0.0.0	ywkkmze.cn

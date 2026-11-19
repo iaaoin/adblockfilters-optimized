@@ -3,9 +3,9 @@
 # Description: 适用于 MosDNS 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmosdnslite.txt
-# Version: 20261119125738
-# Last modified: 2026/11/19 12:57:38
-# Blocked domains: 5660
+# Version: 20261120005540
+# Last modified: 2026/11/20 00:55:40
+# Blocked domains: 5659
 #
 kwflvcdn.000dn.com
 img.0279.net
@@ -644,6 +644,7 @@ apdfmhp.cn
 analytics.api.myqnapcloud.cn
 qcenter-metrics-device.api.myqnapcloud.cn
 adx.apicgate.com
+sg-fp.apitd.net
 us-behavior.apitd.net
 apkevery.com
 r.apkpure.net
@@ -871,6 +872,7 @@ h.baminw.cn
 j.baminw.cn
 n.baminw.com.cn
 q.baminw.com.cn
+banmamedia.com
 midinfo.baofeng.com
 ploy.baofeng.net
 a.baomihua.com
@@ -878,7 +880,6 @@ djs.baomihua.com
 resource.baomihua.com
 bartender.cc
 baycode.cn
-ad.bayescom.com
 raddus.bayescom.com
 bbbazlp.cn
 bbcoe.cn
@@ -1135,6 +1136,7 @@ ad.chuandong.com
 api-ad.chuangyuejoy.com
 y66xvgo5i.chuimg.com
 hpplay.cdn.cibn.cc
+adx.op.cp18.ott.cibntv.net
 pl.cp31.ott.cibntv.net
 valf.atm.cp31.ott.cibntv.net
 vali-g1.cp31.ott.cibntv.net
@@ -1168,6 +1170,7 @@ dnlog.cmpassport.com
 log-h5.cmpassport.com
 log1.cmpassport.com
 log2.cmpassport.com
+senlog.cmpassport.com
 cmpxaup.cn
 ggc.cmvideo.cn
 ggx.cmvideo.cn
@@ -1203,7 +1206,6 @@ log-eap-sg.coloros.com
 moa-upload-online.coloros.com
 moa-upload-online-in.coloros.com
 smartcard.apps.coloros.com
-smartcardf-eu.apps.coloros.com
 smartcardf.apps.coloros.com
 iadsdk.apple.com.akadns.net
 wangsu-smetrics.redhat.com.edgekey.net
@@ -1583,8 +1585,6 @@ managpoztaopl.edgeone.dev
 moudhgsr-dp4lyapywtjw.edgeone.dev
 mxoot-dp3j3hh9ymkp.edgeone.dev
 papa.edgeone.dev
-portalportalportalportalportal.edgeone.dev
-profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev
 register-demand-framework-shareholding-capital-dpuvktbvtbq4.edgeone.dev
 super-chocolate-gaxl7qfi.edgeone.dev
 tokyoforum-dpuw1bbe43fa.edgeone.dev
@@ -1634,6 +1634,7 @@ etwun.com
 evoqueebikeshop.shop
 duologinsupersdk.ewan.cn
 a.exam58.com
+metrics.atp.demo.exante.eu
 drovs.excelliance.cn
 excsyrv.cn
 exevcl.cn
@@ -2357,7 +2358,6 @@ piccdn.igetget.com
 seeder.igetget.com
 igexin.com
 ihclam.cn
-appadapi.ihuman.com
 umami.ihuyi.com
 iimedia.cn
 ijinshan.com
@@ -2525,6 +2525,7 @@ jh-lyfz.vercel.app
 jhzfwl.cn
 wj.jiancai365.cn
 acc.jiangsujiaxue.com
+1.jiangzheba.com
 ahm.jiankang123.net
 jiankongbao.com
 tr.jianshu.com
@@ -3060,7 +3061,6 @@ micro-xdb.com
 microad-cn.com
 stat.microvirt.com
 pylon.micstatic.com
-plausible.midway.run
 track.midway.run
 app.log.nf.migu.cn
 uem.migu.cn
@@ -3490,6 +3490,7 @@ ptengine.cn
 ptgdb.cn
 ptmabek.cn
 ptzpaxq7bu.com
+pufhzpt.cn
 puma-france.fr
 pig.pupuapi.com
 pure-baby.shop
@@ -4919,7 +4920,6 @@ vnvmif.cn
 vodone.com
 mini-prog-drm.vodplayvideo.net
 voiceads.cn
-dev.voicecloud.cn
 log.voicecloud.cn
 apm.volccdn.com
 httpdns.volcengineapi.com
@@ -5276,7 +5276,6 @@ ad.xtdrug.com
 xtianqi.com.cn
 xtjpdfr.cn
 xtqpx.cn
-ad.xuanheng03.cn
 xueaaaw.cn
 dove.xueqiu.com
 ghghgf.xuexiwa.com
@@ -5285,6 +5284,7 @@ xulizui6.com
 ad.xunkids.com
 adsp.xunlei.com
 advertpay-vip-ssl.xunlei.com
+advertpay.vip.xunlei.com
 analytics-union.xunlei.com
 dm.xiazaibao.xunlei.com
 kkpgv2.xunlei.com
@@ -5447,7 +5447,6 @@ app.storage.yunvm.com
 httpdns.yunxindns.com
 statistic-overseas.yunxinfw.com
 yunxish.com
-www.yuyue008.cn
 yvdb.cn
 yw800.com.cn
 ywkkmze.cn
