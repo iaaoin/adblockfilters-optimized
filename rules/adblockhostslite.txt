@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20261126021637
-# Last modified: 2026/11/26 02:16:37
-# Blocked domains: 5406
+# Version: 20261126135245
+# Last modified: 2026/11/26 13:52:45
+# Blocked domains: 5384
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -193,7 +193,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	stat.360safe.com
 0.0.0.0	360shuke.com
 0.0.0.0	p1.360soucha.com
-0.0.0.0	softdl2.360tpcdn.com
 0.0.0.0	365dmp.com
 0.0.0.0	adx.36kr.com
 0.0.0.0	ad.2ocx.60.37.cn
@@ -259,7 +258,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	55.la
 0.0.0.0	555sq.com.cn
 0.0.0.0	55726zubo56686.com
-0.0.0.0	win.down.55kantu.com
 0.0.0.0	acs.56.com
 0.0.0.0	acs.agent.56.com
 0.0.0.0	bill.agent.56.com
@@ -300,7 +298,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	1.66law.cn
 0.0.0.0	bj.ad.track.66mobi.com
 0.0.0.0	sdk-track.66mobi.com
-0.0.0.0	attach.66rpg.com
 0.0.0.0	6711.com
 0.0.0.0	kl.67it.com
 0.0.0.0	68287zubo85737.com
@@ -350,7 +347,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	961.com
 0.0.0.0	11.96131.com.cn
 0.0.0.0	96382zubo66756.com
-0.0.0.0	97sky.cn
 0.0.0.0	9800.com
 0.0.0.0	9991.com
 0.0.0.0	a1.99933.cn
@@ -552,9 +548,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad-host-backup-europe.oss-eu-central-1.aliyuncs.com
 0.0.0.0	adash-emas.cn-hangzhou.aliyuncs.com
 0.0.0.0	appgiftwall.oss-us-west-1.aliyuncs.com
-0.0.0.0	baolongwes.oss-ap-southeast-1.aliyuncs.com
 0.0.0.0	beacon-api.aliyuncs.com
-0.0.0.0	bitbrowse.oss-cn-hongkong.aliyuncs.com
 0.0.0.0	boitim.oss-eu-west-2.aliyuncs.com
 0.0.0.0	cdn-ads.oss-cn-shanghai.aliyuncs.com
 0.0.0.0	chaoku.oss-cn-chengdu.aliyuncs.com
@@ -570,7 +564,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	log-cfg.oss-accelerate.aliyuncs.com
 0.0.0.0	logl.oss-us-east-1.aliyuncs.com
 0.0.0.0	logserversavedata-de.oss-eu-central-1.aliyuncs.com
-0.0.0.0	mmns.oss-me-east-1.aliyuncs.com
 0.0.0.0	mobantong.oss-cn-hangzhou.aliyuncs.com
 0.0.0.0	o2o-ad-dev.oss-cn-shanghai.aliyuncs.com
 0.0.0.0	retcode-sg-lazada.arms.aliyuncs.com
@@ -650,7 +643,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	trk.arozone.cn
 0.0.0.0	arpun.com
 0.0.0.0	aspwg.cn
-0.0.0.0	aswlx.cn
 0.0.0.0	aiseet.aa.atianqi.com
 0.0.0.0	atpanel.com
 0.0.0.0	ad.api.attribuly.com
@@ -944,7 +936,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	bowo666.com
 0.0.0.0	bsccdn.net
 0.0.0.0	track.tom.com.bsclink.cn
-0.0.0.0	download.bt.cn
 0.0.0.0	s.btime.com
 0.0.0.0	btyou.com
 0.0.0.0	xww.bucea.edu.cn
@@ -1229,7 +1220,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	v5-se-bjtc-reading-ad.qznovelvod.com.ctlcdn.cn
 0.0.0.0	ma-adx.ctrip.com
 0.0.0.0	ctrmi.com
-0.0.0.0	best.obs.cn-sz1.ctyun.cn
 0.0.0.0	ads.cup.com.cn
 0.0.0.0	cv3qb5813.com
 0.0.0.0	z1.cwbaike.com
@@ -2441,7 +2431,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	tr.jianshu.com
 0.0.0.0	udiab1.jianshu.com
 0.0.0.0	jiaopei.com
-0.0.0.0	v3.jiathis.com
 0.0.0.0	jiedaibao.com
 0.0.0.0	api.jietuhb.com
 0.0.0.0	jiezoiq.cn
@@ -2559,7 +2548,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	p3-ad.adukwai.com.download.ks-cdn.com
 0.0.0.0	v6-reading-ad.qznovelvod.com-1.download.ks-cdn.com
 0.0.0.0	slb-p2p.vcloud.ks-live.com
-0.0.0.0	ks.cn
 0.0.0.0	log-sdk.ksapisrv.com
 0.0.0.0	multi-az-ulog.ksapisrv.com
 0.0.0.0	ulog.ksapisrv.com
@@ -2846,7 +2834,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	tr.email.medicalexpo.com
 0.0.0.0	medproad.com
 0.0.0.0	meihu56.cn
-0.0.0.0	meinuovip.com
 0.0.0.0	eco-api.meiqia.com
 0.0.0.0	corp.meitu.com
 0.0.0.0	gg.meitu.com
@@ -3081,7 +3068,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	pp-cdnfile1pcdn.msstatic.com
 0.0.0.0	qn-cdnfile1pcdn.msstatic.com
 0.0.0.0	qn-livewebbs2pcdn.msstatic.com
-0.0.0.0	mstatik.com
 0.0.0.0	adserver.mtrust.cn
 0.0.0.0	muidar.com
 0.0.0.0	cdnovs.multiopen.cn
@@ -3180,7 +3166,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	nkscdn.com
 0.0.0.0	ad.nmjsjs.com
 0.0.0.0	nnuc.cn
-0.0.0.0	noone.ren
 0.0.0.0	analytics.notegen.top
 0.0.0.0	web.novogene.com
 0.0.0.0	grow.nowcoder.com
@@ -4354,7 +4339,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	applog.ucdns.uc.cn
 0.0.0.0	applogios.uc.cn
 0.0.0.0	dispatcher.upmc.uc.cn
-0.0.0.0	downali.game.uc.cn
 0.0.0.0	feedback.uc.cn
 0.0.0.0	gjapplog.uc.cn
 0.0.0.0	gjtrack.uc.cn
@@ -4717,7 +4701,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	apmplus.ap-southeast-1.volces.com
 0.0.0.0	gator.volces.com
 0.0.0.0	mssdk.volces.com
-0.0.0.0	qqwwaa.tos-cn-hongkong.volces.com
 0.0.0.0	tab.volces.com
 0.0.0.0	report.voovmeeting.com
 0.0.0.0	vorluic.cn
@@ -4903,7 +4886,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	xianshangzixun.net
 0.0.0.0	xianzhice.com
 0.0.0.0	xiaobaixitong.com
-0.0.0.0	cdn.xiaoduoai.com
 0.0.0.0	adx.xiaodutv.com
 0.0.0.0	nsclickvideo.xiaodutv.com
 0.0.0.0	xda.xiaodutv.com
@@ -5262,7 +5244,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	cdnjs.z-face.cn
 0.0.0.0	z0rto0758.com
 0.0.0.0	z9sab7vr0b.com
-0.0.0.0	zaixianvip.cn
 0.0.0.0	zakladyboleslawieconsale.shop
 0.0.0.0	zakladyboleslawiecvalue.shop
 0.0.0.0	ad.zamae.cn
@@ -5308,7 +5289,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	logapi-ios.zhipin.com
 0.0.0.0	t.zhipin.com
 0.0.0.0	zhiziyun.com
-0.0.0.0	zhlzdhr.cn
 0.0.0.0	zhongguociwang.com
 0.0.0.0	zhongkaowu.com
 0.0.0.0	jy.zhongxues.com
@@ -5379,7 +5359,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	tnc3-bjlgy.zijieapi.com
 0.0.0.0	vcs.zijieapi.com
 0.0.0.0	view.zijieapi.com
-0.0.0.0	zixunkefu.net
 0.0.0.0	s.zixuntop.com
 0.0.0.0	zjhnzn.cn
 0.0.0.0	dig.zjurl.cn
@@ -5393,7 +5372,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	zmhqhuq.cn
 0.0.0.0	p.zol-img.com.cn
 0.0.0.0	cpro.zol.com.cn
-0.0.0.0	down10d.zol.com.cn
 0.0.0.0	dynamic.zol.com.cn
 0.0.0.0	imp.zol.com.cn
 0.0.0.0	pv.zol.com.cn
